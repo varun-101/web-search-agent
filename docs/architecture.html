@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Search agent with memory: simplified architecture</title>
+<title>Search Agent Architecture</title>
 <style>
   :root {
     --bg: #fdfcf8;
@@ -179,9 +179,9 @@
 </head>
 <body>
 <div class="wrap">
-  <h1>Search agent with memory: the simplified design</h1>
-  <p class="lede">Five steps, down from thirteen. Code stores, fetches and checks; the model does the judging.
-  Step through the example to see each part run.</p>
+  <h1>Search agent with memory: how it works</h1>
+  <p class="lede">Search finds pages, reading a page checks it, and memory keeps the URL. Code stores, fetches
+  and checks; the model does the judging. Step through the example to see each part run.</p>
 
   <div class="layout">
     <div class="canvas">
@@ -212,7 +212,7 @@
         <span><i class="sw" style="background:var(--f-code)"></i>Plain code (same result every time)</span>
         <span><i class="sw" style="background:var(--f-model)"></i>The model</span>
         <span><i class="sw" style="background:var(--f-store)"></i>Storage</span>
-        <span><i class="sw" style="background:var(--f-ext)"></i>Outside service</span>
+        <span><i class="sw" style="background:var(--f-ext)"></i>The web</span>
       </div>
     </div>
 
@@ -237,13 +237,14 @@ const NS = "http://www.w3.org/2000/svg";
 /* ---------- diagram data ---------- */
 const nodes = [
   { id: "user",   x: 30,  y: 48,  w: 190, h: 72,  kind: "user",  title: "You",            sub: ["chat window"] },
-  { id: "prompt", x: 290, y: 34,  w: 220, h: 100, kind: "code",  title: "Prompt builder", sub: ["today's date + calendar", "all memory notes", "your message"] },
-  { id: "model",  x: 600, y: 39,  w: 200, h: 90,  kind: "model", title: "Model",          sub: ["decides, searches, answers"] },
-  { id: "tool",   x: 880, y: 48,  w: 290, h: 72,  kind: "code",  title: "web_search",     sub: ["the one tool: query, domains"] },
-  { id: "api",    x: 930, y: 235, w: 190, h: 72,  kind: "ext",   title: "Search API",     sub: ["the live web"] },
+  { id: "prompt", x: 290, y: 34,  w: 220, h: 100, kind: "code",  title: "Prompt builder", sub: ["today's date + calendar", "all memory notes", "the conversation"] },
+  { id: "model",  x: 600, y: 39,  w: 200, h: 90,  kind: "model", title: "Model",          sub: ["one loop, up to 8 calls", "decides, checks, answers"] },
+  { id: "tool",   x: 880, y: 48,  w: 290, h: 72,  kind: "code",  title: "web_search",     sub: ["query: search · url: read the page"] },
+  { id: "api",    x: 870, y: 235, w: 145, h: 72,  kind: "ext",   title: "Search APIs",    sub: ["Exa, Tavily backup"] },
+  { id: "page",   x: 1030, y: 235, w: 140, h: 72, kind: "ext",   title: "The page",       sub: ["downloaded now"] },
   { id: "clock",  x: 300, y: 176, w: 100, h: 44,  kind: "code",  title: "Clock",          sub: [] },
-  { id: "memory", x: 290, y: 250, w: 220, h: 100, kind: "store", title: "Memory notes",   sub: ["one dated note per chat", "one local file"] },
-  { id: "writer", x: 290, y: 400, w: 220, h: 76,  kind: "model", title: "Note writer",    sub: ["small model", "runs after the reply"] },
+  { id: "memory", x: 290, y: 250, w: 220, h: 100, kind: "store", title: "Memory notes",   sub: ["one dated note per chat", "facts keep their URLs"] },
+  { id: "writer", x: 290, y: 400, w: 220, h: 76,  kind: "model", title: "Note writer",    sub: ["second model call", "runs after the reply"] },
   { id: "cite",   x: 290, y: 520, w: 220, h: 74,  kind: "code",  title: "Citation check", sub: ["every source is real"] },
   { id: "answer", x: 30,  y: 520, w: 190, h: 74,  kind: "user",  title: "Answer",         sub: ["streamed, with sources"] },
 ];
@@ -253,8 +254,9 @@ const arrows = [
   { id: "a2",  d: "M350,174 L350,138" },
   { id: "a3",  d: "M460,246 L460,138", label: "every note, oldest first", lx: 470, ly: 200, align: "left" },
   { id: "a4",  d: "M512,84 L596,84" },
-  { id: "a5",  d: "M804,84 L876,84", both: true, label: "search", lx: 840, ly: 60 },
-  { id: "a6",  d: "M1025,124 L1025,231", both: true, label: "fetch live pages", lx: 1035, ly: 184, align: "left" },
+  { id: "a5",  d: "M804,84 L876,84", both: true, label: "calls", lx: 840, ly: 60 },
+  { id: "a6",  d: "M942,124 L942,231", both: true, label: "find", lx: 952, ly: 184, align: "left" },
+  { id: "a12", d: "M1100,124 L1100,231", both: true, label: "check", lx: 1090, ly: 184, align: "right" },
   { id: "a7",  d: "M700,133 L700,557 L514,557", label: "draft answer, with sources", lx: 712, ly: 345, align: "left" },
   { id: "a8",  d: "M286,557 L224,557" },
   { id: "a9",  d: "M125,516 L125,124" },
@@ -262,19 +264,19 @@ const arrows = [
   { id: "a11", d: "M400,396 L400,354" },
 ];
 
-const chips = [];
-
 /* ---------- example steps ---------- */
 const steps = [
   {
     title: "The whole picture",
     nodes: "all", arrows: "all",
     html: `
-      <p>Blue boxes are plain code and do no judging: they assemble the prompt, run the
-      search, check the sources and save the note.</p>
+      <p>Blue boxes are plain code and do no judging: they build the prompt, search or download
+      pages, check the sources and save the note.</p>
       <p>The model reads the dated memory notes directly, so it works out which past
       conversation you mean, what needs re-checking, and how to answer.</p>
-      <p>Press <b>Next</b> to follow a question that the larger design got wrong.</p>`
+      <p>The one tool has two modes: a query <b>finds</b> pages; a URL <b>checks</b> one by
+      downloading it now. Notes keep URLs, so re-checking goes straight back to the same page.</p>
+      <p>Press <b>Next</b> to follow one question through.</p>`
   },
   {
     title: "You ask a question", badge: "You", kind: "user",
@@ -290,16 +292,16 @@ const steps = [
     title: "Prompt builder", badge: "Plain code", kind: "code",
     nodes: ["prompt", "clock", "memory"], arrows: ["a2", "a3"],
     html: `
-      <p>Glues four things together and makes no decisions. The clock can be set by hand,
-      which is how the tests fake a later date.</p>
+      <p>Glues things together and makes no decisions. The clock can be set by hand (the dev
+      clock, or <code>NOW</code>), which is how the tests pretend it's a later day.</p>
       <div class="io-label">What the model will see</div>
-      <div class="io say"><b>Today:</b> Wed 11 Nov 2026, 10:14<br>
-      <b>Calendar:</b> Tue 3 · Wed 4 · … · Mon 9 · Tue 10 · Wed 11<br><br>
-      <b>Note, Tue 3 Nov:</b> Asked about Postgres hosting for a side project. Told: Supabase Pro
-      $25/mo, Neon Launch $19/mo, Render Basic $6/mo, each with its pricing-page link.<br><br>
-      <b>Note, Mon 9 Nov:</b> Shortlisted 5 CRM tools for a 20-person sales team.<br><br>
-      <b>Note, Tue 10 Nov:</b> Dropped Render because an EU region is needed. Asked about backups.<br><br>
-      <b>Message:</b> “Last Tuesday I asked you…”</div>`
+      <div class="io say"><b>Today:</b> Wed 11 Nov 2026, 10:14, Europe/London<br>
+      <b>Calendar:</b> … Tue 3 Nov, Wed 4 Nov, … Mon 9 Nov, Tue 10 Nov, Wed 11 Nov (today) …<br><br>
+      <b>Conversation on Tue 3 Nov 2026, 14:02:</b> Asked about Postgres hosting for a side project.
+      Told: Supabase Pro $25/mo (supabase.com/pricing), Neon Launch $19/mo (neon.com/pricing),
+      Render Basic $6/mo (render.com/pricing).<br><br>
+      <b>Conversation on Mon 9 Nov 2026, 09:30:</b> Shortlisted 5 CRM tools for a 20-person sales team.<br><br>
+      <b>Conversation on Tue 10 Nov 2026, 16:45:</b> Dropped Render because an EU region is needed. Asked about backups.</div>`
   },
   {
     title: "Model reads and decides", badge: "The model", kind: "model",
@@ -307,50 +309,61 @@ const steps = [
     html: `
       <p>No date parser and no lookup step. The model reads the notes and reasons:</p>
       <div class="io say">• “Last Tuesday” fits 3 Nov and 10 Nov. Prices were given on 3 Nov,
-      so that is the baseline.<br>
+      so that is the baseline; say so.<br>
       • Render was dropped on 10 Nov, so skip it.<br>
-      • Remembered prices must be re-checked before being called current.</div>
+      • Remembered prices must be re-checked, and the notes have the URLs: read those pages.</div>
       <div class="io-label">Tool calls, sent together</div>
       <pre class="io">web_search({
-  query: "Supabase Pro plan price",
-  domains: ["supabase.com"] })
+  url: "https://neon.com/pricing",
+  query: "Neon Launch plan price per month" })
 
 web_search({
-  query: "Neon Launch plan price",
-  domains: ["neon.com"] })</pre>`
+  url: "https://supabase.com/pricing",
+  query: "Supabase Pro plan price per month" })</pre>`
   },
   {
-    title: "web_search, twice", badge: "Plain code + outside service", kind: "ext",
-    nodes: ["tool", "api"], arrows: ["a5", "a6"],
+    title: "web_search reads both pages", badge: "Plain code + outside service", kind: "ext",
+    nodes: ["tool", "page", "api"], arrows: ["a5", "a12", "a6"],
     html: `
-      <p>Both searches run at the same time. The tool returns short passages with their
-      source and the time they were fetched.</p>
+      <p>Both run at once. Each URL is checked first: public addresses only, every redirect
+      re-checked, 10 s and 2 MB limits. The page becomes markdown and only the sections that
+      match the query come back.</p>
+      <p>If a page can't be read (bot block, or built by JavaScript), the tool searches that
+      site instead and says so.</p>
       <div class="io-label">Out</div>
-      <pre class="io">[1] supabase.com/pricing
-    "Pro ... $25 / month"
-    fetched 11 Nov 10:14
-[2] neon.com/pricing
-    "Launch ... $24 / month"
-    fetched 11 Nov 10:14</pre>`
+      <pre class="io">&lt;web_content&gt;
+[1] Neon pricing: https://neon.com/pricing
+read now, Wed 11 Nov 2026, 10:14
+| Launch | $24 / month | ...
+&lt;/web_content&gt;
+
+&lt;web_content&gt;
+Couldn't read the page directly (HTTP 403);
+showing search results from supabase.com.
+[2] Pricing: https://supabase.com/pricing
+search result, page age unknown
+"Pro ... $25 / month"
+&lt;/web_content&gt;</pre>`
   },
   {
     title: "Model writes the answer", badge: "The model", kind: "model",
     nodes: ["model"], arrows: ["a5", "a7"],
     html: `
-      <p>The prompt asks for one format on any “has it changed” question: what it was
-      then, what it is now, and the source. The model fills that in from the notes and
-      the search results.</p>
+      <p>For any “has it changed” question the prompt asks for: what it was then, what it is
+      now, and the source. The model also notices that Supabase came from a search result,
+      not a fresh read.</p>
       <div class="io-label">Draft</div>
-      <pre class="io">Neon Launch    $19 then, $24 now   [2]
-Supabase Pro   $25 then, $25 now   [1]
+      <pre class="io">Neon Launch    $19 then, $24 now   [1]  (read now)
+Supabase Pro   $25 then, $25 now   [2]  (search result)
 Render Basic   skipped (dropped 10 Nov)</pre>`
   },
   {
     title: "Citation check", badge: "Plain code", kind: "code",
     nodes: ["cite"], arrows: ["a7"],
     html: `
-      <p>Code checks that every source number in the draft matches a result the tool
-      returned in this turn. An invented source is removed and flagged.</p>
+      <p>Every source number in the draft must match a result the tool returned. An invented
+      number is removed and logged. Numbers stay unique across the conversation, so a [1] from
+      an earlier answer still means the same page.</p>
       <div class="io-label">In</div>
       <pre class="io">draft cites [1] [2]</pre>
       <div class="io-label">Out</div>
@@ -363,22 +376,25 @@ Render Basic   skipped (dropped 10 Nov)</pre>`
       <div class="io-label">What you see</div>
       <div class="io say">You asked about Postgres hosting on Tue 3 Nov and again yesterday. The prices
       came from 3 Nov, so I'm comparing against those.<br><br>
-      • <b>Neon Launch:</b> $19 → $24 a month [2]<br>
-      • <b>Supabase Pro:</b> still $25 a month [1]<br><br>
-      I skipped Render because you dropped it yesterday. Checked today, 11 Nov.</div>`
+      • <b>Neon Launch:</b> $19 → $24 a month, read from Neon's pricing page just now [1]<br>
+      • <b>Supabase Pro:</b> still $25 a month, per a search result; I couldn't open the page itself [2]<br><br>
+      I skipped Render because you dropped it yesterday.</div>
+      <p style="margin-top:12px">Sources are listed under the answer, with a “read now” tag on pages
+      downloaded this turn.</p>`
   },
   {
-    title: "Note writer", badge: "Small model + storage", kind: "store",
+    title: "Note writer", badge: "Model + storage", kind: "store",
     nodes: ["writer", "memory"], arrows: ["a10", "a11"],
     html: `
-      <p>Runs after the reply is sent, so it never slows the answer. It writes one short
-      note with every date spelled out in full.</p>
+      <p>Runs after the reply is sent, so it never slows the answer. It rewrites this
+      conversation's note, spelling every date out in full and keeping each fact's URL.</p>
       <div class="io-label">Saved</div>
-      <div class="io say"><b>Note, Wed 11 Nov:</b> Asked whether Postgres pricing changed since 3 Nov.
-      Neon Launch is now $24/mo (was $19 on 3 Nov), neon.com/pricing. Supabase Pro unchanged
-      at $25/mo, supabase.com/pricing. Render not checked (dropped 10 Nov).</div>
-      <p style="margin-top:12px">This note is in the prompt from now on. Forgetting something
-      means deleting or editing a note.</p>`
+      <div class="io say"><b>Asked:</b> “Has any pricing changed since then?” (about Tue 3 Nov's Postgres prices)<br>
+      <b>Answered:</b> Neon Launch $24/mo on Wed 11 Nov, was $19 on 3 Nov (neon.com/pricing, read directly).
+      Supabase Pro $25/mo, unchanged (supabase.com/pricing, search result).<br>
+      <b>Decisions:</b> Render out since Tue 10 Nov (needs an EU region).</div>
+      <p style="margin-top:12px">From now on this note is in every prompt. If you ask it to forget something,
+      the note writer removes it from every note, so it really is gone.</p>`
   },
 ];
 
@@ -409,20 +425,7 @@ for (const n of nodes) {
   el("rect", { ...box, class: "shape outline", "data-id": n.id }, L("layer-outline"));
 
   const cx = n.x + n.w / 2;
-  if (n.tool) {
-    el("text", { x: cx, y: n.y + 30, class: "t title", "data-id": n.id }, L("layer-text"), n.title);
-    const cw = 62, gap = 14, total = chips.length * cw + (chips.length - 1) * gap;
-    let x = cx - total / 2;
-    chips.forEach((c, i) => {
-      el("rect", { x, y: n.y + 52, width: cw, height: 30, rx: 8, class: "shape chip", "data-id": n.id }, L("layer-shapes"));
-      el("text", { x: x + cw / 2, y: n.y + 72, class: "t chipt", "data-id": n.id }, L("layer-text"), c);
-      if (i < chips.length - 1)
-        el("text", { x: x + cw + gap / 2, y: n.y + 72, class: "t chipt", "data-id": n.id }, L("layer-text"), "›");
-      x += cw + gap;
-    });
-    el("text", { x: cx, y: n.y + 114, class: "t sub", "data-id": n.id }, L("layer-text"),
-       "returns passages, their source and the time fetched");
-  } else {
+  {
     const lines = n.sub.length;
     const top = n.y + n.h / 2 - (lines * 17) / 2 + 2;
     el("text", { x: cx, y: lines ? top : n.y + n.h / 2 + 6, class: "t title", "data-id": n.id }, L("layer-text"), n.title);

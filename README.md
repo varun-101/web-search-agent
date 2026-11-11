@@ -1,6 +1,6 @@
 # Search agent with memory
 
-A chat agent with one tool, `web_search`, and dated memory of past conversations. Search finds pages, reading a page checks it, and memory keeps the URL so the next check goes straight back to the same page. See `PLAN.md` for the design; `DESIGN.md` comes with the eval results.
+A chat agent with one tool, `web_search`, and dated memory of past conversations. Search finds pages, reading a page checks it, and memory keeps the URL so the next check goes straight back to the same page. `DESIGN.md` explains the design and the eval results; `docs/architecture.html` steps through one question, box by box (open it in a browser).
 
 ## Run
 

@@ -275,7 +275,7 @@ The paper trace of the earlier 13-part design passed about 20 of the 60 cases, p
 
 - `test-cases.json`: the 60 test cases.
 - `search-agent-architecture.html`: the first 13-part design (rejected), with a step-through example.
-- `search-agent-architecture-v2.html`: the simplified design. It predates read mode and Tavily failover, so `web_search` there shows search only.
+- `docs/architecture.html` (was `search-agent-architecture-v2.html`): the simplified design, updated on 11 Nov 2026 to match the build (read mode, Tavily fallback, forget).
 
 ## 18. References
 
