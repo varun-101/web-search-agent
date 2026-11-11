@@ -1,0 +1,38 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Current Docs Pro pricing annual monthly Doc Makers",
+  "site": "superhuman.com"
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://superhuman.com/plans/docs",
+    "title": "Superhuman Docs | Pricing & Plans",
+    "content": "## Pro\n\n$12 USD / month\n\n- Unlimited doc size\n- Write, edit, and ask with AI Beta\n- Build AI trackers, pages, and views Beta\n- Create with Claude and more via MCP\n- 30-day version history\n- Hide specific pages\n- Custom icons, branding, domains\n\nIntegrate with:\n\n+46 more\n\nBest value\n\n...\n\n### What is a 'Doc Maker'?+\n\nDoc Makers have the power to create new docs and templates, create and manage folders to organize the workspace. Within docs, Doc Makers can administer tasks such as adding pages, changing doc and page titles and icons, adjusting the timezone, configuring doc and page locking, etc.\n\n...\n\n### Who do I pay for and why?+\n\nWhen upgrading a free workspace to a paid plan, you get access to role-based permissions: each member can be either a Doc Maker (Admin), a Doc Maker, or an Editor. As you grow into Superhuman Docs, you can invite additional members to become Editors or Doc Makers in your workspace. Editors and Viewers are always free.\n\nAt the end of each billing cycle, you will be billed for the workspace based on the number of Doc Makers in it. Any changes to the number of Doc Makers in the workspace mid-cycle are automatically prorated.\n\n...\n\nWhen you sign up for a new plan, as well as when it renews, you will be billed up front for all the users in your workspace.\n\nWhenever you add a new paid user to your workspace (or upgrade an existing one), we'll prorate them for the remainder of your billing cycle. On the annual plan, you will be charged monthly for these additional membership changes, with prorations applied for the remainder of the billing year. Additionally, you will be charged whenever your bill exceeds $1,000 from adding new members."
+   },
+   {
+    "url": "https://superhuman.com/plans",
+    "title": "Superhuman Suite | Pricing & Plans",
+    "content": "## Pro\n\nStay ahead with proactive AI that works everywhere you do.\n\n### $12\n\nper member / month, billed annually\n\n$15 when billed monthly\n\nGrammarly Docs Go\n\nEverything included in Free, plus:\n\n- Get unlimited paragraph rewrites and translations in 15+ languages\n- Spot AI-generated text and fix accidental plagiarism\n- Ensure your writing is always on brand\n- Let Email Assistant draft replies, clear inbox clutter, and follow up for you\n- Publish docs to custom domains with your team’s branding\n- Get unlimited doc size with 30-day version history\n- Create better docs faster with AI templates and insights",
+    "published": "2026-03-05T16:39:10.000Z"
+   },
+   {
+    "url": "https://help.superhuman.com/hc/en-us/articles/46210176885901-Upgrade-your-Superhuman-Docs-workspace",
+    "title": "Upgrade your Superhuman Docs workspace – Superhuman Help Center",
+    "content": "ℹ️ As a reminder, subscriptions apply to workspaces. And price depends on the number of Doc Makers in said workspace. To learn more about Superhuman Docs' Maker billing model, we recommend checking out this article.\n\n...\n\n# Subscription renewal\n\nYour subscription will be renewed on a monthly or annual basis - depending on the selection you made - with the same payment method you used when first upgrading. For information on managing your subscription - including changing your payment method for future billing, and changing your billing frequency - check out this article.\n\n...\n\nWith Superhuman Docs, you only pay for Doc Makers. So when a Doc Maker is added or removed from your workspace (or downgraded to an editor), your bill is affected. Workspace admins can control how Doc Makers are added via their workspace settings. Check out this article to learn more.\n\nAs soon as they are added, you'll start paying for the Doc Maker, prorated based on when they joined the workspace."
+   },
+   {
+    "url": "https://help.superhuman.com/hc/en-us/articles/46210148474125-Manage-your-Superhuman-Docs-billing-account",
+    "title": "Manage your Superhuman Docs billing account",
+    "content": "How do I know when my annual or monthly subscription will renew?\n\nFor customers on our Pro and Team/Business plans: The easiest way to know when you’ll be charged next is to look at your previous invoices. For instance - if you pay annually and your last invoice was on July 15th 2023, you can expect your next charge on July 15th 2024. If you pay monthly, you can expect your next charge on August 15th 2023.\n\n...\n\nCan I switch from monthly billing to annual billing (or vice versa)?\n\nFor customers on our Pro and Team/Business plans: If you’ve already paid for a subscription and would like to change the frequency of your future billing, you can do that by following these steps.\n\n1. Go to your workspace home (docs.superhuman.com)\n2. Click on your name in the lower-left corner\n3. Select Admin settings from the menu\n4. Scroll to find the Billing section, then click on the Workspace plan page\n5. If you belong to multiple workspaces, use the workspace selector at the top of the page to ensure the correct workspace is selected\n6. Then click Change plan\n7. You’ll be brought to the Superhuman Docs pricing page. Use the toggle to change from Pay monthly to Pay annually (or vice versa).\n8. Scroll down to the plan you already have (or the new plan, if you’re wanting to upgrade). Click Change.\n9. Follow the steps to confirm the change."
+   },
+   {
+    "url": "https://help.superhuman.com/hc/en-us/articles/46242099320845-Introducing-the-Superhuman-suite",
+    "title": "Introducing the Superhuman suite – Superhuman Help Center",
+    "content": "| Pro | $12 USD per member / month, billed annually $15 USD when billed monthly | Everything included in Free, plus these and other features: ✓ Spot AI-generated text and fix accidental plagiarism ✓ Ensure your writing is always on brand Annual plan includes Grammarly Pro access. With the monthly plan, Grammarly Pro is available as an optional add‑on for an additional $15 USD"
+   }
+  ]
+ }
+}

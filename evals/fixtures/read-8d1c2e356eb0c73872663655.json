@@ -1,0 +1,11 @@
+{
+ "kind": "read",
+ "request": {
+  "url": "https://www.teleborsa.it/News/2026/11/11/cambi-euro-a-1-1156-dollari-alle-08-30-29_TLB-1LINER.html"
+ },
+ "response": {
+  "finalUrl": "https://www.teleborsa.it/News/2026/11/11/cambi-euro-a-1-1156-dollari-alle-08-30-29_TLB-1LINER.html",
+  "title": "Cambi: euro a 1,1156 dollari alle 08:30 | Teleborsa.it",
+  "markdown": "Cambi: euro a 1,1156 dollari alle 08:30 | Teleborsa.it"
+ }
+}

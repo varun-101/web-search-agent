@@ -1,0 +1,41 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "K2-18b signs life DMS confirmed latest November 2026 independent analysis",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.techtimes.com/articles/330331/20261109/scientists-built-lifeless-earth-simulation-stop-jwst-crying-wolf-alien-life.htm",
+    "title": "Scientists Built 'Lifeless Earth' Simulation to Stop JWST From Crying Wolf on Alien Life",
+    "content": "But a NASA-led reanalysis found no conclusive evidence; independent spectral fitting showed that ... and other abiotic hydrocarbons provide equally good — or better — matches to the same data. The story of K2",
+    "published": "2026-11-10T02:55:54.000Z"
+   },
+   {
+    "url": "https://www.aanda.org/10.1051/0004-6361/202555580",
+    "title": "Insufficient evidence for DMS and DMDS in the atmosphere of K2-18 b - From a joint analysis of JWST NIRISS, NIRSpec, and MIRI observations | Astronomy & Astrophysics (A&A)",
+    "content": "Results. The first joint analysis of the panchromatic (0.6–12 µm) spectrum of K2-18 b finds insufficient evidence for the presence of DMS and/or DMDS in the atmosphere of the planet. We find that any marginal preferences are the result of limiting the number of molecules considered in the model and oversensitivity to small changes between data reductions.\n\nConclusions. Our results confirm that there is no statistical significance for DMS or DMDS in K2-18 b’s atmosphere. While previous works have demonstrated this on MIRI or NIRISS/NIRSpec observations alone, our analysis of the full, panchromatic transmission spectrum does not support claims of potential biomarkers. Using the best-fitting model including DMS and/or DMDS on the published data, we estimate that ∼25 more MIRI transits would be needed for a 3σ rejection of a flat line relative to DMS and/or DMDS features in the planet’s mid-infrared transmission spectrum.",
+    "published": "2025-08-01T01:29:04.000Z"
+   },
+   {
+    "url": "https://inthestars.co.uk/is-there-life-on-k2-18b",
+    "title": "Is There Life on K2-18b? The Biosignature Debate",
+    "content": "sulfide, in the atmosphere of the exoplanet ... The claim was reported at roughly three-sigma confidence, well short of the five ... gas. DMS has also been detected in a comet and in interstellar gas, neither of which hosts life, which undermines",
+    "published": "2026-08-01T00:00:00.000Z"
+   },
+   {
+    "url": "https://voyagerfilesspace.com/articles/ep16/",
+    "title": "K2-18 b: The Ocean Planet Claim Scientists Are Still Fighting Over — Voyager Files",
+    "content": "Life, a biosignature, or a habitable ocean. No paper claims life has been found. The strongest claim ever made in a peer-reviewed paper is potential signs, and new independent evidence at three sigma significance. ... The press release said strongest evidence yet.",
+    "published": "2026-11-07T17:00:00.000Z"
+   },
+   {
+    "url": "https://escholarship.org/content/qt9w95v4ff/qt9w95v4ff.pdf",
+    "title": "K2-18b Does Not Meet the Standards of Evidence for Life",
+    "content": "Abstract K2-18b, a temperate sub-Neptune, has garnered significant attention due to claims of possible biosignatures in its atmosphere. Low-confidence detections of dimethyl sulfide (DMS) and/or dimethyl disulfide (DMDS) have sparked considerable debate, primarily around arguments that their absorption features are not uniquely identifiable. Here, we consider all five questions from the astrobiology standards of evidence framework, starting with the following: Have we detected an authentic signal? To answer this, we analyzed publicly available JWST observations of K2-18b using independent data reduction and spectral retrieval methodologies. Our comprehensive set of reductions demonstrates that the MIRI transit spectrum is highly susceptible to unresolved instrumental systematics. Applying different wavelength binning schemes yields a potpourri of planet spectra that then lead to a wide assortment of atmospheric interpretations. Consequently, we offer recommendations to help minimize this previously underappreciated instrument systematic in future MIRI reductions of any exoplanet. While the MIRI binning scheme adopted by N. Madhusudhan et al. (2025) favors the presence of DMS/DMDS in K2-18b, we find that 87.5% of retrievals using our preferred MIRI binning scheme do not. When considering the full 0.7–12 μm transit spectrum, we confirm the detection of CH4 and favor CO2 and find the presence of DMS and C2H4 to be interchangeable. Moreover, we find that the tentative presence of large features in the MIRI transit spectrum is in tension with the more robust, yet smaller, features observed in the near-IR. We conclude that red noise—rather than an astrophysical signal—plagues the mid-IR data, and there is, as yet, no statistically significant evidence for biosignatures in the atmosphere of K2-18b. Unified Astronomy Thesaurus concepts: Exoplanet atmospheres (487); Biosignatures (2018); Exoplanets (498); Exoplanet atmospheric composition (2021); Habitable planets (695); Astronomy data analysis (1858) Materials only available in the online version of record: data behind figures, figure set\n\n...\n\n2024), although DMS remains both chemically and physically plausible in this environment. ... 2006). The improbability of its biological production in an exoplanetary context weakens its case as a credible biosignature. For Q5, the MIRI observations alone do not independently detect (or even favor) the presence of DMS. Furthermore, there is no consensus among teams who have reanalyzed the data. As a result, no independent lines of evidence (through follow-up experiments or analyses from multiple teams) currently support a biological interpretation. In summary, while the potential for DMS is intriguing— particularly given its relevance as a potential biosignature gas— the available data do not meet the evidentiary thresholds defined by the astrobiology community’s five-question framework.\n\n5. Conclusion In this work, we analyzed previously published, publicly available JWST observations of K2-18b using independent data ... Independent reduction and analysis. Under the same assumptions by M23 and M25, we reproduce the NIRISS, NIRSpec, and MIRI transit spectra they reported. However, different wavelength binning schemes and pixel shifts in the MIRI data produce a wide variety of apparent planet spectra."
+   }
+  ]
+ }
+}

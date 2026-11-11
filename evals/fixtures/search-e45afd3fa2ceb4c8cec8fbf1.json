@@ -1,0 +1,39 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Notion pricing plans per member Coda pricing doc maker team wiki",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.notion.com/pricing",
+    "title": "Notion Pricing Plans: Free, Plus, Business, & Enterprise.",
+    "content": "### Free\n\n$0 per member / month\n\nFor individuals to organize personal projects and life.\n\nIncludes:\n\n- Trial of Notion AI\n- Basic forms\n- Basic sites\n- Notion Calendar\n- Databases including subtasks, dependencies, custom properties and more\n\n### Plus\n\n$10 per member / month\n\nFor small teams and professionals to work together.\n\nEverything in Free, and:\n\n- Trial of Notion AI\n- Custom forms\n- Custom sites\n- Charts\n- Collaborative blocks\n- File uploads\n- Basic connections\n\n...\n\n### Business Recommended\n\n$20 per member / month\n\nFor growing businesses to streamline teamwork.\n\nEverything in Plus, and:\n\n- Notion Agent\n- AI Meeting Notes\n- Enterprise Search Beta\n- SAML SSO\n- Granular database permissions\n- Verify any page\n- Private teamspaces\n- Domain verification\n- Premium connections\n\n### Enterprise\n\nCustom pricing\n\nFor organizations to operate with scalability, control, and security.\n\nEverything in Business, and:\n\n- Zero data retention with LLM providers\n- User provisioning (SCIM)\n- Advanced security & controls\n- Audit log\n- Customer success manager\n- Security & Compliance connections (DLP, SIEM)\n- Domain management\n- Advanced connections"
+   },
+   {
+    "url": "https://help.coda.io/hc/en-us/articles/39555725230989-Billing-and-pricing-basics",
+    "title": "Billing and pricing basics – Coda",
+    "content": "With Coda’s unique Maker billing model, we only charge for Doc Makers in paid workspaces. Editors and viewers are entirely free!\n\nℹ️ A quick note on role definitions:\n\n- Doc Makers are workspace members who have the ability to create docs, create pages, and use Coda AI\n- Editors have the ability to update existing pages, but can’t create new docs or pages.\n\n...\n\n# Available pricing plans \n\nCoda offers a range of pricing plans, so there’s sure to be one that fits the needs of you and your team.\n\n- Free - Choose this plan if you're just getting started on Coda. You'll be able to share docs with as many people as you like, and even keep your docs organized with folders. Personal docs won’t have any size or object limits. And if you outgrow the Free plan, you can easily upgrade down the line.\n- Pro - This plan is ideal if you plan on building large docs, but won't be working actively with a team. You'll have no cap on the doc size and access to more automations and Packs.\n- Team - The key is in the name - if you're planning on collaborating with a team, select this option. You'll get more automations and Packs, and doc protection features for added control.\n- Enterprise - Choose this plan if you're planning on rolling out Coda across multiple teams or departments. With increased scalability (through SSO), hands-on support, and additional admin controls, this plan allows you to get the most out of Coda. We'll help you find the custom fit for your situation.\n\n...\n\nHow much does each pricing plan cost?\n\nWith our Maker billing model, you only pay for Doc Makers in your workspace. Each pricing plan (Free, Pro, Team, and Enterprise) has a different cost per Doc Maker. To see the cost per Doc Maker, head to our pricing page."
+   },
+   {
+    "url": "https://tools8020.com/compare/coda-vs-notion/",
+    "title": "Coda vs Notion (2026): Pricing, AI and Which One to Use | tools8020",
+    "content": "-priced. Coda (Superhuman Docs) costs $0, $12 or $33 per Doc ... per month billed annually for Free, Pro and Business, or $15 and $40 monthly\n...\non | Docs AI included on paid plans (beta, fair use) | Custom Agents: $",
+    "published": "2026-10-03T09:04:40.000Z"
+   },
+   {
+    "url": "https://stackweigh.com/guide/cheapest-team-wiki-for-a-10-person-team/",
+    "title": "Cheapest Team Wiki and Docs Tool for a 10-Person Team",
+    "content": "Editors, Viewers and guest editors are free. For a 10-person team with 3 Doc Makers, Pro is $432 for 12 months by our arithmetic; with 10 Doc Makers it is $1,440.\n\n...\n\n- Ten writers, nothing private: Confluence Free $0. Notion Free is unusable past the block cap; Coda Free has shared-doc caps.\n- Ten writers, some pages private: Confluence Standard $650.40 on monthly billing. ... Coda Pro with 10 Doc Makers $1,440.\n- Three builders, seven editors: Coda Pro $432. Confluence Standard $650.40. Notion Plus $1,200, because every editor is a member.\n- Five staff, forty client guests: Notion Plus $600 for 5 members with unlimited guests.\n\n...\n\nConfluence Standard $650.40 plus Atlassian Guard Standard at a price not on the Confluence page.\n\n...\n\nC"
+   },
+   {
+    "url": "https://workmanagementhub.com/notion-vs-coda-2026/",
+    "title": "Notion vs Coda now means Notion vs Superhuman Docs",
+    "content": "| | Notion | Superhuman Docs (Coda) |\n| --- | --- | --- |\n| Billing | Every member pays | Only Doc Makers pay |\n| Entry paid plan | Plus, $10 per seat | Pro, $12 per Doc Maker |\n| Mid plan | Business, $20 per seat | Business, $33 per Doc Maker |\n| Free plan | Yes | Yes |\n| Formulas and doc-as-app | Good | Winner |\n| Wikis, notes, templates | Winner | Good |\n\n...\n\nNotion charges for every member of the workspace. Plus is $10 per seat ($12 monthly) and Business is $20 per seat ($24 monthly), with Enterprise quoted.\n\nSuperhuman Docs charges only for Doc Makers, the people who create docs, pages or folders. Editors and viewers are free, and editors can still update pages, add rows and work in tables someone else made. Pro is $12 per Doc Maker ($15 monthly) and Business is $33 per Doc Maker ($40 monthly).\n\n...\n\n| Setup | Monthly | Yearly |\n| --- | --- | --- |\n| Notion Plus, 10 members | $100 | $1,200 |\n| Notion Business, 10 members | $200 | $2,400 |\n| Docs Pro, 3 Doc Makers | $36 | $432 |\n| Docs Business, 3 Doc Makers | $99 | $1,188 |\n| Docs Business, 6 Doc Makers | $198 | $2,376 |\n| Docs Business, 7 Doc Makers | $231 | $2,772 |",
+    "published": "2026-07-06T01:24:36.000Z"
+   }
+  ]
+ }
+}

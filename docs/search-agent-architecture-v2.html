@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search agent with memory: simplified architecture</title>
+<style>
+  :root {
+    --bg: #fdfcf8;
+    --ink: #1e1e1e;
+    --muted: #6a6a66;
+    --panel: #ffffff;
+    --rule: #d9d6cc;
+    --f-user: #ffec99;
+    --f-code: #a5d8ff;
+    --f-model: #d0bfff;
+    --f-store: #b2f2bb;
+    --f-ext: #ffd8a8;
+    --hand: "Excalifont", "Virgil", "Comic Sans MS", "Comic Neue", "Segoe Print",
+            "Bradley Hand", "Chalkboard SE", "Marker Felt", cursive;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16161a;
+      --ink: #ecebe5;
+      --muted: #a3a29b;
+      --panel: #1f1f25;
+      --rule: #3a3a42;
+      --f-user: #6a5910;
+      --f-code: #1b4a70;
+      --f-model: #47377d;
+      --f-store: #1f5c2e;
+      --f-ext: #7b4b15;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    line-height: 1.5;
+  }
+  .wrap { max-width: 1500px; margin: 0 auto; padding: 24px 16px 40px; }
+  h1 {
+    font-family: var(--hand);
+    font-size: clamp(1.5rem, 2.6vw, 2.1rem);
+    margin: 0 0 4px;
+    text-wrap: balance;
+  }
+  .lede { margin: 0 0 18px; color: var(--muted); max-width: 70ch; }
+
+  .layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 400px;
+    gap: 20px;
+    align-items: start;
+  }
+  @media (max-width: 1080px) {
+    .layout { grid-template-columns: minmax(0, 1fr); }
+  }
+
+  .canvas {
+    border: 1.5px solid var(--rule);
+    border-radius: 14px;
+    background: var(--panel);
+    overflow-x: auto;
+  }
+  .canvas svg {
+    display: block;
+    width: 100%;
+    min-width: 860px;
+    height: auto;
+    color: var(--ink);
+  }
+
+  /* diagram */
+  .shape { stroke: var(--ink); stroke-width: 1.8; transition: opacity .25s; }
+  .shape.outline { fill: none; stroke-width: 1.2; opacity: .75; }
+  .k-user  { fill: var(--f-user); }
+  .k-code  { fill: var(--f-code); }
+  .k-model { fill: var(--f-model); }
+  .k-store { fill: var(--f-store); }
+  .k-ext   { fill: var(--f-ext); }
+  .chip    { fill: var(--panel); stroke: var(--ink); stroke-width: 1.3; }
+  .frame   { fill: none; stroke: var(--muted); stroke-width: 1.5; stroke-dasharray: 9 7; }
+  .arrow   { fill: none; stroke: var(--ink); stroke-width: 2; stroke-linecap: round; transition: opacity .25s; }
+  .t       { font-family: var(--hand); fill: var(--ink); text-anchor: middle; transition: opacity .25s; }
+  .t.title { font-size: 18px; font-weight: 700; }
+  .t.sub   { font-size: 13.5px; }
+  .t.chipt { font-size: 13px; }
+  .t.lbl   { font-size: 13px; fill: var(--muted); }
+  .t.left  { text-anchor: start; }
+  .t.right { text-anchor: end; }
+  .dim     { opacity: .22; }
+  .hot.shape { stroke-width: 3.2; }
+  .hot.arrow { stroke-width: 3.2; }
+  .node-hit { fill: transparent; cursor: pointer; }
+
+  .legend {
+    display: flex; flex-wrap: wrap; gap: 6px 18px;
+    padding: 10px 14px 12px;
+    border-top: 1.5px solid var(--rule);
+    font-size: .85rem; color: var(--muted);
+  }
+  .legend span { display: inline-flex; align-items: center; gap: 7px; }
+  .sw { width: 16px; height: 16px; border: 1.5px solid var(--ink); border-radius: 5px; }
+
+  /* step panel */
+  .panel {
+    border: 1.5px solid var(--rule);
+    border-radius: 14px;
+    background: var(--panel);
+    padding: 16px 18px 18px;
+  }
+  .controls { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+  button {
+    font-family: var(--hand);
+    font-size: 1rem;
+    color: var(--ink);
+    background: var(--bg);
+    border: 1.8px solid var(--ink);
+    border-radius: 10px;
+    padding: 5px 12px;
+    cursor: pointer;
+  }
+  button:hover:not(:disabled) { background: var(--f-user); }
+  button:disabled { opacity: .35; cursor: default; }
+  .count { margin-left: auto; font-family: var(--hand); color: var(--muted); font-variant-numeric: tabular-nums; }
+  .dots { display: flex; gap: 6px; margin-bottom: 14px; flex-wrap: wrap; }
+  .dot {
+    width: 22px; height: 8px; padding: 0;
+    border: 1.5px solid var(--ink); border-radius: 6px; background: transparent;
+  }
+  .dot.on { background: var(--ink); }
+
+  .badge {
+    display: inline-block;
+    font-family: var(--hand);
+    font-size: .85rem;
+    border: 1.5px solid var(--ink);
+    border-radius: 8px;
+    padding: 1px 9px;
+    margin-bottom: 6px;
+  }
+  .panel h2 { font-family: var(--hand); font-size: 1.45rem; margin: 0 0 6px; }
+  .panel p { margin: 0 0 12px; }
+  .io-label {
+    font-family: var(--hand);
+    font-size: .9rem;
+    color: var(--muted);
+    margin: 12px 0 4px;
+  }
+  .io {
+    font-family: var(--mono);
+    font-size: .8rem;
+    line-height: 1.55;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    background: var(--bg);
+    border: 1.5px dashed var(--rule);
+    border-radius: 10px;
+    padding: 9px 11px;
+    margin: 0;
+  }
+  .io.say { font-family: var(--sans); font-size: .92rem; border-style: solid; white-space: normal; }
+  table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1.5px dashed var(--rule); }
+  th { font-family: var(--hand); color: var(--muted); font-weight: 400; }
+  td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .v { font-family: var(--hand); border: 1.5px solid var(--ink); border-radius: 7px; padding: 0 7px; white-space: nowrap; }
+  .v.same { background: var(--f-store); }
+  .v.changed { background: var(--f-ext); }
+  .v.unknown { background: var(--f-user); }
+  .note { font-size: .8rem; color: var(--muted); margin: 14px 0 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Search agent with memory: the simplified design</h1>
+  <p class="lede">Five steps, down from thirteen. Code stores, fetches and checks; the model does the judging.
+  Step through the example to see each part run.</p>
+
+  <div class="layout">
+    <div class="canvas">
+      <svg id="svg" viewBox="0 0 1200 620" role="img"
+           aria-label="Architecture diagram of a chat agent with web search and memory">
+        <defs>
+          <filter id="rough1" filterUnits="userSpaceOnUse" x="0" y="0" width="1200" height="620">
+            <feTurbulence type="fractalNoise" baseFrequency="0.028" numOctaves="2" seed="4" result="n"/>
+            <feDisplacementMap in="SourceGraphic" in2="n" scale="4.5" xChannelSelector="R" yChannelSelector="G"/>
+          </filter>
+          <filter id="rough2" filterUnits="userSpaceOnUse" x="0" y="0" width="1200" height="620">
+            <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="11" result="n"/>
+            <feDisplacementMap in="SourceGraphic" in2="n" scale="5" xChannelSelector="R" yChannelSelector="G"/>
+          </filter>
+          <marker id="head" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="9" markerHeight="9"
+                  orient="auto-start-reverse">
+            <path d="M1,1 L11,6 L1,11" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round"/>
+          </marker>
+        </defs>
+        <g id="layer-shapes" filter="url(#rough1)"></g>
+        <g id="layer-outline" filter="url(#rough2)"></g>
+        <g id="layer-text"></g>
+        <g id="layer-hit"></g>
+      </svg>
+      <div class="legend">
+        <span><i class="sw" style="background:var(--f-user)"></i>You</span>
+        <span><i class="sw" style="background:var(--f-code)"></i>Plain code (same result every time)</span>
+        <span><i class="sw" style="background:var(--f-model)"></i>The model</span>
+        <span><i class="sw" style="background:var(--f-store)"></i>Storage</span>
+        <span><i class="sw" style="background:var(--f-ext)"></i>Outside service</span>
+      </div>
+    </div>
+
+    <aside class="panel">
+      <div class="controls">
+        <button id="prev" type="button">&larr; Back</button>
+        <button id="next" type="button">Next &rarr;</button>
+        <button id="play" type="button">Play</button>
+        <span class="count" id="count"></span>
+      </div>
+      <div class="dots" id="dots"></div>
+      <div id="step" aria-live="polite"></div>
+      <p class="note">Prices in this example are invented for illustration. Use the arrow keys
+      or click a box to jump to its step.</p>
+    </aside>
+  </div>
+</div>
+
+<script>
+const NS = "http://www.w3.org/2000/svg";
+
+/* ---------- diagram data ---------- */
+const nodes = [
+  { id: "user",   x: 30,  y: 48,  w: 190, h: 72,  kind: "user",  title: "You",            sub: ["chat window"] },
+  { id: "prompt", x: 290, y: 34,  w: 220, h: 100, kind: "code",  title: "Prompt builder", sub: ["today's date + calendar", "all memory notes", "your message"] },
+  { id: "model",  x: 600, y: 39,  w: 200, h: 90,  kind: "model", title: "Model",          sub: ["decides, searches, answers"] },
+  { id: "tool",   x: 880, y: 48,  w: 290, h: 72,  kind: "code",  title: "web_search",     sub: ["the one tool: query, domains"] },
+  { id: "api",    x: 930, y: 235, w: 190, h: 72,  kind: "ext",   title: "Search API",     sub: ["the live web"] },
+  { id: "clock",  x: 300, y: 176, w: 100, h: 44,  kind: "code",  title: "Clock",          sub: [] },
+  { id: "memory", x: 290, y: 250, w: 220, h: 100, kind: "store", title: "Memory notes",   sub: ["one dated note per chat", "one local file"] },
+  { id: "writer", x: 290, y: 400, w: 220, h: 76,  kind: "model", title: "Note writer",    sub: ["small model", "runs after the reply"] },
+  { id: "cite",   x: 290, y: 520, w: 220, h: 74,  kind: "code",  title: "Citation check", sub: ["every source is real"] },
+  { id: "answer", x: 30,  y: 520, w: 190, h: 74,  kind: "user",  title: "Answer",         sub: ["streamed, with sources"] },
+];
+
+const arrows = [
+  { id: "a1",  d: "M222,84 L286,84" },
+  { id: "a2",  d: "M350,174 L350,138" },
+  { id: "a3",  d: "M460,246 L460,138", label: "every note, oldest first", lx: 470, ly: 200, align: "left" },
+  { id: "a4",  d: "M512,84 L596,84" },
+  { id: "a5",  d: "M804,84 L876,84", both: true, label: "search", lx: 840, ly: 60 },
+  { id: "a6",  d: "M1025,124 L1025,231", both: true, label: "fetch live pages", lx: 1035, ly: 184, align: "left" },
+  { id: "a7",  d: "M700,133 L700,557 L514,557", label: "draft answer, with sources", lx: 712, ly: 345, align: "left" },
+  { id: "a8",  d: "M286,557 L224,557" },
+  { id: "a9",  d: "M125,516 L125,124" },
+  { id: "a10", d: "M400,516 L400,480" },
+  { id: "a11", d: "M400,396 L400,354" },
+];
+
+const chips = [];
+
+/* ---------- example steps ---------- */
+const steps = [
+  {
+    title: "The whole picture",
+    nodes: "all", arrows: "all",
+    html: `
+      <p>Blue boxes are plain code and do no judging: they assemble the prompt, run the
+      search, check the sources and save the note.</p>
+      <p>The model reads the dated memory notes directly, so it works out which past
+      conversation you mean, what needs re-checking, and how to answer.</p>
+      <p>Press <b>Next</b> to follow a question that the larger design got wrong.</p>`
+  },
+  {
+    title: "You ask a question", badge: "You", kind: "user",
+    nodes: ["user"], arrows: ["a1"],
+    html: `
+      <div class="io-label">Your message</div>
+      <div class="io say">“Last Tuesday I asked you about Postgres hosting. Has any pricing changed since then?”</div>
+      <div class="io-label">The situation</div>
+      <div class="io say">Today is <b>Wednesday</b> 11 Nov 2026, so “last Tuesday” could mean
+      yesterday or a week ago. You talked about Postgres on both days.</div>`
+  },
+  {
+    title: "Prompt builder", badge: "Plain code", kind: "code",
+    nodes: ["prompt", "clock", "memory"], arrows: ["a2", "a3"],
+    html: `
+      <p>Glues four things together and makes no decisions. The clock can be set by hand,
+      which is how the tests fake a later date.</p>
+      <div class="io-label">What the model will see</div>
+      <div class="io say"><b>Today:</b> Wed 11 Nov 2026, 10:14<br>
+      <b>Calendar:</b> Tue 3 · Wed 4 · … · Mon 9 · Tue 10 · Wed 11<br><br>
+      <b>Note, Tue 3 Nov:</b> Asked about Postgres hosting for a side project. Told: Supabase Pro
+      $25/mo, Neon Launch $19/mo, Render Basic $6/mo, each with its pricing-page link.<br><br>
+      <b>Note, Mon 9 Nov:</b> Shortlisted 5 CRM tools for a 20-person sales team.<br><br>
+      <b>Note, Tue 10 Nov:</b> Dropped Render because an EU region is needed. Asked about backups.<br><br>
+      <b>Message:</b> “Last Tuesday I asked you…”</div>`
+  },
+  {
+    title: "Model reads and decides", badge: "The model", kind: "model",
+    nodes: ["model"], arrows: ["a4", "a5"],
+    html: `
+      <p>No date parser and no lookup step. The model reads the notes and reasons:</p>
+      <div class="io say">• “Last Tuesday” fits 3 Nov and 10 Nov. Prices were given on 3 Nov,
+      so that is the baseline.<br>
+      • Render was dropped on 10 Nov, so skip it.<br>
+      • Remembered prices must be re-checked before being called current.</div>
+      <div class="io-label">Tool calls, sent together</div>
+      <pre class="io">web_search({
+  query: "Supabase Pro plan price",
+  domains: ["supabase.com"] })
+
+web_search({
+  query: "Neon Launch plan price",
+  domains: ["neon.com"] })</pre>`
+  },
+  {
+    title: "web_search, twice", badge: "Plain code + outside service", kind: "ext",
+    nodes: ["tool", "api"], arrows: ["a5", "a6"],
+    html: `
+      <p>Both searches run at the same time. The tool returns short passages with their
+      source and the time they were fetched.</p>
+      <div class="io-label">Out</div>
+      <pre class="io">[1] supabase.com/pricing
+    "Pro ... $25 / month"
+    fetched 11 Nov 10:14
+[2] neon.com/pricing
+    "Launch ... $24 / month"
+    fetched 11 Nov 10:14</pre>`
+  },
+  {
+    title: "Model writes the answer", badge: "The model", kind: "model",
+    nodes: ["model"], arrows: ["a5", "a7"],
+    html: `
+      <p>The prompt asks for one format on any “has it changed” question: what it was
+      then, what it is now, and the source. The model fills that in from the notes and
+      the search results.</p>
+      <div class="io-label">Draft</div>
+      <pre class="io">Neon Launch    $19 then, $24 now   [2]
+Supabase Pro   $25 then, $25 now   [1]
+Render Basic   skipped (dropped 10 Nov)</pre>`
+  },
+  {
+    title: "Citation check", badge: "Plain code", kind: "code",
+    nodes: ["cite"], arrows: ["a7"],
+    html: `
+      <p>Code checks that every source number in the draft matches a result the tool
+      returned in this turn. An invented source is removed and flagged.</p>
+      <div class="io-label">In</div>
+      <pre class="io">draft cites [1] [2]</pre>
+      <div class="io-label">Out</div>
+      <pre class="io">both were returned by web_search: pass</pre>`
+  },
+  {
+    title: "Answer", badge: "Back to you", kind: "user",
+    nodes: ["answer", "user"], arrows: ["a8", "a9"],
+    html: `
+      <div class="io-label">What you see</div>
+      <div class="io say">You asked about Postgres hosting on Tue 3 Nov and again yesterday. The prices
+      came from 3 Nov, so I'm comparing against those.<br><br>
+      • <b>Neon Launch:</b> $19 → $24 a month [2]<br>
+      • <b>Supabase Pro:</b> still $25 a month [1]<br><br>
+      I skipped Render because you dropped it yesterday. Checked today, 11 Nov.</div>`
+  },
+  {
+    title: "Note writer", badge: "Small model + storage", kind: "store",
+    nodes: ["writer", "memory"], arrows: ["a10", "a11"],
+    html: `
+      <p>Runs after the reply is sent, so it never slows the answer. It writes one short
+      note with every date spelled out in full.</p>
+      <div class="io-label">Saved</div>
+      <div class="io say"><b>Note, Wed 11 Nov:</b> Asked whether Postgres pricing changed since 3 Nov.
+      Neon Launch is now $24/mo (was $19 on 3 Nov), neon.com/pricing. Supabase Pro unchanged
+      at $25/mo, supabase.com/pricing. Render not checked (dropped 10 Nov).</div>
+      <p style="margin-top:12px">This note is in the prompt from now on. Forgetting something
+      means deleting or editing a note.</p>`
+  },
+];
+
+/* ---------- build the diagram ---------- */
+const L = id => document.getElementById(id);
+function el(name, attrs, parent, text) {
+  const e = document.createElementNS(NS, name);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  if (text != null) e.textContent = text;
+  parent.appendChild(e);
+  return e;
+}
+
+
+for (const a of arrows) {
+  const attrs = { d: a.d, class: "arrow", "data-id": a.id, "marker-end": "url(#head)" };
+  if (a.both) attrs["marker-start"] = "url(#head)";
+  el("path", attrs, L("layer-shapes"));
+  if (a.label) {
+    const cls = "t lbl" + (a.align === "left" ? " left" : a.align === "right" ? " right" : "");
+    el("text", { x: a.lx, y: a.ly, class: cls, "data-id": a.id }, L("layer-text"), a.label);
+  }
+}
+
+for (const n of nodes) {
+  const box = { x: n.x, y: n.y, width: n.w, height: n.h, rx: 14 };
+  el("rect", { ...box, class: "shape k-" + n.kind, "data-id": n.id }, L("layer-shapes"));
+  el("rect", { ...box, class: "shape outline", "data-id": n.id }, L("layer-outline"));
+
+  const cx = n.x + n.w / 2;
+  if (n.tool) {
+    el("text", { x: cx, y: n.y + 30, class: "t title", "data-id": n.id }, L("layer-text"), n.title);
+    const cw = 62, gap = 14, total = chips.length * cw + (chips.length - 1) * gap;
+    let x = cx - total / 2;
+    chips.forEach((c, i) => {
+      el("rect", { x, y: n.y + 52, width: cw, height: 30, rx: 8, class: "shape chip", "data-id": n.id }, L("layer-shapes"));
+      el("text", { x: x + cw / 2, y: n.y + 72, class: "t chipt", "data-id": n.id }, L("layer-text"), c);
+      if (i < chips.length - 1)
+        el("text", { x: x + cw + gap / 2, y: n.y + 72, class: "t chipt", "data-id": n.id }, L("layer-text"), "›");
+      x += cw + gap;
+    });
+    el("text", { x: cx, y: n.y + 114, class: "t sub", "data-id": n.id }, L("layer-text"),
+       "returns passages, their source and the time fetched");
+  } else {
+    const lines = n.sub.length;
+    const top = n.y + n.h / 2 - (lines * 17) / 2 + 2;
+    el("text", { x: cx, y: lines ? top : n.y + n.h / 2 + 6, class: "t title", "data-id": n.id }, L("layer-text"), n.title);
+    n.sub.forEach((s, i) =>
+      el("text", { x: cx, y: top + 21 + i * 17, class: "t sub", "data-id": n.id }, L("layer-text"), s));
+  }
+
+  const hit = el("rect", { ...box, class: "node-hit" }, L("layer-hit"));
+  el("title", {}, hit, "Jump to: " + n.title);
+  hit.addEventListener("click", () => {
+    const i = steps.findIndex((s, idx) => idx > 0 && s.nodes.includes(n.id));
+    if (i > 0) { stop(); show(i); }
+  });
+}
+
+/* ---------- stepper ---------- */
+let current = 0, timer = null;
+const dots = L("dots");
+steps.forEach((s, i) => {
+  const b = document.createElement("button");
+  b.type = "button"; b.className = "dot";
+  b.setAttribute("aria-label", "Step " + i + ": " + s.title);
+  b.addEventListener("click", () => { stop(); show(i); });
+  dots.appendChild(b);
+});
+
+function show(i) {
+  current = Math.max(0, Math.min(steps.length - 1, i));
+  const s = steps[current];
+  const all = s.nodes === "all";
+  const on = new Set(all ? [] : [...s.nodes, ...s.arrows]);
+  document.querySelectorAll("#svg [data-id]").forEach(e => {
+    const active = all || on.has(e.getAttribute("data-id"));
+    e.classList.toggle("dim", !active);
+    e.classList.toggle("hot", !all && active);
+  });
+  const badge = s.badge
+    ? `<span class="badge" style="background:var(--f-${s.kind})">${s.badge}</span>` : "";
+  L("step").innerHTML = `${badge}<h2>${current ? current + ". " : ""}${s.title}</h2>${s.html}`;
+  L("count").textContent = current + " / " + (steps.length - 1);
+  L("prev").disabled = current === 0;
+  L("next").disabled = current === steps.length - 1;
+  [...dots.children].forEach((d, idx) => d.classList.toggle("on", idx === current));
+}
+function stop() {
+  if (timer) { clearInterval(timer); timer = null; L("play").textContent = "Play"; }
+}
+L("prev").addEventListener("click", () => { stop(); show(current - 1); });
+L("next").addEventListener("click", () => { stop(); show(current + 1); });
+L("play").addEventListener("click", () => {
+  if (timer) return stop();
+  if (current === steps.length - 1) show(0);
+  L("play").textContent = "Pause";
+  timer = setInterval(() => {
+    if (current === steps.length - 1) return stop();
+    show(current + 1);
+  }, 4000);
+});
+document.addEventListener("keydown", e => {
+  if (e.key === "ArrowRight") { stop(); show(current + 1); }
+  if (e.key === "ArrowLeft")  { stop(); show(current - 1); }
+});
+show(0);
+</script>
+</body>
+</html>

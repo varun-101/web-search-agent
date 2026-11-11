@@ -1,0 +1,37 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "site.canada.ca Ontario HST rate 13% digital services",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/digital-economy-gsthst/charge-collect/cross-border.html",
+    "title": "Cross-border digital products or services: GST/HST for digital-economy businesses - Canada.ca",
+    "content": "- HST at the harmonized rate for the participating province is required to be charged and collected on the supply in this case.\n- If the usual place of residence of the specified Canadian is not situated in a participating province, the supply is\n\n...\n\nThe rate of tax that you are required to charge and collect on specified supplies depends on whether they are made in Canada, and if so, whether they are made in a participating province.\n\nTaxable supplies that are made in Canada are subject to the GST at a rate of 5%, or the HST at the harmonized rate if they are made in a participating province.\n\nThe current rates of tax are:\n\n- 5% (GST) in Alberta, British Columbia, Manitoba, Northwest Territories, Nunavut, Quebec, Saskatchewan, and Yukon\n- 13% (HST) in Ontario\n- 14% (HST) in Nova Scotia\n- 15% (HST) in New Brunswick, Newfoundland and Labrador, and Prince Edward Island\n\n...\n\nThe vendor supplies a monthly subscription to a particular consumer. In the ordinary course of its operations, the vendor only obtains a billing address and payment-related information from the consumer when the subscription is purchased. These two pieces of information reasonably indicate a geographic location in Ontario, Canada. The vendor does not obtain any other information about the consumer in connection with the supply, including any evidence that the consumer is registered for the GST/HST under the normal GST/HST regime.\n\nIn this case, the consumer is considered to have a usual place of residence that is in Ontario, Canada. The vendor is therefore required to charge and collect HST at the rate of 13% in respect of the supply of the monthly subscription since it is made in the participating province of Ontario."
+   },
+   {
+    "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html",
+    "title": "GST/HST calculator (and rates) - Canada.ca",
+    "content": "The following table provides the GST/HST rates by province. It also provides the PST for provinces that don't participate in the HST.\n\nThe rate you will charge depends on the following factors:\n\n- Type of supply – learn about what supplies are taxable or not\n- Where the supply is made – learn about the place-of-supply rules\n- Who the supply is made to – learn about who may not pay the GST/HST\n\nGST/HST and PST rates\n\n| Province | GST and HST | PST |\n| --- | --- | --- |\n| Alberta | 5% | 0% |\n| British Columbia | 5% | 7% |\n| Manitoba | 5% | 7% |\n| New Brunswick | 15% | N/A |\n| Newfoundland and Labrador | 15% | N/A |\n| Northwest Territories | 5% | 0% |\n| Nova Scotia | 14% | N/A |\n| Nunavut | 5% | 0% |\n| Ontario | 13% | N/A |\n| Quebec | 5% | 9.975% |\n| Prince Edward Island | 15% | N/A |\n| Saskatchewan | 5% | 6% |\n| Yukon | 5% | 0% |"
+   },
+   {
+    "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/digital-economy-gsthst/charge-collect/sales-good.html",
+    "title": "Supply of qualifying goods in Canada: GST/HST for digital-economy businesses - Canada.ca",
+    "content": "The rate of tax that you are required to charge and collect on the supply of qualifying goods depends on if they are made in Canada, and they are made in a participating province.\n\nThe current rates of tax are:\n\n- 5% (GST) in Alberta, British Columbia, Manitoba, Northwest Territories, Nunavut, Quebec, Saskatchewan, and Yukon\n- 13% (HST) in Ontario\n- 14% (HST) in Nova Scotia\n- 15% (HST) in New Brunswick, Newfoundland and Labrador, and Prince Edward Island\n\nThe rates are the same for the simplified and normal GST/HST."
+   },
+   {
+    "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/4-5-3/exports-services-intangible-personal-property.html",
+    "title": "Exports – Services and Intangible Personal Property - Canada.ca",
+    "content": "GST/HST rates\n\nReference in this publication is made to supplies that are subject to the GST or the HST. The HST applies in the participating provinces at the following rates: 13% in Ontario and 15% in New Brunswick, Newfoundland and Labrador, Nova Scotia and Prince Edward Island. The GST applies in the rest of Canada at the rate of 5%. If you are uncertain as to whether a supply is made in a participating province, refer to GST/HST Memorandum 3-3-2, Place of Supply in a Province – Overview."
+   },
+   {
+    "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-specific-situations/e-commerce.html",
+    "title": "GST/HST and e-commerce - Canada.ca",
+    "content": "The rate of tax you need to charge for a supply is based on the place of supply. If the supply is made in a participating province, you must charge the HST that applies for that province. If the supply is made in a non-participating province, you must charge the GST of 5%. For the tax rate of each province, see GST/HST calculator (and rates).\n\n...\n\nElectronic commerce allows services to be provided remotely (for example, software maintenance services or online advertising). Your supply made by electronic means is generally a service if all of the following applies:\n\n- Your supply does not include providing rights, or if you do provide rights, the rights are incidental to the supply\n- Your supply involves specific work that you performed for a specific customer\n- There is human involvement in making your supply\n\n...\n\n#### Example 2 – Supply made in a province\n\nYou provide long-distance call services by electronic means to a customer. The customer makes a long-distance call from Toronto to Montréal. The billing location for the service is in Ontario. Since the communication is emitted and billed in Ontario, your supply is considered to have been made in Ontario. Since Ontario is a participating province, your supply is subject to HST (at the rate of 13%).\n\nHowever, if your supply is made to a non-resident who is not registered for the GST/HST, it could be zero-rated. For more information, see Exports."
+   }
+  ]
+ }
+}

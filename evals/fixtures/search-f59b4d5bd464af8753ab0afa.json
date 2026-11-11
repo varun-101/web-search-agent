@@ -1,0 +1,37 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "site.europa.eu Irish citizens exempt EES ETIAS EU nationals",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://travel-europe.europa.eu/etias/about-etias/who-should-apply",
+    "title": "Who should apply - ETIAS - Travel to Europe - European Union",
+    "content": "- a national of a European country requiring ETIAS or of Ireland If you have multiple nationalities and one of them is from a European country requiring ETIAS or Ireland, you must use your travel document issued by that European country during your trip to any of the 30 European countries requiring ETIAS.\n\n- a dual national of a European country requiring ETIAS or Ireland and of a visa-exempt country If you are a citizen of any of the European countries requiring ETIAS or Ireland, you are exempt from ETIAS regardless of any other nationality you may hold. In this case, you must travel with the passport issued by the European country requiring ETIAS or Ireland. If your passport has expired or cannot be used, you should contact the diplomatic or consular authorities of the country that issued it, who can advise you on how to obtain a new travel document. Otherwise, you will not be able to travel to the European countries requiring ETIAS.\n\n...\n\n- a holder of a residence card issued by any European country requiring ETIAS or by Ireland\n\nTravellers holding a residence card issued pursuant to Directive 2004/38/EC by any European country requiring ETIAS, or by Ireland, do not need an ETIAS travel authorisation."
+   },
+   {
+    "url": "https://travel-europe.europa.eu/en/ees/to-whom-does-ees-not-apply",
+    "title": "To whom does the EES not apply? - EES",
+    "content": "## The EES does not apply to: \n\n- Nationals of the European countries using the EES, as well as Cyprus and Ireland.\n- Non-EU nationals who hold a residence card and are immediately related to an EU national.\n- Non-EU nationals who hold a residence card or a residence permit and are immediately related to a non-EU national who can travel throughout Europe like an EU citizen.\n- Non-EU nationals travelling to Europe as part of an intra-corporate transfer or for the purposes of research, studies, training, voluntary service, pupil exchange schemes or educational projects and au-pairing.\n- Holders of residence permits and long-stay visas.\n- Nationals of Andorra, Monaco and San Marino and holders of a passport issued by the Vatican City State or the Holy See.\n- People exempt from border checks or who have been granted certain privileges with respect to border checks (such as heads of state, accredited diplomats, cross-border workers, etc.). Diplomats travelling on short stay may be exempt from EES registration under certain conditions.\n- The exception from registration in the EES apply to members of the armed forces travelling on NATO or Partnership for Peace business, who hold an identification and individual or collective movement order provided for by the Agreement between the parties to the North Atlantic Treaty regarding the Status of their Forces and may apply to civilian component or dependents referred to in the NATO Status of Forces Agreement. The exception applies to NATO International Civilians based in any of the 29 European countries using the EES and their dependents.\n- People not required to cross external borders solely at border crossing points and during fixed opening hours.\n- People holding a valid local border traffic permit.\n- Crew members of passenger and goods trains on international connecting journeys.\n- People holding a valid Facilitated Rail Transit Document or valid Facilitated Transit Document, provided they travel by train and do not disembark anywhere within the territory of an EU Member State.\n- Legal base: Article 2(3) of Regulation(EU) 2017/2226"
+   },
+   {
+    "url": "https://travel-europe.europa.eu/etias/ltr/about-etias/news-corner/Dual-citizenship-and-ETIAS.html",
+    "title": "Dual citizenship and ETIAS - ETIAS",
+    "content": "## Dual nationals of a European country requiring ETIAS or Ireland and of a visa-exempt country \n\nIf you are a citizen of any of the European countries requiring ETIAS or Ireland, you are exempt from ETIAS regardless of any other nationality you may hold. In this case, you must travel with the passport issued by the European country requiring ETIAS or Ireland. If your passport has expired or cannot be used, you should contact the authorities of the country that issued it, as otherwise you will not be able to travel to the European countries requiring ETIAS."
+   },
+   {
+    "url": "https://australien.diplo.de/au-en/service/visa/ees-etias",
+    "title": "EES & ETIAS - Federal Foreign Office",
+    "content": "The digital Entry/Exit System (EES) became fully operational on 10 April 2026. The system is used at the external borders of all EU member states (with the exception of Cyprus and Ireland), in addition to Iceland, Liechtenstein, Norway and Switzerland.\n\nThe EES digitally records the entries and exits of individuals travelling to the Schengen area for a short stay (up to 90 days within any 180-day period). Exempt from this requirement are, among others, citizens of the EU, the EEA and Switzerland, in addition to holders of residence permits and visas for long-term stays.\n\n...\n\nETIAS is currently not operational, and no applications for travel authorizations are being accepted at this time."
+   },
+   {
+    "url": "https://travel-europe.europa.eu/en/ees/what-is-the-ees",
+    "title": "What is the EES? - EES",
+    "content": "The system applies to you\n\n...\n\n- does not need a visa to travel for a short stay in the European countries using the EES\n\nYour entries and exits, or entry refusals will be electronically registered in the EES.\n\nIn Cyprus and Ireland, despite being countries of the European Union, passports will still be stamped manually. \n\nExemptions to registration in the EES apply - see To whom does the EES not apply?"
+   }
+  ]
+ }
+}

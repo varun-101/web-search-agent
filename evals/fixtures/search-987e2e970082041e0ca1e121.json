@@ -1,0 +1,38 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "current CAD GBP exchange rate 9 November 2026",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://exa.ai/library/markets/forex/xmt27zb8cmg?quote=GBP&rate=2313c208m56hgwd9thpsvr01c&cross=7xddxz7qmbhtrzc5hjyg3fy55&date=2026-11-09&view=daily",
+    "title": "CADGBP | 0.528540 on Nov 9, 2026",
+    "content": "CADGBP closed at 0.528540 on November 9, 2026, down 0.002597 (0.49%) from the previous close.\n\nPriced at the CAD/GBP rate, crossed from the European Central Bank EUR/CAD rate and the European Central Bank EUR/GBP rate.\n\n## Trading Session\n\n- Close:",
+    "published": "2026-11-09T00:00:00.000Z"
+   },
+   {
+    "url": "https://tealfx.com/rates/boe/2026/november/9/cad",
+    "title": "Bank of England CAD/GBP Spot Rates — 9 November 2026 | TealFX",
+    "content": "# Bank of England CAD/GBP spot rate, 9 November 2026\n\n 1.89 40 1 \n\n CAD per £1 · Canadian Dollar, Canada \n\n1 CAD in sterling\n\n£0.5280\n\nFixing\n\n4pm, Mon 9 Nov\n\nvs 6 Nov 2026\n...\nBank of England daily spot rate (4pm London), series XUDLCDS"
+   },
+   {
+    "url": "https://www.exchangerates.org.uk/CAD-GBP-exchange-rate-history.html",
+    "title": "Canadian Dollar (CAD) to British Pound (GBP) exchange rate history",
+    "content": "| Date | Open | Close | Low | High | Change | More info |\n| --- | --- | --- | --- | --- | --- | --- |\n| Mon 9 Nov 2026 Mon 09/11/2026 | 0.5301 | 1 CAD = 0.5269 GBP | 0.5268 | 0.5301 | -0.60% | CAD/GBP rate for 09/11/2026 |\n| Sun 8 Nov 2026 Sun 08/11/2026 | 0.5301 | 1 CAD = 0.5301 GBP | — | — | +0.01% | CAD/GBP rate for 08/11/2026 |\n| Sat 7 Nov 2026 Sat 07/11/2026 | 0.5301 | 1 CAD = 0.5301 GBP Carried forward | — | — | +0.00% | Previous market close carried forward |\n| Fri 6 Nov 2026 Fri 06/11/2026 | 0.5302 | 1 CAD = 0.5301 GBP | 0.5298 | 0.5312 | -0.01% | CAD/GBP rate for 06/11/2026 |\n| Thu 5 Nov 2026 Thu 05/11/2026 | 0.5310 | 1 CAD = 0.5302 GBP | 0.5301 | 0.5325 | -0.17% | CAD/GBP rate for 05/11/2026 |\n| Wed 4 Nov 2026 Wed 04/11/2026 | 0.5315 | 1 CAD = 0.5310 GBP | 0.5310 | 0.5321 | -0.08% | CAD/GBP rate for 04/11/2026 |\n| Tue 3 Nov 2026 Tue 03/11/2026 | 0.5333 | 1 CAD = 0.5315 GBP | 0.5315 | 0.5347 | -0.34% | CAD/GBP rate for 03/11/2026 |\n| Mon 2 Nov 2026 Mon 02/11/2026 | 0.5347 | 1 CAD = 0.5333 GBP | 0.5327 | 0.5348 | -0.28% | CAD/GBP rate for 02/11/2026 |\n| Sun 1 Nov 2026 Sun 01/11/2026 | 0.5345 | 1 CAD = 0.5347 GBP | — | — | +0.05% | CAD/GBP rate for 01/11/2026 |"
+   },
+   {
+    "url": "https://www.exchangerates.org.uk/historical/CAD/09_11_2026",
+    "title": "Canadian Dollar Exchange Rates for 09/11/2026 (9 November 2026)",
+    "content": "| Convert From | Convert To | Exchange Rate | More Info |\n\n...\n\n| Canadian Dollar (CAD) | United Arab Emirates Dirham (AED) | 1 CAD to AED = 2.6010 | CAD AED on 09/11/2026 |\n| Canadian Dollar (CAD) | Australian Dollar (AUD) | 1 CAD to AUD = 1.0232 | CAD AUD on 09/11/2026 |\n\n...\n\n| Canadian Dollar (CAD) | British Pound (GBP) | 1 CAD to GBP = 0.5269 | CAD GBP on 09/11/2026 |\n\n...\n\n| Canadian Dollar (CAD) | US Dollar (USD) | 1 CAD to USD = 0.7082 | CAD USD on 09/11/2026 |\n| Canadian Dollar (CAD) | South African Rand (ZAR) | 1 CAD to ZAR = 11.6014 | CAD ZAR on 09/11/2026 |\n| Other currencies Rates available here without separate base/date pages | | | |\n| Canadian Dollar (CAD) | Afghan Afghani (AFN) | 1 CAD to AFN = 45.6820 | CAD AFN on 09/11/2026 |\n| Canadian Dollar (CAD) | Albanian Lek (ALL) | 1 CAD to ALL = 57.5718 | CAD ALL on 09/11/2026 |\n| Canadian Dollar (CAD) | Algerian Dinar (DZD) | 1 CAD to DZD = 96.3359 | CAD DZD on 09/11/2026 |\n| Canadian Dollar (CAD) | Angolan Kwanza (AOA) | 1 CAD to AOA = 648.9887 | CAD AOA on 09/11/2026 |\n| Canadian Dollar (CAD) | Argentine Peso (ARS) | 1 CAD to ARS = 1094.6983 | CAD ARS on 09/11/2026 |\n| Canadian Dollar (CAD) | Armenian Dram (AMD) | 1 CAD to AMD = 255.7258 | CAD AMD on 09/11/2026 |\n| Canadian Dollar (CAD) | Aruba Florin (AWG) | 1 CAD to AWG = 1.2766 | CAD AWG on 09/11/2026 |\n| Canadian Dollar (CAD) | Azerbaijani Manat (AZN) | 1 CAD to AZN = 1.2040 | CAD AZN on 09/11/2026 |\n| Canadian Dollar (CAD) | Bahamian Dollar (BSD) | 1 CAD to BSD = 0.7082 | CAD BSD on 09/11/2026 |\n| Canadian Dollar (CAD) | Bahraini Dinar\n\n...\n\n| Canadian Dollar (CAD) | Bangladesh Taka (BDT) | 1 CAD to BDT = 87.9606 | CAD BDT on 09/11/2026 |\n| Canadian Dollar (CAD) | Barbadian Dollar (BBD) | 1 CAD to BBD = 1.4165 | CAD BBD on 09/11/2026 |"
+   },
+   {
+    "url": "https://www.exchangerates.org.uk/historical/find-exchange-rate-history-for-09_11_2026",
+    "title": "Exchange Rates History for 9 November 2026 (09/11/2026)",
+    "content": "| Pair | Exchange rate | More Info |\n| --- | --- | --- |\n| CAD/AED | 1 CAD = 2.601040 AED | CAD AED on 09/11/2026 |\n| CAD/AUD | 1 CAD = 1.023206 AUD | CAD AUD on 09/11/2026 |\n| CAD/CHF | 1 CAD = 0.580464 CHF | CAD CHF on 09/11/2026 |\n| CAD/CNY | 1 CAD = 4.725855 CNY | CAD CNY on 09/11/2026 |\n| CAD/DKK | 1 CAD = 4.717790 DKK | CAD DKK on 09/11/2026 |\n| CAD/EUR | 1 CAD = 0.631122 EUR | CAD EUR on 09/11/2026 |\n| CAD/GBP | 1 CAD = 0.526943 GBP | CAD GBP on 09/11/2026 |\n| CAD/HKD | 1 CAD = 5.554537 HKD | CAD HKD on 09/11/2026 |\n| CAD/INR | 1 CAD = 66.520326 INR | CAD INR on 09/11/2026 |\n| CAD/JPY | 1 CAD = 111.900762 JPY | CAD JPY on 09/11/2026 |\n| CAD/MXN | 1 CAD = 13.128862 MXN | CAD MXN on 09/11/2026 |\n| CAD/NOK | 1 CAD = 6.660486 NOK | CAD NOK on 09/11/2026 |\n| CAD/NZD | 1 CAD = 1.257124 NZD | CAD NZD on 09/11/2026 |\n| CAD/PLN | 1 CAD = 2.768807 PLN | CAD PLN on 09/11/2026 |\n| CAD/SEK | 1 CAD = 6.941510 SEK | CAD SEK on 09/11/2026 |\n| CAD/SGD | 1 CAD = 0.905792 SGD | CAD SGD on 09/11/2026 |\n| CAD/TRY | 1 CAD = 35.564665 TRY | CAD TRY on 09/11/2026 |\n| CAD/USD | 1 CAD = 0.708248 USD | CAD USD on 09/11/2026 |\n| CAD/ZAR | 1 CAD = 11.601359 ZAR | CAD ZAR on 09/11/2026 |"
+   }
+  ]
+ }
+}

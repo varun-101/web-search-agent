@@ -1,0 +1,39 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "site.irs.gov 2027 401(k) contribution limit 2027 catch-up 2026 November",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-catch-up-contributions",
+    "title": "Retirement topics - Catch-up contributions | Internal Revenue Service",
+    "content": "Individuals who are age 50 or over at the end of the calendar year can make annual catch-up contributions.\n\nAnnual catch-up contributions up to $8,000 in 2026 may be permitted by these plans:\n\n- 401(k) (other than a SIMPLE 401(k))\n- 403(b)\n- SARSEP\n- governmental 457(b)\n\nElective deferrals are not treated as catch-up contributions until they exceed the limit of $24,500 in 2026 or the ADP test limit of section 401(k)(3) or the plan limit (if any).\n\n...\n\nUnder a change made in SECURE 2.0, a higher catch-up contribution limit applies for employees who turn 60, 61, 62, and 63 in a calendar year starting in 2025 and who participate in most 401(k), 403(b), governmental 457 plans, and the federal government’s Thrift Savings Plan. For 2026, this higher catch-up contribution limit is $11,250 (instead of $8,000)."
+   },
+   {
+    "url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-401k-and-profit-sharing-plan-contribution-limits",
+    "title": "401(k) and profit-sharing plan contribution limits",
+    "content": "The limit on employee elective deferrals (for traditional and safe harbor plans) is:\n\n- $24,500 in 2026, subject to cost-of-living\n\n...\n\n## Catch-up contributions for those age 50 and over\n\nIf permitted by the 401(k) plan, participants age 50 or over at the end of the calendar year can also make catch-up contributions. You may contribute additional elective salary deferrals of:\n\n- $8,000 in 2026 to traditional and safe harbor 401(k) plans. Under a change made in SECURE 2.0, a higher contribution limit applies for employees aged 60, 61, 62 or 63 who participate in these plans. For 2026, this higher catch-up contribution limit is $11,250.\n- $4000 in 2026 to SIMPLE 401(k) plans. Under a change made in SECURE 2.0, a higher catch-up contribution limit applies for employees aged 60, 61, 62 or 63 who participate in SIMPLE plans. For 2026, this higher catch-up contribution limit is $5,250.\n- These amounts are subject to cost-of-living adjustments.\n\nYou don’t need to be “behind” in your plan contributions in order to be eligible to make these additional elective deferrals."
+   },
+   {
+    "url": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500",
+    "title": "401(k) limit increases to $24,500 for 2026, IRA limit increases to $7,500 | Internal Revenue Service",
+    "content": "IR-2025-111, Nov. 13, 2025\n\nWASHINGTON — The Internal Revenue Service announced today that the amount individuals can contribute to their 401(k) plans in 2026 has increased to $24,500, up from $23,500 for 2025.\n\n...\n\nThe annual contribution limit for employees who participate in 401(k), 403(b), governmental 457 plans, and the federal government’s Thrift Savings Plan is increased to $24,500, up from $23,500 for 2025.\n\n...\n\nThe catch-up contribution limit that generally applies for employees aged 50 and over who participate in most 401(k), 403(b), governmental 457 plans, and the federal government’s Thrift Savings Plan is increased to $8,000, up from $7,500 for 2025. Therefore, participants in most 401(k), 403(b), governmental 457 plans and the federal government’s Thrift Savings Plan who are 50 and older generally can contribute up to $32,500 each year, starting in 2026. Under a change made in SECURE 2.0, a higher catch-up contribution limit applies for employees aged 60, 61, 62 and 63 who participate in these plans. For 2026, this higher catch-up contribution limit remains $11,250 instead of the $8,000 noted above.",
+    "published": "2025-11-13T00:00:00.000Z"
+   },
+   {
+    "url": "https://www.ccaster.com/2027-401k-contribution-limits-forecast/",
+    "title": "2027 401(k) Limits: $25,500 Expected, IRS Yet to Confirm",
+    "content": "As of November 1, 2026, the IRS has not announced the 2027 contribution limits for 401(k), 403(b) and 457 plans or for IRAs. The official numbers are still the 2026 ones. The forecasts below come from private benefits consultants and could differ from the final IRS figures. When the IRS announces the 2027 limits, those are the ones that count.\n\nThe timing of the announcement changes from year to year. The 2026 limits came out on November 13, 2025, and the 2025 limits came out on November 1, 2024. That suggests this year’s announcement could be coming any time in the next few weeks.\n\n## Official 2026 limits (for reference)\n\n- 401(k), 403(b) and most 457 plans, employee deferrals: $24,500\n- Catch-up contributions, age 50 and over: $8,000\n- Higher catch-up for ages 60 to 63 (SECURE 2.0): $11,250\n- Total annual additions (employee plus employer): $72,000\n- SIMPLE 401(k) deferrals: $17,000\n- IRA (traditional and Roth combined): $7,500, or $8,600 for people 50 and older (IRS)\n\n...\n\nConsulting firm Milliman published its final 2027 estimates on October 15, after the September Consumer Price Index came out. The CPI rose 3.7% over the 12 months ending September 30, 2026, up from 3.0% the year before. Milliman puts the resulting adjustment factor for the limits at about 3.5%. Its projections:\n\n- 401(k)/403(b)/457 employee deferral: $25,500 (up $1,000)\n- Catch-up, age 50 and over: $8,500 (up $500)\n- Catch-up, ages 60 to 63: $11,750 (up $500)\n- Total annual additions to a defined contribution plan: $75,000 (up $3,000)\n- Compensation limit: $375,000 (up $15,000)\n- Highly compensated employee threshold: $170,000 (up $10,000)\n- Prior-year wage threshold that triggers mandatory Roth catch-ups: $155,000 (up $5,000)",
+    "published": "2026-11-01T12:20:55.000Z"
+   },
+   {
+    "url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-contributions",
+    "title": "Retirement topics - Contributions | Internal Revenue Service",
+    "content": "basic limit on elective deferrals is $24,500 in ... and $22,500 in 2023, or 100% of the employee's compensation, whichever is less. The elective deferral limit for SIMPLE plans is 100% of compensation or $17,000 in ... , $16,500 in 2025"
+   }
+  ]
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Heroku Postgres free tier discontinued November 2022 current pricing Essential 2026",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.heroku.com/pricing/",
+    "title": "Cloud Application Platform Pricing & Plans | Heroku",
+    "content": "| Get Started Today | | | | | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Plan Name | Price / Month | RAM | Disk Size | Connection Limit | Supporting Links | Plan Tier | More Details |\n| Essential-0 | $5 | 0 Bytes | 1 GB | 20 | More about Essential tier plans → | Essential | Shared RAM No row limitations Encryption-at-rest Max downtime 4 hour per month Table Limit: 4,000 tables |\n| Essential-1 | $9 | 0 Bytes | 10 GB | 20 | More about Essential tier plans → | Essential | Shared RAM No row limitations Encryption-at-rest Max downtime 4 hour per month Table Limit: 4,000 tables |\n| Essential-2 | $20 | 0 Bytes | 32 GB | 40 | More about Essential tier plans → | Essential | Shared RAM No row limitations Encryption-at-rest Max downtime 4 hour per month Table Limit: 4,000 tables |"
+   },
+   {
+    "url": "https://devcenter.heroku.com/articles/heroku-postgres-plans",
+    "title": "Choosing the Right Heroku Postgres Plan | Heroku Dev Center",
+    "content": "## Essential Tier\n\nThe Essential tier includes the `essential-0`, `essential-1`, and `essential-2` plans. This tier has the following limitations:\n\n- No fork and follow support: Fork and follow, used to create replica databases and leader-follower setups, aren’t supported.\n- No Expensive Queries support\n- Expected uptime of 99.5% each month\n- Unannounced maintenance and automatic Postgres version upgrades\n- No Postgres logs\n- No additional credentials\n\nIf you get the error `The authentication type 10 is not supported.` or `SCRAM authentication is not supported by this driver.` while connecting to your Essential database, see this Help article.\n\nThe plans for the Essentials tier are:\n\n| Plan Name | Provisioning Name | Limits | Storage | Connection Limit |\n| --- | --- | --- | --- | --- |\n| Essential-0 | `heroku-postgresql:essential-0` | 4,000 tables | 1 GB | 20 |\n| Essential-1 | `heroku-postgresql:essential-1` | 4,000 tables | 10 GB | 20 |\n| Essential-2 | `heroku-postgresql:essential-2` | 4,000 tables | 32 GB | 40 |"
+   },
+   {
+    "url": "https://devcenter.heroku.com/changelog-items/2502",
+    "title": "Free Heroku Dynos, Heroku Postgres and Heroku Data for Redis are no longer available | Heroku Dev Center",
+    "content": "# Free Heroku Dynos, Heroku Postgres and Heroku Data for Redis are no longer available\n\n Change effective on 28 November 2022 \n\nAs of November 28th, 2022, Heroku is no longer offering `free` dynos, `hobby-dev` Heroku Postgres, or `hobby-dev` Heroku Data for Redis plans.\n\n- Heroku has started converting existing `free` dynos to `eco` dynos and scaling them to 0. You must subscribe to Eco or upgrade to another paid plan to get your app running again.\n- We have started queuing existing `hobby-dev` databases in personal and Heroku Team accounts for deletion.\n- We have started converting existing `hobby-dev` databases belonging to Enterprise Accounts to `mini` plans."
+   },
+   {
+    "url": "https://stitchdb.com/blog/heroku-postgres-alternatives",
+    "title": "Heroku Postgres Alternatives in 2026: Prices and Trade-offs | StitchDB",
+    "content": "## # Heroku Postgres plans today\n\nFrom heroku.com/pricing, as of November 2026:\n\n| Plan | Price | Storage | Connections | Notes |\n| --- | --- | --- | --- | --- |\n| Essential-0 | $5/mo | 1 GB | 20 | Shared, no rollback listed |\n| Essential-1 | $9/mo | 10 GB | 20 | Shared |\n| Essential-2 | $20/mo | 32 GB | 40 | Shared |\n| Standard-0 | $50/mo | 64 GB, 4 GB RAM | 120 | Dedicated, rollback 4 days |\n| Premium-0 | $200/mo | 64 GB, 4 GB RAM | 120 | HA, rollback 7 days |\n\nThere is no free Heroku Postgres plan. Essential plans allow up to 4 hours of downtime a month; Standard up to 1 hour; Premium up to 15 minutes.",
+    "published": "2026-11-02T06:20:12.000Z"
+   },
+   {
+    "url": "https://help.heroku.com/RSBRUH58/removal-of-heroku-free-product-plans-faq",
+    "title": "Removal of Heroku Free Product Plans FAQ",
+    "content": "- Public roadmap: Launch of our interactive product roadmap for Heroku on Github.\n- Focus on what's mission-critical: Removal of free dynos, free Heroku Postgres and free Heroku Key-Value Store plans starting November 28, 2022 and inactive account deletion starting October 26, 2022.\n- Student program: Eligible students can apply for platform credits in our new Heroku for GitHub Students program.\n- Nonprofit program: An upcoming program to support students and nonprofits in conjunction with our nonprofit team.\n- Open-source support: We will continue to contribute to open-source projects, notably Cloud-Native Buildpacks. We will be offering Heroku credits to select open-source projects through Salesforce's Open Source Program Office.\n- New low-cost plans: Our new Eco dynos plan provides 1000 dyno hours shared across all your Eco dynos. Eco dynos sleep after a period of inactivity and don't consume dyno hours while sleeping. Our new Mini data plans provide 10,000 rows of storage for Heroku Postgres ($5/month) and 25 MB for Heroku Key-Value Store ($3/month) Learn more in our blog post and FAQs.\n\n...\n\n`free` dynos, `hobby-dev` Heroku Postgres, `dev` Heroku Postgres, and `hobby-dev` Heroku Key-Value Store plans.\n\n...\n\n- `free` dynos will be converted to `eco` dynos scaled down to 0. You must subscribe to the Eco dyno hours plan or upgrade to another paid plan before you can scale them up again. Any Scheduler jobs that used free dynos will fail until they are reconfigured to use another dyno type.\n- For non-Enterprise users, free databases will be deleted in accordance with the Heroku Documentation starting November 28, 2022.\n- For Enterprise users, `hobby-dev` databases that belong to an Enterprise Account or Team will be converted to `mini`. There will be no immediate change in cost to your Heroku Enterprise invoices if an app is upgraded from a free tier resource"
+   }
+  ]
+ }
+}

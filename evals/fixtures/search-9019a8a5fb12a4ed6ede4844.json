@@ -1,0 +1,38 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "site.gov.uk travel Europe Schengen 90 days 180 leaving returning does not reset Morocco UK passport",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.gov.uk/travel-to-eu-schengen-area",
+    "title": "Travelling to the EU and Schengen area - GOV.UK",
+    "content": "You do not need a visa for short trips to the EU or countries in the Schengen area if both of the following apply:\n\n- you’re staying for 90 days or less in a 180-day period\n- you’re visiting as a tourist or for certain other reasons\n\n...\n\n- travelling\n\n...\n\nYour total stay in the Schengen area must be no more than 90 days in every 180 days. It does not matter how many countries you visit. The 180-day period keeps ‘rolling’.\n\nTo work out if your stay is within the 90 day limit, use the following steps.\n\n1. Check the date you plan to leave the Schengen area on your next trip.\n2. Count back 180 days from that date to get the start of the 180-day period.\n3. Add up the number of days you have already spent in the Schengen area in that 180-day period (you can use the dates stamped in your passport showing when you entered and left a country).\n4. Work out how many days you will spend in the Schengen area on your next trip. Add this number to the number of days you worked out in step 3.\n5. Check that the total number of days is not more than 90."
+   },
+   {
+    "url": "https://www.sem.admin.ch/en/rules-for-calculating-the-length-of-stay",
+    "title": "Rules for calculating the length of stay",
+    "content": "As a third-country national, you may in principle enter the Schengen area for a maximum of 90 days within a 180-day period.\n\nIf you require a visa, the duration of your stay is determined by the visa.\n\nThe day of entry counts as the first day in the Schengen area, and the day of departure counts as the last. A “rolling” period of 180 days applies for the calculation. This means that on any given day, a retrospective check is made to determine how many days you have spent in the Schengen area in the previous 180 days. You may have stayed in the Schengen area for a maximum of 90 days within this period. If you have not stayed in the Schengen area for the last 90 days, you may enter for up to 90 days.",
+    "published": "2026-08-01T00:00:00.000Z"
+   },
+   {
+    "url": "https://www.gov.uk/guidance/eu-entryexit-system",
+    "title": "EU Entry/Exit System - GOV.UK",
+    "content": "If you are travelling to a country in the Schengen area for a short stay using a UK passport, you may be required to register your biometric details, such as fingerprints and a photo, when you arrive. You do not need to take any action before you arrive at the border, and there is no cost for EES registration.\n\n...\n\nIf you frequently travel to the Schengen area for work and/or leisure purposes, you must ensure that your total stay in the Schengen area is no more than 90 days in every 180 days. You must be aware of the penalty and enforcement approach for exceeding the immigration limit in any individual Member State you plan to travel to, or through."
+   },
+   {
+    "url": "https://www.gov.uk/foreign-travel-advice/spain/entry-requirements",
+    "title": "Entry requirements - Spain travel advice - GOV.UK",
+    "content": "If you’re travelling to other Schengen countries as well, make sure your whole visit is within the 90-day visa-free limit. Visits to Schengen countries in the 180 days before you travel count towards ... 90 days. If you overstay the 90-day visa-free limit,"
+   },
+   {
+    "url": "https://ec.europa.eu/assets/home/visa-calculator/docs/short_stay_schengen_calculator_user_manual_en.pdf",
+    "title": "USER MANUAL FOR THE SHORT-STAY \"SCHENGEN\" CALCULATOR",
+    "content": "Regulation (EU) 2016/399 1 repealed and replaced the first Schengen Borders Code 2 and – \namong others – defined, in line with Regulation (EU) No 610/2013 of 26 June 2013 3 , the \nconcept of \"short stay\" for third-country nationals in the Schengen area 4 which is a fundamental \nelement of the Schengen acquis. \nAs from 12 April 2016 for the vast majority of the third-country nationals – irrespective of being \nvisa required or exempt – who intend to travel to the Schengen area for a short stay (contrary \nto reside in one of the Member States for longer than 3 months) the maximum duration of \nauthorised stay is defined as \"no more than 90 days in any 180-day period, which entails \nconsidering the 180-day period preceding each day of stay […]\". \"The date of entry shall be \nconsidered as the first day of stay on the territory of the Member States and the date of exit \nshall be considered as the last day of stay on the territory of the Member States. Periods of \nstay authorised under a residence permit or a long-stay visa shall not be taken into account \nin the calculation of the duration of stay on the territory of the Member States.\" \nThe notion of \"any\", implies the application of a \"moving\" 180-day reference period, \nlooking backwards at each day of the stay (be it at the entry or at the day of an actual \ncheck), into the last 180-day period, in order to verify if the 90 days / 180-day requirement \ncontinues to be fulfilled. \nAmong others, it means that an absence for an uninterrupted period of 90 days allows for a new \nstay for up to 90 days. \nStays in Cyprus and Ireland shall not be taken into account as they are not (yet) part of the \nSchengen area without internal borders. At the same time, the non-EU Member States Iceland, \nLiechtenstein, Norway and Switzerland belong to the Schengen area; short stays in these \ncountries count in when assessing the compliance with the 90 days / 180-day rule. Stays in the \nUnited Kingdom do not count in. \nPlease note that the change does not apply to the visa waiver agreement on ordinary passports \nconcluded between the EU and Brazil, where the old definition (\"3 months during a 6 months \nperiod following the date of first entry\") continues to apply. For holders of ordinary \npassports of Brazil the calculator is therefore not recommended to be used."
+   }
+  ]
+ }
+}

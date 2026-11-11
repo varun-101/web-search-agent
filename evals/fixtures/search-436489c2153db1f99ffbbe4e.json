@@ -1,0 +1,37 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Confirm current ETIAS operation launch date application fee EUR20 exemptions US Spain December 3 2026",
+  "site": "travel-europe.europa.eu"
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://travel-europe.europa.eu/etias/ltr/about-etias/news-corner/ETIAS-will-cost-EUR-20",
+    "title": "ETIAS will cost EUR 20",
+    "content": "# ETIAS will cost EUR 20\n\nThe application fee for an ETIAS travel authorisation will increase to EUR 20 from the previous EUR 7, following an adjustment put forward by the European Commission. This increase aims to cover the operational costs of the European Travel Information and Authorisation System (ETIAS), taking into account the rise in inflation since the previous fee was set and the increased functionalities of the system. It will also bring the fee in line with other similar travel authorisation programmes, such as the UK ETA and the US ESTA.\n\nStarting from the last quarter of 2026, visa-exempt travellers will be required to apply for an ETIAS travel authorisation to travel to these 30 European countries. You will need to fill out and pay for an online application before your trip using the official ETIAS website or the mobile app. Certain applicants, including those under 18 or over 70, will be exempt from paying the fee.\n\nThe new fee adopted by the European Commission will now undergo the two-month review period of the Council and the European Parliament (renewable once)."
+   },
+   {
+    "url": "https://travel-europe.europa.eu/etias/how-to-apply/what-you-need-to-apply",
+    "title": "What you need to apply - ETIAS",
+    "content": "ETIAS is currently not in operation and no applications for travel authorisations are collected at this point. The European Union will inform about the specific date for the start of ETIAS several months prior to its launch.\n\n...\n\n## Application fee \n\nYou will need a payment card to cover the EUR 20 fee. You can use a variety of online payment options to pay the fee.\n\nApplicants who are under 18 or above 70 years of age are exempt from this payment. You are also exempt if you are a family member of an EU national and you fulfil the conditions to qualify for family member status."
+   },
+   {
+    "url": "https://travel-europe.europa.eu/en/etias/about-etias/news-corner/revised-timeline-ees-and-etias",
+    "title": "Revised timeline for the EES and ETIAS - ETIAS",
+    "content": "On 5 March, EU Home Affairs Ministers endorsed a revised timeline for the implementation of the Entry/Exit System (EES) and the European Travel Information and Authorisation System (ETIAS).\n\nAfter the EES becomes operational first in October 2025, ETIAS is expected to follow in the last quarter of 2026.\n\nETIAS is the new travel authorisation requirement for nationals of 59 visa-exempt countries and territories around the world. It will be mandatory to enter to 30 European countries for a short stay of up to 90 days within a 180-day period. Similar entry requirements for visa-free nationals are currently in place in the United States, Canada, and the United Kingdom, among other countries.\n\n## What will happen next \n\nThe specific date for the launch of ETIAS will be announced later by the European Commission and published on this website. The start of ETIAS will be followed by transitional and grace periods, which will last for at least 12 months."
+   },
+   {
+    "url": "https://travel-europe.europa.eu/etias/about-etias/who-should-apply",
+    "title": "Who should apply - ETIAS",
+    "content": "ETIAS is currently not in operation and no applications for travel authorisations are collected at this point. The European Union will inform about the specific date for the start of ETIAS several months prior to its launch.\n\n## European countries requiring ETIAS \n\nThese 30 European countries require visa-exempt travellers to have an ETIAS travel authorisation:\n\nAustria\n\nBelgium\n\nBulgaria\n\nCroatia\n\nCyprus\n\nCzechia\n\nDenmark\n\nEstonia\n\nFinland\n\nFrance\n\nGermany\n\nGreece\n\nHungary\n\nIceland\n\nItaly\n\nLatvia\n\nLiechtenstein\n\nLithuania\n\nLuxembourg\n\nMalta\n\nNetherlands\n\nNorway\n\nPoland\n\nPortugal\n\nRomania\n\nSlovakia\n\nSlovenia\n\nSpain\n\nSweden\n\n## Who needs an ETIAS travel authorisation \n\nNationals of any of these visa-exempt countries and territories need to apply for an ETIAS travel authorisation:\n\nAlbania \n\nAntigua and Barbuda\n\nArgentina\n\nAustralia\n\nBarbados\n\nBosnia and Herzegovina\n\nBrazil\n\nBrunei\n\nCanada\n\nChile\n\nColombia\n\nCosta Rica\n\nDominica\n\nEl Salvador\n\nGeorgia\n\nGrenada\n\nGuatemala\n\nHonduras\n\nHong Kong\n\nIsrael\n\nJapan\n\nKiribati\n\nKosovo\n\nMacao\n\nMalaysia\n\nMarshall Islands\n\nMauritius\n\nMexico\n\nMicronesia\n\nMoldova\n\nMontenegro\n\nNew Zealand\n\nNicaragua\n\nNorth Macedonia\n\nPalau\n\nPanama\n\nParaguay\n\nPeru\n\nSaint Kitts and Nevis\n\nSaint Lucia\n\nSaint Vincent and the Grenadines\n\nSerbia\n\nSeychelles\n\nSingapore\n\nSolomon Islands\n\nSouth Korea\n\nTaiwan\n\nThe Bahamas\n\nTimor-Leste\n\nTonga\n\nTrinidad and Tobago\n\nTuvalu\n\nUkraine\n\nUnited Arab Emirates\n\nUnited Kingdom\n\nUnited States\n\nVenezuela\n\nIf you come from any of these countries or territories and you plan to visit any of the 30 European countries listed above for a short-term stay, you will need an ETIAS travel authorisation."
+   },
+   {
+    "url": "https://travel-europe.europa.eu/etias/about-etias/news-corner.html",
+    "title": "News corner - ETIAS",
+    "content": "ETIAS will cost EUR 20\n\nThe application fee for an ETIAS travel authorisation will increase to EUR 20 from the previous EUR 7, following an adjustment put forward by the European Commission.\n\nFlying to Europe with ETIAS\n\nStarting in the last quarter of 2026, ETIAS is a new requirement for travellers who do not need a visa to visit Europe. Find out how this will affect you when travelling by air.\n\nRevised timeline for the EES and ETIAS\n\nOn 5 March, EU Home Affairs Ministers endorsed a revised timeline for the implementation of the Entry/Exit System (EES) and the European Travel Information and Authorisation System (ETIAS). ETIAS is expected to become operational in the last quarter of 2026."
+   }
+  ]
+ }
+}

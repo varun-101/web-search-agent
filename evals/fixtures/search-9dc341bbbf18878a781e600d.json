@@ -1,0 +1,42 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Bloomberg Terminal single subscription annual cost 2026 $31,980 $ Bloomberg pricing one terminal",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://connect.neugroup.com/public/blogs/bloomberg-terminals-how-much-more-youll-pay-next-year",
+    "title": "Bloomberg Terminals: How Much More You'll Pay Next Year",
+    "content": "Treasury and finance teams and anyone else who considers the Bloomberg Terminal a must-have tool will pay 6.5% more for two-year subscriptions that begin or renew on or after Jan. 1, 2025. In a letter to customers, the company said, “Consistent with Bloomberg’s historical practice, our price increase is linked to weighted global inflation over the prior two-year period.”\n\n- The monthly charge for Bloomberg clients with more than one Terminal will rise next year to $2,360. That amounts to $28,320 a year, compared to $26,580 now, following a 9.6% jump in 2023 . The annual cost for users with one Terminal will rise to $31,980.\n\n- The 6.5% increase for 2025 also applies to Bloomberg data licenses and real-time data service offerings. The latter include the Bloomberg Market Data Feed , known as B-PIPE.",
+    "published": "2024-10-09T06:00:06.000Z"
+   },
+   {
+    "url": "https://marketintelligencetools.com/reports/bloomberg-terminal-pricing/",
+    "title": "Bloomberg Terminal Pricing 2026: What a Single Seat Actually Costs | Market Intelligence Tools",
+    "content": "$31,980 Single-seat annual renewal, effective on or after 1 Jan 2025 NeuGroup, 9 Oct 2024\n\n$28,320 Per-seat annual renewal at two or more terminals,\n...\n,320 each. Bloomberg attributed the rise from the prior $26,580 rate to weighted global inflation.",
+    "published": "2026-08-15T16:19:04.000Z"
+   },
+   {
+    "url": "https://www.bluegamma.io/post/bloomberg-terminal-pricing",
+    "title": "Bloomberg Terminal Cost 2026: About $32,000 per User a Year",
+    "content": "Bloomberg does not publish a price list for the Terminal. The figures below come from what Bloomberg has told its customers, as reported by industry groups and press, and from contracts made public by public-sector buyers. We link every source, and flag anything that is reported rather than confirmed.\n\n...\n\nA Bloomberg Terminal costs $31,980 per year for a single user and $28,320 per user per year at sites with two or more seats, according to Bloomberg's letter to customers about its January 2025 increase, as reported by NeuGroup. Subscriptions run on two-year contracts, so the commitment is roughly $64,000 for one user and $56,640 per seat for larger teams.\n\n| | Single seat | Per seat, 2 or more seats |\n| --- | --- | --- |\n| Annual price (2025 and 2026) | $31,980 | $28,320 |\n| Monthly equivalent | $2,665 | $2,360 |\n| Commitment over a two-year term | $63,960 | $56,640 per seat |\n\nA further increase has been reported by ZeroHedge, citing a Bloomberg email, for contracts that start or renew from 1 January 2027. Bloomberg has not published new prices, and the final price on any contract is negotiated.\n\n...\n\nThe same",
+    "published": "2026-10-07T00:00:00.000Z"
+   },
+   {
+    "url": "https://marketterminal.com/blog/bloomberg-terminal-cost",
+    "title": "Bloomberg Terminal Cost in 2026 and the 2027 Price Increase",
+    "content": "A Bloomberg Terminal costs $31,980 a year ($2,665 a month) for a single seat in 2026, and $28,320 a year ($2,360 a month) per seat at locations with two or more terminals, according to Bloomberg's client letter on the current rates (NeuGroup). From January 1, 2027, those prices rise to $33,840 and $30,000 a year. Subscriptions run on two-year terms, so one new single seat installed in 2027 is a $67,680 commitment (our arithmetic).\n\nBloomberg does not publish a price list.\n\n...\n\n## How much does a Bloomberg Terminal cost in 2026?\n\nA Bloomberg Terminal costs $2,665 a month for a single-license location and $2,360 a month per terminal at locations with multiple licenses. NeuGroup reported that the monthly charge for clients with more than one terminal rose to $2,360, \"$28,320 a year\", and that \"the annual cost for users with one Terminal will rise to $31,980\" (NeuGroup).\n\n| Seat type | Per month | Per year | Two-year term (our arithmetic) |\n| --- | --- | --- | --- |\n| Single license (one terminal at a location) | $2,665 | $31,980 | $63,960 |\n| Multiple licenses (per terminal, 2+ at a location) | $2,360 | $28,320 | $56,640 |\n\nThree things about the contract matter as much as the price:\n\n- Two-year terms. \"All Bloomberg Terminals are leased in two-year cycles\" (Wikipedia), and Bloomberg's 2027 email says each increase stays in place for two years.\n- No discount for one seat. A single terminal pays the highest rate. Vendr, a software-purchasing service, notes that \"single-terminal purchases receive no volume consideration and pay the highest per-unit rates\" (Vendr).\n- Install date sets the price. A NeuGroup member explained that \"pricing is determined by the install date\", so a contract signed in December for a terminal installed in January is billed at the new year's rate (NeuGroup, 2022).\n\n...\n\nThe 2027 columns, percentages and two-year totals are our arithmetic from the sourced monthly figures. Bloomberg has not posted these prices on its website, and its product page shows no pricing at all (Bloomberg Professional). Treat them as reported list prices and confirm your own quote.",
+    "published": "2026-10-29T05:02:26.000Z"
+   },
+   {
+    "url": "https://godeldiscount.com/blog/bloomberg-terminal-cost-2026",
+    "title": "Bloomberg Terminal Cost 2026: $31,980/Year, $2,665/Month",
+    "content": "The Bloomberg Terminal costs $31,980 per year ($2,665 per month) per seat in 2026 for a single-terminal subscription, or $28,320 per seat per year for clients with multiple terminals. Bloomberg doesn't publish these prices and quotes each contract individually, so what a firm pays varies; these are the typical figures. There's no pricing page, and contacting sales gets you a demo request. The actual numbers circulate through finance forums, industry reports, and colleagues who've already signed contracts.",
+    "published": "2026-03-05T12:20:02.000Z"
+   }
+  ]
+ }
+}

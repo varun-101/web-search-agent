@@ -1,0 +1,37 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Read current on demand x86 pricing Frankfurt eu-central-1 requests GB-second free tier 1 million 400000 and extra charges.",
+  "site": "aws.amazon.com"
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://aws.amazon.com/lambda/pricing/",
+    "title": "AWS Lambda Pricing",
+    "content": "Lambda Event Functions are priced based on the number of requests served and the duration your code runs, measured in GB-seconds. You choose the memory allocated to your function and get proportional CPU and resources. The free tier includes one million requests and 400,000 GB-seconds per month.\n\n...\n\nLambda on-demand duration pricing tiers are applied to aggregate monthly duration of your functions running on the same architecture (x86 or Arm, respectively), in the same region, within the account. If you’re using consolidated billing in AWS Organizations, pricing tiers are applied to the aggregate monthly duration of your functions running on the same architecture, in the same region, across the accounts in the organization.\n\n...\n\nMonthly request charges\n\nThe monthly request price is $0.20 per one million requests and the free tier provides 1 million requests per month. Total requests – Free tier requests = monthly billable requests 3 million requests – 1 million free tier requests = 2 million monthly billable requests Monthly request charges = 2M * $0.2/M = $0.40"
+   },
+   {
+    "url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+    "title": "EC2 On-Demand Instance Pricing",
+    "content": "On-Demand Instances let you pay for compute capacity by the hour or second (minimum of 60 seconds) with no long-term commitments. This frees you from the costs and complexities of planning, purchasing, and maintaining hardware and transforms what are"
+   },
+   {
+    "url": "https://aws.amazon.com/free/compute/",
+    "title": "Free Compute Services on AWS",
+    "content": "| --- | --- | --- | --- |\n| Amazon EC2 | Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. | Use credits to access features in both Free and Paid plans.\n\n...\n\n| Amazon Lightsail Simple Virtual Private Servers | Amazon Lightsail is an easy-to-use virtual private server (VPS) that offers you everything needed to build an application or website, plus a cost-effective, monthly plan.\n\n...\n\n| This always free service is on the Free and Paid plan. Use your credits to evaluate beyond these monthly limits: 1,000,000 free requests per month Up to 400,000 GB-seconds or 3.2 million seconds of compute time per month | AWS Lambda Pricing |\n| Amazon Elastic Container Registry Fully Managed Container Registry | Amazon Elastic"
+   },
+   {
+    "url": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-changes.html",
+    "title": "Calling AWS services and prices using the AWS Price List - AWS Billing",
+    "content": "AWS Price List provides a catalog of the products and prices for AWS services that you can purchase on AWS.\n\nThis catalog includes perpetual free offers from AWS Free Tier. This includes usage-based free tier offers that refresh periodically, available permanently. This catalog doesn't include time-limited Free Tier offers that expire based on how long the account's been active. For more information about Free Tier offers, see Explore AWS services with AWS Free Tier. Also, this catalog doesn't include Amazon Elastic Compute Cloud (Amazon EC2) Spot Instances. For more information about Amazon EC2 Spot Instances, see\n\n...\n\nAWS Price List Query API\n: This API provides a centralized and convenient way to programmatically query AWS for services, products, and pricing information.\n\nThe Price List Query API uses product attributes and provides prices at the SKU level. Use this API to build cost control and scenario planning tools, reconcile billing data, forecast future spend for budgeting purposes, and provide cost benefit analyses that compare your internal workloads with AWS.\n\n...\n\nThe Price List Query API doesn't support Savings Plan prices.\nAWS Price List Bulk API\n: This API provides a way to programmatically fetch up-to-date pricing information on current AWS services and products in bulk by using the price list files. The price list files are available in JSON and CSV formats. The price list files are organized by AWS service and AWS Region.\n\n...\n\nThe Price List Query API and Price List Bulk API provide pricing details for informational purposes only. If there's a difference between the price list file and a service pricing page, AWS charges the prices on the service pricing page.\n\n...\n\n### Endpoints\n\nThe Price List Query API and Price List Bulk API provides the following endpoints:\n\n- https://api.pricing.us-east-1.amazonaws.com\n- https://api.pricing.eu-central-1.amazonaws.com\n- https://api.pricing.ap-south-1.amazonaws.com\n\nThe AWS Region is the API endpoint for the Price List Query API. The endpoints aren't related to product or service attributes."
+   },
+   {
+    "url": "https://aws.amazon.com/blogs/aws/category/aws-lambda/",
+    "title": "AWS Lambda | AWS Blog",
+    "content": "There are cost effective ways to build your bot using AWS Lambda. Lambda includes a free tier of one million requests and 400,000 GB-seconds of compute time per month. This free, per month usage, is for all customers and does not expire at the end of the 12 month Free Tier Term. Furthermore, new Amazon Lex customers can process up to 10,000 text requests and 5,000 speech requests per month free during the first year. You can find details here.\n\nRemember, the AWS Free Tier includes services with a free tier available for 12 months following your AWS sign-up date, as well as additional service offers that do not automatically expire at the end of your 12 month term. You can review the details about the AWS Free Tier and related services by going to the AWS Free Tier Details page."
+   }
+  ]
+ }
+}

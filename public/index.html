@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search Agent</title>
+<style>
+  :root {
+    --bg: #f7f6f2; --panel: #ffffff; --ink: #1d1d1b; --muted: #6b6a64; --rule: #e2dfd6;
+    --accent: #2f5bd3; --user: #e9eefc; --chip: #f0eee8; --warn: #9a5b00;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #141416; --panel: #1c1c20; --ink: #ecebe6; --muted: #a09f98; --rule: #2e2e34;
+      --accent: #8aa8ff; --user: #23293a; --chip: #26262c; --warn: #e0a64a;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.55 var(--sans); }
+  .app { display: grid; grid-template-columns: minmax(0, 1fr) 340px; height: 100vh; }
+  @media (max-width: 860px) { .app { grid-template-columns: minmax(0, 1fr); height: auto; min-height: 100vh; } aside { border-left: 0; border-top: 1px solid var(--rule); } }
+  main { display: flex; flex-direction: column; min-height: 0; }
+  header { display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; border-bottom: 1px solid var(--rule); }
+  header h1 { font-size: 16px; margin: 0; font-weight: 650; }
+  header .meta { color: var(--muted); font-size: 13px; }
+  button { font: inherit; border: 1px solid var(--rule); background: var(--panel); color: var(--ink); border-radius: 8px; padding: 6px 12px; cursor: pointer; }
+  button:hover { border-color: var(--muted); }
+  button:focus-visible, textarea:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  #log { flex: 1; overflow-y: auto; padding: 20px 16px; }
+  .msg { max-width: 760px; margin: 0 auto 18px; }
+  .msg.user .bubble { background: var(--user); border-radius: 12px; padding: 10px 14px; margin-left: auto; width: fit-content; max-width: 85%; white-space: pre-wrap; }
+  .msg.bot .bubble { padding: 2px 0; }
+  .bubble p { margin: 0 0 10px; } .bubble p:last-child { margin-bottom: 0; }
+  .bubble ul, .bubble ol { margin: 0 0 10px; padding-left: 22px; }
+  .bubble table { border-collapse: collapse; margin: 6px 0 12px; font-size: 14px; display: block; overflow-x: auto; }
+  .bubble th, .bubble td { border: 1px solid var(--rule); padding: 5px 9px; text-align: left; vertical-align: top; }
+  .bubble code { font-family: var(--mono); font-size: 13px; background: var(--chip); padding: 1px 4px; border-radius: 4px; }
+  a.cite { font-size: 11px; vertical-align: super; text-decoration: none; color: var(--accent); background: var(--chip); border-radius: 4px; padding: 0 4px; margin-left: 1px; }
+  .status { color: var(--muted); font-size: 13px; margin-bottom: 6px; }
+  .status div::before { content: "↳ "; }
+  .sources { margin-top: 10px; font-size: 13px; color: var(--muted); border-top: 1px dashed var(--rule); padding-top: 8px; }
+  .sources ol { margin: 4px 0 0; padding-left: 0; list-style: none; }
+  .sources li { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .sources a { color: var(--ink); }
+  .tag { font-size: 11px; border: 1px solid var(--rule); border-radius: 4px; padding: 0 4px; margin-left: 4px; }
+  .timing { font-size: 12px; color: var(--muted); margin-top: 6px; }
+  .error { color: var(--warn); }
+  form { display: flex; gap: 8px; padding: 12px 16px 16px; border-top: 1px solid var(--rule); max-width: 792px; width: 100%; margin: 0 auto; }
+  textarea { flex: 1; resize: none; font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--rule); border-radius: 10px; padding: 10px 12px; min-height: 46px; max-height: 200px; }
+  form button { background: var(--accent); color: #fff; border-color: transparent; padding: 0 18px; }
+  form button:disabled { opacity: .5; cursor: default; }
+  aside { border-left: 1px solid var(--rule); background: var(--panel); display: flex; flex-direction: column; min-height: 0; }
+  aside h2 { font-size: 14px; margin: 0; padding: 14px 16px; border-bottom: 1px solid var(--rule); display: flex; justify-content: space-between; align-items: center; }
+  #notes { flex: 1; overflow-y: auto; padding: 8px 16px; font-size: 13px; }
+  .note { border-bottom: 1px solid var(--rule); padding: 10px 0; }
+  .note h3 { font-size: 13px; margin: 0 0 4px; }
+  .note .body { white-space: pre-wrap; color: var(--muted); }
+  .empty { color: var(--muted); padding: 10px 0; }
+  .dev { border-top: 1px solid var(--rule); padding: 12px 16px; font-size: 13px; }
+  .dev label { display: block; color: var(--muted); margin-bottom: 6px; }
+  .dev input { font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--rule); border-radius: 6px; padding: 4px 6px; width: 100%; }
+  .dev .row { display: flex; gap: 6px; margin-top: 6px; }
+</style>
+</head>
+<body>
+<div class="app">
+  <main>
+    <header>
+      <div><h1>Search agent</h1><div class="meta" id="today"></div></div>
+      <button id="new" type="button">New chat</button>
+    </header>
+    <div id="log" aria-live="polite"></div>
+    <form id="form">
+      <textarea id="input" rows="1" placeholder="Ask anything…" aria-label="Message"></textarea>
+      <button id="send" type="submit">Send</button>
+    </form>
+  </main>
+  <aside>
+    <h2>What I remember <button id="refresh" type="button" aria-label="Refresh notes">↻</button></h2>
+    <div id="notes"></div>
+    <div class="dev">
+      <label for="clock">Dev clock: pretend "now" is (leave empty for real time)</label>
+      <input id="clock" type="datetime-local">
+      <div class="row"><button id="clear-clock" type="button">Real time</button></div>
+    </div>
+  </aside>
+</div>
+<script>
+const $ = (id) => document.getElementById(id);
+const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+let conversationId = crypto.randomUUID();
+let busy = false;
+
+const store = {
+  get(k) { try { return localStorage.getItem(k); } catch { return null; } },
+  set(k, v) { try { v ? localStorage.setItem(k, v) : localStorage.removeItem(k); } catch {} },
+};
+$("clock").value = store.get("clock") || "";
+$("clock").addEventListener("change", () => { store.set("clock", $("clock").value); showToday(); });
+$("clear-clock").addEventListener("click", () => { $("clock").value = ""; store.set("clock", ""); showToday(); });
+
+function nowOverride() { const v = $("clock").value; return v ? new Date(v).toISOString() : undefined; }
+function showToday() {
+  const d = nowOverride() ? new Date(nowOverride()) : new Date();
+  $("today").textContent = d.toLocaleString("en-GB", { weekday: "short", day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" }) + ", " + tz + (nowOverride() ? " (dev clock)" : "");
+}
+showToday();
+
+const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+function inline(s, sources) {
+  const byN = new Map((sources || []).map((x) => [x.n, x]));
+  return esc(s)
+    .replace(/`([^`]+)`/g, "<code>$1</code>")
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/(^|[^*])\*([^*\s][^*]*)\*/g, "$1<em>$2</em>")
+    .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
+    .replace(/\[(\d+)\]/g, (m, n) => {
+      const src = byN.get(Number(n));
+      return src ? `<a class="cite" href="${esc(src.url)}" target="_blank" rel="noopener" title="${esc(src.title || src.url)}">${n}</a>` : m;
+    });
+}
+// Small markdown subset: paragraphs, lists, pipe tables, inline code, bold, links, citations.
+function render(md, sources) {
+  const lines = md.split("\n"); const out = []; let i = 0;
+  while (i < lines.length) {
+    const line = lines[i];
+    if (/^\s*\|.*\|\s*$/.test(line) && /^\s*\|[\s:|-]+\|\s*$/.test(lines[i + 1] || "")) {
+      const row = (l) => l.trim().replace(/^\||\|$/g, "").split("|").map((c) => c.trim());
+      let html = "<table><thead><tr>" + row(line).map((c) => `<th>${inline(c, sources)}</th>`).join("") + "</tr></thead><tbody>";
+      i += 2;
+      while (i < lines.length && /^\s*\|.*\|\s*$/.test(lines[i])) { html += "<tr>" + row(lines[i]).map((c) => `<td>${inline(c, sources)}</td>`).join("") + "</tr>"; i++; }
+      out.push(html + "</tbody></table>"); continue;
+    }
+    const list = /^\s*([-*]|\d+\.)\s+/.exec(line);
+    if (list) {
+      const tag = /\d/.test(list[1]) ? "ol" : "ul"; let html = `<${tag}>`;
+      while (i < lines.length && /^\s*([-*]|\d+\.)\s+/.test(lines[i])) { html += `<li>${inline(lines[i].replace(/^\s*([-*]|\d+\.)\s+/, ""), sources)}</li>`; i++; }
+      out.push(html + `</${tag}>`); continue;
+    }
+    if (!line.trim()) { i++; continue; }
+    const para = [];
+    while (i < lines.length && lines[i].trim() && !/^\s*([-*]|\d+\.)\s+/.test(lines[i]) && !/^\s*\|.*\|\s*$/.test(lines[i])) { para.push(lines[i].replace(/^#{1,6}\s+/, "")); i++; }
+    out.push(`<p>${para.map((p) => inline(p, sources)).join("<br>")}</p>`);
+  }
+  return out.join("");
+}
+
+function addMessage(role, text) {
+  const el = document.createElement("div"); el.className = `msg ${role}`;
+  el.innerHTML = role === "user" ? `<div class="bubble"></div>` : `<div class="status"></div><div class="bubble"></div>`;
+  if (role === "user") el.querySelector(".bubble").textContent = text;
+  $("log").appendChild(el); $("log").scrollTop = $("log").scrollHeight;
+  return el;
+}
+
+function finish(el, d) {
+  el.querySelector(".bubble").innerHTML = render(d.text, d.sources);
+  if (d.sources.length) {
+    const s = document.createElement("div"); s.className = "sources";
+    s.innerHTML = "Sources<ol>" + d.sources.map((x) => `<li>[${x.n}] <a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title || x.url)}</a>${x.mode === "read" ? '<span class="tag">read now</span>' : ""}</li>`).join("") + "</ol>";
+    el.appendChild(s);
+  }
+  const t = document.createElement("div"); t.className = "timing";
+  t.textContent = `${(d.ms / 1000).toFixed(1)}s · ${d.toolCalls.length} search${d.toolCalls.length === 1 ? "" : "es"}`;
+  el.appendChild(t);
+}
+
+async function send(text) {
+  busy = true; $("send").disabled = true;
+  addMessage("user", text);
+  const el = addMessage("bot", "");
+  const bubble = el.querySelector(".bubble"), status = el.querySelector(".status");
+  let streamed = "";
+  try {
+    const res = await fetch("/api/chat", {
+      method: "POST", headers: { "content-type": "application/json" },
+      body: JSON.stringify({ conversationId, message: text, timeZone: tz, now: nowOverride() }),
+    });
+    if (!res.ok || !res.body) throw new Error((await res.json().catch(() => ({}))).error || `HTTP ${res.status}`);
+    const reader = res.body.pipeThrough(new TextDecoderStream()).getReader();
+    let buf = "";
+    for (;;) {
+      const { value, done } = await reader.read();
+      if (done) break;
+      buf += value;
+      let idx;
+      while ((idx = buf.indexOf("\n\n")) >= 0) {
+        const chunk = buf.slice(0, idx); buf = buf.slice(idx + 2);
+        const event = /^event: (.*)$/m.exec(chunk)?.[1]; const data = JSON.parse(/^data: (.*)$/m.exec(chunk)?.[1] || "{}");
+        if (event === "text") { streamed += data.delta; bubble.innerHTML = render(streamed, []); }
+        else if (event === "tool") {
+          streamed = ""; bubble.innerHTML = "";
+          const line = document.createElement("div");
+          line.textContent = data.url ? `Reading ${data.url}` : `Searching: ${data.query}`;
+          status.appendChild(line);
+        }
+        else if (event === "done") { finish(el, data); busy = false; $("send").disabled = false; }
+        else if (event === "memory") loadNotes();
+        else if (event === "error") throw new Error(data.message);
+        $("log").scrollTop = $("log").scrollHeight;
+      }
+    }
+  } catch (err) {
+    bubble.innerHTML = `<p class="error">Something went wrong: ${esc(err.message)}</p>`;
+  } finally {
+    busy = false; $("send").disabled = false;
+  }
+}
+
+async function loadNotes() {
+  const notes = await fetch("/api/notes").then((r) => r.json()).catch(() => []);
+  $("notes").innerHTML = notes.length
+    ? notes.map((n) => `<div class="note"><h3>${esc(n.header)}</h3><div class="body">${esc(n.text)}</div></div>`).join("")
+    : `<div class="empty">Nothing yet. After each reply I write a dated note about the conversation; it shows up here.</div>`;
+}
+
+$("form").addEventListener("submit", (e) => {
+  e.preventDefault();
+  const text = $("input").value.trim();
+  if (!text || busy) return;
+  $("input").value = ""; $("input").style.height = "";
+  send(text);
+});
+$("input").addEventListener("keydown", (e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); $("form").requestSubmit(); } });
+$("input").addEventListener("input", (e) => { e.target.style.height = ""; e.target.style.height = e.target.scrollHeight + "px"; });
+$("new").addEventListener("click", () => { conversationId = crypto.randomUUID(); $("log").innerHTML = ""; loadNotes(); $("input").focus(); });
+$("refresh").addEventListener("click", loadNotes);
+loadNotes();
+$("input").focus();
+</script>
+</body>
+</html>

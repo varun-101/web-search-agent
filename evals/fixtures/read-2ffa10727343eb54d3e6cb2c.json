@@ -1,0 +1,11 @@
+{
+ "kind": "read",
+ "request": {
+  "url": "https://www.ons.gov.uk/releasecalendar?highlight=true&keywords=inflation&limit=10&page=1&release-type=type-upcoming&sort=date-newest"
+ },
+ "response": {
+  "finalUrl": "https://www.ons.gov.uk/releasecalendar?highlight=true&keywords=inflation&limit=10&page=1&release-type=type-upcoming&sort=date-newest",
+  "title": "Release calendar - Office for National Statistics",
+  "markdown": "Release calendar - Office for National Statistics          \n\n# Release calendar"
+ }
+}

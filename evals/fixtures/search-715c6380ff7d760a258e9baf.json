@@ -1,0 +1,38 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "site.europa.eu ETIAS start last quarter 2026 fee 20 US citizens December 2026",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.eeas.europa.eu/delegations/united-states-america/travelling-europe-etias_en?s=253",
+    "title": "Travelling to Europe (ETIAS) | EEAS",
+    "content": "You may have heard that some changes are coming to the European travel process. If you are an American citizen traveling to the United States starting October 12, 2025, here is what you need to know.\n\n...\n\n##### Do I need\n\n...\n\nNo. If you are a U.S. citizen, you only need your passport and no other documentation to enter the following European countries: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, and Switzerland.\n\nThere is no visa obligation for U.S. citizens. \n\n##### Will I need a visa or any type of registration to travel to Europe in the future?\n\nIf you are a U.S. citizen, you will not need any additional registration besides your passport if you travel to the aforementioned countries before 2026.\n\nThe electronic registration system ETIAS (explained below) is scheduled to be introduced in the last quarter of 2026. The exact date will be announced at least six (6) months before the system enters into operation.\n\n##### What is the European Travel Information and Authorisation System (ETIAS)?\n\nETIAS is an entry requirement for visa-exempt nationals similar to ones already in place in the United States (ESTA), Canada, United Kingdom, and Australia.\n\nETIAS is not a visa. It only covers short-term stays to the 30 aforementioned countries. It will cost 20 euros (about $23) and be valid for three (3) years or until your passport expires.\n\n##### When will ETIAS go into effect?\n\nETIAS is scheduled to be introduced in the last quarter of 2026. The exact date will be announced at least six (6) months before the system enters into operation.\n\nThe Entry/Exit System (explained further) will begin on October 12, 2025."
+   },
+   {
+    "url": "https://travel-europe.europa.eu/etias/ltr/about-etias/news-corner/ETIAS-will-cost-EUR-20",
+    "title": "ETIAS will cost EUR 20",
+    "content": "# ETIAS will cost EUR 20\n\nThe application fee for an ETIAS travel authorisation will increase to EUR 20 from the previous EUR 7, following an adjustment put forward by the European Commission. This increase aims to cover the operational costs of the European Travel Information and Authorisation System (ETIAS), taking into account the rise in inflation since the previous fee was set and the increased functionalities of the system. It will also bring the fee in line with other similar travel authorisation programmes, such as the UK ETA and the US ESTA.\n\nStarting from the last quarter of 2026, visa-exempt travellers will be required to apply for an ETIAS travel authorisation to travel to these 30 European countries. You will need to fill out and pay for an online application before your trip using the official ETIAS website or the mobile app. Certain applicants, including those under 18 or over 70, will be exempt from paying the fee.\n\nThe new fee adopted by the European Commission will now undergo the two-month review period of the Council and the European Parliament (renewable once)."
+   },
+   {
+    "url": "https://home-affairs.ec.europa.eu/policies/schengen/smart-borders/european-travel-information-authorisation-system_en",
+    "title": "European Travel Information Authorisation System - Migration and Home Affairs",
+    "content": "## Important notice\n\n- The European Travel Information and Authorisation System (ETIAS) is currently not in operation and no applications for travel authorisations are collected at this point. The European Union will inform about the specific date for the start of ETIAS several months prior to its launch.\n- Applicants will be able to apply via an official website and/or app for mobile devices once the system goes live.\n- ETIAS fee has been set at EUR 20 instead of the previous EUR 7. The new fee takes into account the rise in inflation since 2018 and additional operational costs related to new technical features integrated into the system. It also brings the cost for an ETIAS travel authorisation in line with similar travel authorisation programmes around the globe. The adjustment of the fee is now undergoing a two-month review period of the Council and the European Parliament (renewable once). It will enter into effect as soon as ETIAS is operational."
+   },
+   {
+    "url": "https://taxnews.ey.com/news/2026-2346-european-travel-information-and-authorization-system-launch-timeline-update",
+    "title": "European Travel Information and Authorization System launch timeline update",
+    "content": "ETIAS will introduce a pre-travel authorization requirement for certain visa-exempt non-EU nationals traveling to participating European countries for short stays. Earlier EU communications indicated that ETIAS was expected to become operational in the last quarter of 2026, with an application fee of EUR20. Although the current official FAQ no longer specifies the Q4 2026 implementation window, it continues to confirm that applicants will be required to pay a EUR20 fee once ETIAS becomes operational.",
+    "published": "2026-11-04T00:00:00.000Z"
+   },
+   {
+    "url": "https://travel-europe.europa.eu/etias/ltr/about-etias",
+    "title": "What is ETIAS - ETIAS",
+    "content": "ETIAS is currently not in operation and no applications for travel authorisations are collected at this point. The European Union will inform about the specific date for the start of ETIAS several months prior to its launch.\n\n...\n\n## Applying for an ETIAS travel authorisation \n\nYou can fill in the application form using either this official ETIAS website or the ETIAS mobile application. Applying for the ETIAS travel authorisation costs EUR 20, though some travellers are exempt from paying this fee. Read more about what you need to apply and payment exemptions."
+   }
+  ]
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Read EUR USD rate and publication timestamp for November 11 2026.",
+  "site": "teleborsa.it"
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.teleborsa.it/News/2026/11/11/cambi-euro-a-1-1091-dollari-alle-15-41-151_TLB-1LINER.html",
+    "title": "Cambi: euro a 1,1091 dollari alle 15:41 | Teleborsa.it",
+    "content": "Cambi: euro a 1,1091 dollari alle 15:41 | Teleborsa.it\n# Cambi: euro a 1,1091 dollari alle 15:41\nIn breve, Finanza 11 novembre 2026 - 15.41\nEuro a 1,1091 sul dollaro alle 15:41.",
+    "published": "2026-11-11T14:41:11.000Z"
+   },
+   {
+    "url": "https://www.teleborsa.it/News/2026/11/11/cambi-euro-a-1-1141-dollari-alle-11-30-91_TLB-1LINER.html",
+    "title": "Cambi: euro a 1,1141 dollari alle 11:30 | Teleborsa.it",
+    "content": "Cambi: euro a 1,1141 dollari alle 11:30 | Teleborsa.it\n# Cambi: euro a 1,1141 dollari alle 11:30\nIn breve, Finanza 11 novembre 2026 - 11.30\nEuro a 1,1141 sul dollaro alle 11:30.",
+    "published": "2026-11-11T10:30:07.000Z"
+   },
+   {
+    "url": "https://www.teleborsa.it/News/2026/11/11/andamento-cambio-euro-dollaro-usa-dell-11-11-2026-ore-15-40-227_TLB-AUTO.html",
+    "title": "Andamento cambio Euro/Dollaro USA dell'11/11/2026, ore 15:40 | Teleborsa.it",
+    "content": "Andamento cambio Euro/Dollaro USA dell'11/11/2026, ore 15:40 | Teleborsa.it \n\n# Andamento cambio Euro/Dollaro USA dell'11/11/2026, ore 15:40\n\n Finanza 11 novembre 2026 - 15.40 \n\n \n\n (Teleborsa) - \n\n Il Cross-rate Euro contro Dollaro sta limando qualche punto dai livelli di chiusura della vigilia, mentre l' Euro contro la divisa nipponica è senza direzione. Il cambio Euro/Dollaro USA ha esordito a quota 1,1168, e tratta ora a 1,109, con un ribasso di 0,0077 euro / dollaro USA rispetto alla chiusura precedente, mentre l' Euro/Yen scambia a 177,062, dopo aver iniziato gli scambi a 177,264. \n\n Le indicazioni non costituiscono invito al trading. (A cura dell'Ufficio Studi Teleborsa)",
+    "published": "2026-11-11T14:40:06.000Z"
+   },
+   {
+    "url": "http://lastampafinanza.teleborsa.it/Titolo/Quotazioni/eur-usd/A/F0.EURUSD/Rlh8",
+    "title": "Economia Finanza - LASTAMPA.it",
+    "content": "# Eur/Usd \n\n € 1,117 +0,01% \n\n 10/11/2026 23:36\n\n- oggi\n- 3 mesi\n- 6 mesi\n\n## Quotazione\n\n- Ticker EURUSD\n- Apertura€ 1,117\n- Min Oggi€ 1,117\n- Max Oggi€ 1,117\n- Volumi---\n- Data/ora 10/11/2026 23:53\n- Precedente€ 1,117\n- Ufficiale---\n- Fase di mercato Mercato chiuso"
+   },
+   {
+    "url": "https://www.teleborsa.it/News/2026/11/11/analisi-tecnica-eur-usd-del-10-11-2026-45_TLB-AUTO.html",
+    "title": "Analisi Tecnica: EUR/USD del 10/11/2026 | Teleborsa.it",
+    "content": "Analisi Tecnica: EUR/USD del 10/11/2026 | Teleborsa.it\n# Analisi Tecnica: EUR/USD del 10/11/2026\nFinanza 11 novembre 2026 - 08.15\n(Teleborsa) - Chiusura del 10 novembre\nRiunione sostanzialmente debole quella del 10 novembre per il cross Euro / Dollaro USA, che conclude gli scambi in frazionale calo a 1,1168.\nLo status tecnico di medio periodo dell' Euro nei confronti della divisa Statunitense rimane negativo. Nel breve periodo, invece, evidenziamo un miglioramento della forza rialzista, con la curva che incontra la prima area di resistenza a 1,1213, mentre i supporti sono stimati a 1,1132. Le implicazioni tecniche propendono a favore di un nuovo spunto rialzista con target stimato verosimilmente in area 1,1294.\nLe indicazioni non costituiscono invito al trading.\n(A cura dell'Ufficio Studi Teleborsa)",
+    "published": "2026-11-11T07:15:11.000Z"
+   }
+  ]
+ }
+}

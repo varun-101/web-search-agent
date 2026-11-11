@@ -1,0 +1,38 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Germany statutory minimum wage 1 January 2027 14.60 official",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.bmas.de/DE/Service/Gesetze-und-Gesetzesvorhaben/fuenfte-mindestlohnanpassungsverordnung-milov5.html",
+    "title": "Fünfte Mindestlohnanpassungsverordnung  -  BMAS",
+    "content": "# Fünfte Mindestlohnanpassungsverordnung\n\n Fünfte Verordnung zur Anpassung der Höhe des Mindestlohns (MiLoV5)\n\n Die Mindestlohnkommission hat am 27. Juni 2025 einen Vorschlag vorgelegt, wie sich die Höhe des Mindestlohns ab 1. Januar 2026 entwickeln soll. Die Bundesregierung ist diesem Vorschlag gefolgt, weshalb die Mindestlohnhöhe wie folgt angepasst wird:\n\n- ab 1. Januar 2026 13,90 Euro brutto je Zeitstunde und\n- ab 1. Januar 2027 14,60 Euro brutto je Zeitstunde."
+   },
+   {
+    "url": "https://www.gesetze-im-internet.de/milov5/__1.html",
+    "title": "§ 1 MiLoV5 - Einzelnorm",
+    "content": "§ 1 MiLoV5 - Einzelnorm\n\n# Fünfte Verordnung zur Anpassung der Höhe des Mindestlohns (Fünfte Mindestlohnanpassungsverordnung - MiLoV5) § 1 Höhe des Mindestlohns\n\nDer Mindestlohn beträgt \n\n| 1. | ab 1. Januar 2026 | 13,90 Euro brutto je Zeitstunde, |\n| --- | --- | --- |\n| 2. | ab 1. Januar 2027 | 14,60 Euro brutto je Zeitstunde. |"
+   },
+   {
+    "url": "https://www.bmas.de/DE/Arbeit/Arbeitsrecht/Mindestlohn/Informationen-zum-Mindestlohn/informationen-zum-mindestlohn-deutsch.html",
+    "title": "Der gesetzliche Mindestlohn - Ein Überblick  -  BMAS",
+    "content": "In Deutschland gibt es seit dem 1. Januar 2015 einen allgemeinen gesetzlichen Mindestlohn. Dieser gilt für alle Arbeitnehmerinnen und Arbeitnehmer im Inland. Seit dem 1. Januar 2026 beträgt er 13,90 Euro (brutto) pro Zeitstunde und wird zum 1. Januar 2027 auf 14,60 Euro (brutto) pro Zeitstunde angehoben.\n\n Der gesetzliche Mindestlohn gilt unabhängig vom Umfang der Tätigkeit und der Nationalität der Beschäftigten. Damit findet er auch Anwendung auf geringfügig Beschäftigte (sogenannte Minijobberinnen und Minijobber), Saisonarbeitskräfte und ausländische Beschäftigte, wenn sie in Deutschland arbeiten. Sie erhalten den Mindestlohn unabhängig davon, ob sie bei einem in- oder einem ausländischen Arbeitgeber angestellt sind.\n\n...\n\nDie Arbeitnehmerinnen und Arbeitnehmer haben Anspruch auf den gesetzlichen Mindestlohn für jede tatsächlich geleistete Arbeitsstunde im Abrechnungszeitraum (in der Regel der Kalendermonat). Dies gilt auch für Überstunden."
+   },
+   {
+    "url": "https://www.mindestlohn-kommission.de/de/Gesetzlicher-Mindestlohn/Entwicklung-des-Mindestlohn/entwicklung-des-mindestlohn_node",
+    "title": "Höhe und Anpassung des Mindeslohns\n\n\n\n  -  Mindestlohnkommission",
+    "content": "Durch die Gesetzesänderung wurde das regelmäßige Anpassungsverfahren nach § 9 Abs. 1 MiLoG vorübergehend ausgesetzt, weshalb die Mindestlohnkommission erst am 26. Juni 2023 ihren nächsten Beschluss über die Anpassung des Mindestlohns getroffen hat. Nach diesem Beschluss und Erlass einer Rechtsverordnung durch die Bundesregierung vom 24. November 2023 wurde der gesetzliche Mindestlohn zum 1. Januar 2024 auf 12,41 Euro pro Stunde und zum 1. Januar 2025 auf 12,82 Euro pro Stunde erhöht. Mit Wirkung zum 1. Januar 2026 wurde der Mindestlohn auf 13,90 Euro erhöht. Ab 1. Januar 2027 wird der gesetzliche Mindestlohn 14,60 Euro betragen."
+   },
+   {
+    "url": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2025/anhebung-gesetzlicher-mindestlohn-zum-1-1-2026.html",
+    "title": "Anhebung des gesetzlichen Mindestlohns zum 1. Januar 2026  -  BMAS",
+    "content": "In ihrer Sitzung vom 27. Juni 2025 hat die Mindestlohnkommission eine stufenweise Erhöhung des gesetzlichen Mindestlohns auf 13,90 Euro zum 1. Janua r 2026 und 14,60 Euro zum 1. Januar 2027 beschlossen. Damit steigt der Mindestlohn zunächst um 8,42 % und im Folgejahr um weitere 5,04 %. Insgesamt steigt er also um 13,88 %. Das ist die größte sozialpartnerschaftlich beschlossene Lohnerhöhung seit Einführung des Mindestlohns.",
+    "published": "2025-06-27T00:00:00.000Z"
+   }
+  ]
+ }
+}

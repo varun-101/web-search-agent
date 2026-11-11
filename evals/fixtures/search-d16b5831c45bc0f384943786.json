@@ -1,0 +1,37 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Confirm current home blood pressure diagnostic threshold systolic 135 or diastolic 85 and home monitoring technique seated quiet supported arm two measurements morning evening 7 days.",
+  "site": "nice.org.uk"
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.nice.org.uk/guidance/ng136/chapter/recommendations",
+    "title": "Recommendations | Hypertension in adults: diagnosis and management | Guidance | NICE",
+    "content": "When measuring blood pressure in the clinic or in the home, standardise the environment and provide a relaxed, temperate setting, with the person quiet and seated, and their arm outstretched and supported. Use an appropriate cuff size for the person's arm. [2011, amended 2019]\n\n...\n\n#### 1.2.7\n\nWhen using HBPM to confirm a diagnosis of hypertension, ensure that:\n\n- for each blood pressure recording, 2 consecutive measurements are taken, at least 1 minute apart and with the person seated and\n- blood pressure is recorded twice daily, ideally in the morning and evening and\n- blood pressure recording continues for at least 4 days, ideally for 7 days. Discard the measurements taken on the first day and use the average value of all the remaining measurements to confirm a diagnosis of hypertension. [2011]\n\n#### 1.2.8\n\nConfirm diagnosis of hypertension in people with a:\n\n- clinic blood pressure of 140/90 mmHg or higher and\n- ABPM daytime average or HBPM average of 135/85 mmHg or higher. [2019]"
+   },
+   {
+    "url": "https://www.nice.org.uk/guidance/ng136/chapter/Rationale-and-impact",
+    "title": "Rationale and impact | Hypertension in adults: diagnosis and management | Guidance | NICE",
+    "content": "evidence did not show that changing the current blood pressure thresholds for clinic measurement or home ... pressure monitoring (ABPM), so the committee agreed the ... thresholds for diagnosis should be retained. The committee noted that these"
+   },
+   {
+    "url": "https://cks.nice.org.uk/topics/hypertension/diagnosis/diagnosis/",
+    "title": "Hypertension - Diagnosis - CKS - NICE",
+    "content": "- Measure blood pressure in a relaxed, temperate setting, with the person quiet and seated and their arm outstretched and supported.\n\n...\n\n- - If the difference in readings between arms is more than 15 mmHg, repeat the measurements.\n- If the difference in readings between arms remains more than 15 mmHg on the second measurement,\n\n...\n\n- - Palpate the radial or brachial pulse before measuring blood pressure.\n- If pulse irregularity is present, measure blood pressure manually using direct auscultation over the brachial artery.\n- In people with symptoms of postural hypotension (falls or postural dizziness), measure blood pressure with the person either supine or seated.\n- - Measure blood pressure again with the person standing for at least 1 minute before measurement.\n- If the systolic blood pressure falls by 20 mmHg or more when the person is standing, measure subsequent blood pressures with the person standing.\n- If blood pressure measured in the clinic is 140/90 mmHg or higher, take a second measurement during the consultation.\n- - If the second measurement is substantially different from the first, take a third measurement.\n- Record the lower of the last two measurements as the clinic blood pressure.\n- If the person's blood pressure is between 140/90 mmHg and 180/120 mmHg, offer ambulatory blood pressure monitoring (ABPM) to confirm the diagnosis of hypertension. If ABPM is unsuitable or the person is unable to tolerate it, offer home blood pressure monitoring (HBPM).\n- - When using ABPM, ensure that at least two measurements per hour are taken during the person's usual waking hours (for example between 8 am and 10 pm). Use the average value of at least 14 measurements taken during the person's usual waking hours to confirm a diagnosis of hypertension.\n- When using HBPM, ensure that:\n- - For each blood pressure recording, two consecutive measurements are taken, at least 1 minute apart and with the person seated.\n- Blood pressure is recorded twice daily, ideally in the morning and evening.\n- Blood pressure recording continues for at least 4 days, ideally for 7 days — discard the measurements taken on the first day and use the average value of all the remaining measurements to confirm the diagnosis of hypertension.\n\n...\n\nFor more information, see the section on Investigations.\n\n...\n\n- Confirm the diagnosis of hypertension in people with a clinic blood pressure of 140/90 mmHg or higher and ABPM daytime average or HBPM average of 135/85 mmHg or higher.\n- - Classify the severity of confirmed hypertension using the following criteria:\n- - Stage 1 hypertension — clinic blood pressure ranging from 140/90 mmHg to 159/99 mmHg and subsequent ABPM daytime average or HBPM average blood pressure ranging from 135/85 mmHg to 149/94 mmHg.\n\n...\n\n- If hypertension is not diagnosed and:\n- - There is evidence of target organ damage, consider carrying out investigations for alternative causes of the target organ damage. For information on investigations, see CKS topics on Chronic kidney disease and Heart failure - chronic.\n- There is no evidence of target organ damage, measure the person's clinic blood pressure at least every 5 years subsequently, and consider measuring it more frequently if the person's clinic blood pressure is close to 140/90 mmHg."
+   },
+   {
+    "url": "https://bnf.nice.org.uk/treatment-summaries/hypertension/",
+    "title": "Hypertension | Treatment summaries | BNF | NICE",
+    "content": "150/90 mmHg for patients aged over 80 years. For ... ), the average blood pressure should be maintained at below 135/85 mmHg for patients ... clinic blood pressure below 140/90 mmHg regardless of age, whilst"
+   },
+   {
+    "url": "https://www.nice.org.uk/guidance/qs28/resources/implementation-advice-pdf-247331197",
+    "title": "Implementation advice",
+    "content": "8\n\n, standardise the environment and provide a relaxed, temperate setting, with the person quiet and seated, and their arm outstretched and supported. [new 2011] [1.1.4]\n...\nWhen using ABPM to confirm a diagnosis of hypertension, ensure that at least two"
+   }
+  ]
+ }
+}

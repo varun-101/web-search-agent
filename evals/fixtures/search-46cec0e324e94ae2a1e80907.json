@@ -1,0 +1,41 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "site.cam.ac.uk April 2025 K2-18b strongest hints biological activity DMS DMDS three sigma",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.cam.ac.uk/stories/strongest-hints-of-biological-activity",
+    "title": "Strongest hints yet of biological activity outside the solar system | University of Cambridge",
+    "content": "Using data from the James Webb Space Telescope (JWST), the astronomers, led by the University of Cambridge, have detected the chemical fingerprints of dimethyl sulfide (DMS) and/or dimethyl disulfide (DMDS), in the atmosphere of the exoplanet K2-18b, which orbits its star in the habitable zone.\n\nOn Earth, DMS and DMDS are only produced by life, primarily microbial life such as marine phytoplankton. While an unknown chemical process may be the source of these molecules in K2-18b’s atmosphere, the results are the strongest evidence yet that life may exist on a planet outside our solar system.\n\nThe observations have reached the ‘three-sigma’ level of statistical significance – meaning there is a 0.3% probability that they occurred by chance. To reach the accepted classification for scientific discovery, the observations would have to cross the five-sigma threshold, meaning there would be below a 0.00006% probability they occurred by chance.\n\nThe researchers say between 16 and 24 hours of follow-up observation time with JWST may help them reach the all-important five-sigma significance. Their results are reported in The Astrophysical Journal Letters.\n\n...\n\nHowever, the concentrations of DMS and DMDS in K2-18b’s atmosphere are very different than on Earth, where they are generally below one part per billion by volume. On K2-18b, they are estimated to be thousands of times stronger - over ten parts per million.\n\n...\n\nHe says that while he is cautiously optimistic, there could be previously unknown chemical processes at work on K2-18b that may account for the observations.",
+    "published": "2025-04-16T23:00:00.000Z"
+   },
+   {
+    "url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/f6b71a55-6a8e-4f2b-b69e-79371b3ba5e0/content",
+    "title": "New Constraints on DMS and DMDS in the Atmosphere of K2-18 b from JWST MIRI",
+    "content": "Abstract The sub-Neptune frontier has opened a new window into the rich diversity of planetary environments beyond the solar system. The possibility of hycean worlds, with planet-wide oceans and H2-rich atmospheres, significantly expands and accelerates the search for habitable environments elsewhere. Recent JWST transmission spectroscopy of the candidate hycean world K2-18 b in the near-infrared led to the first detections of the carbon-bearing molecules CH4 and CO2 in its atmosphere, with a composition consistent with predictions for hycean conditions. The observations also provided a tentative hint of dimethyl sulfide (DMS), a possible biosignature gas, but the inference was of low statistical significance. We report a mid-infrared transmission spectrum of K2-18 b obtained using the JWST MIRI LRS instrument in the ∼6–12 μm range. The spectrum shows distinct features and is inconsistent with a featureless spectrum at 3.4σ significance compared to our canonical model. We find that the spectrum cannot be explained by most molecules predicted for K2-18 b, with the exception of DMS and dimethyl disulfide (DMDS), also a potential biosignature gas. We report new independent evidence for DMS and/or DMDS in the atmosphere at 3σ significance, with high abundance (10 ppmv) of at least one of the two molecules. More observations are needed to increase the robustness of the findings and resolve the degeneracy between DMS and DMDS. The results also highlight the need for additional experimental and theoretical work to determine accurate cross sections of important biosignature gases and identify potential abiotic sources. We discuss the implications of the present findings for the possibility of biological activity on K2-18 b. Unified Astronomy Thesaurus concepts: Exoplanets (498); Biosignatures (2018); Habitable planets (695)\n\n...\n\n4. Summary and Discussion We report a mid-infrared transmission spectrum of the candidate hycean world K2-18 b observed with the JWST MIRI LRS instrument, the first for a habitable-zone sub Neptune. The spectrum shows multiple spectral features between ∼6 and 11 μm that are best explained by a combination of DMDS and DMS in the atmosphere, both molecules ... 2013b; D. C. ... 2018; E. ... Schwieterman et al. ... 2024). We detect the combination of DMDS and/or DMS at a significance of 2.9σ–3.2σ across the canonical retrievals reported in this work. In the absence of DMDS, the spectral features can also be explained to a large extent by DMS, and vice versa, due to degeneracy between the spectral features of DMS and DMDS in the mid-infrared. ... The observations provide limited constraints on other atmospheric properties."
+   },
+   {
+    "url": "https://www.lclu.cam.ac.uk/news/strongest-hints-yet-biological-activity-outside-solar-system",
+    "title": "Strongest hints yet of biological activity outside the solar system | Leverhulme Centre for Life in the Universe",
+    "content": "chance. To reach the accepted classification for scientific discovery, the observations would have to cross the five-sigma threshold, meaning there would be below a 0.00006% probability they occurred by chance.",
+    "published": "2025-04-17T00:00:00.000Z"
+   },
+   {
+    "url": "https://www.reuters.com/science/scientists-find-strongest-evidence-yet-life-an-alien-planet-2025-04-16/",
+    "title": "Scientists find strongest evidence yet of life on an alien planet | Reuters",
+    "content": ". They stressed, however, that they are not announcing the discovery of actual living organisms but rather a possible biosignature - an indicator of a biological process - and that the findings should be viewed cautiously, with more observations needed.",
+    "published": "2025-04-16T23:03:15.000Z"
+   },
+   {
+    "url": "https://hycean.group.cam.ac.uk/articles/hints-of-biological-activity-outside-the-solar-system/",
+    "title": "Strongest hints yet of biological activity outside the solar system - Hycean Worlds",
+    "content": "-sigma’ level of statistical significance – meaning there is a 0.3% ... . To reach the accepted classification for scientific discovery, the observations would have to cross the five-sigma threshold, meaning there would be below a 0.00006% probability they",
+    "published": "2025-04-17T00:01:11.000Z"
+   }
+  ]
+ }
+}

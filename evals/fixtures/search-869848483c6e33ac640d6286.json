@@ -1,0 +1,38 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "site.cloud.google.com/storage/pricing \"us-east1\" \"$0.020\" Standard",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://cloud.google.com/storage/pricing?userloc_9040166-network_g=",
+    "title": "Cloud Storage pricing",
+    "content": "### North America\n\n| Location | Standard storage(per GB per Month) | Nearline storage(per GB per Month) | Coldline storage(per GB per Month) | Archive storage(per GB per Month) |\n| --- | --- | --- | --- | --- |\n| Iowa (`us-central1`) | $0.020 | $0.010 | $0.004 | $0.0012 |\n| South Carolina (`us-east1`) | $0.020 | $0.010 | $0.004 | $0.0012 |\n| Northern Virginia (`us-east4`) | $0.023 | $0.013 | $0.006 | $0.0025 |\n| Columbus (`us-east5`) | $0.020 | $0.010 | $0.004 | $0.0012 |\n| Oregon (`us-west1`) | $0.020 | $0.010 | $0.004 | $0.0012 |\n| Los Angeles (`us-west2`) | $0.023 | $0.016 | $0.007 | $0.0025 |\n| Salt Lake City (`us-west3`) | $0.023 | $0.016 | $0.007 | $0.0025 |\n| Las Vegas (`us-west4`) | $0.023 | $0.013 | $0.006 | $0.0025 |\n| Dallas (`us-south1`) | $0.020 | $0.010 | $0.004 | $0.0012 |\n| Montréal (`northamerica-northeast1`) | $0.023 | $0.013 | $0.007 | $0.0025 |\n| Toronto (`northamerica-northeast2`) | $0.023 | $0.013 | $0.007 | $0.0025 |"
+   },
+   {
+    "url": "https://cloud.google.com/storage/pricing-examples",
+    "title": "Pricing examples  |  Cloud Storage  |  Google Cloud",
+    "content": "| Pricing Category | Type of Usage | Amount |\n| --- | --- | --- |\n| Data storage | Standard storage in the `us-east1` region | 50 GB (the average amount of data in your bucket over the course of the month) |\n| Data processing | Class A operations (object adds, bucket and object listings) | 10,000 operations |\n| Data processing | Class B operations (object gets, retrieving bucket and object metadata) | 50,000 operations |\n| Network usage | Data transfer to the Americas and EMEA | 1 GB |\n\nYour bill for the month for `my-bucket` is calculated as follows, assuming no always free discounts apply:\n\n| Pricing Category | Calculation | Cost |\n| --- | --- | --- |\n| Data storage | 50 GB Standard storage * $0.020 per GB | $ 1.00 |\n| Data processing | 10,000 Class A operations * $0.0050 per 1,000 operations | $ 0.05 |\n| Data processing | 50,000 Class B operations * $0.0004 per 1,000 operations | $ 0.02 |\n| Network usage | 1 GB outbound data transfer * $0.12 per GB | $ 0.12 |\n| Total | | $ 1.19 |"
+   },
+   {
+    "url": "https://www.techtarget.com/news/How-to-handle-Google-Cloud-Storage-costs/857490/",
+    "title": "How to handle Google Cloud Storage costs",
+    "content": "data bucket in a month:\n\n- Data storage. Standard storage in the US-east1 region of 75GB of data.\n- Data processing. 25,000 Class A operations and 85,000 Class B operations.\n- Network usage. 19 GB of data transfer to the Americas and EMEA.",
+    "published": "2025-10-16T17:20:00.000Z"
+   },
+   {
+    "url": "https://cloudcostdb.com/gcp/storage/object/standard/",
+    "title": "Google Cloud Storage Standard Pricing — CloudCostDB",
+    "content": "| --- | --- | --- | --- | --- |\n\n...\n\n| asia-northeast2 Osaka | $0.023 | $0.005 $0.000005 per operation | $0.0004 $0.0000004 per operation | — |\n| asia-northeast3 Seoul | $0.023 | $0.005 $0.000005 per operation | $0.0004 $0.0000004 per operation | — |\n| asia-south1 Mumbai | $0.023 | $0.005 $0.000005 per operation | $0.0004 $0.0000004 per operation | — |\n| asia-south2 Delhi | $0.023 | $0.005 $0.000005 per operation | $0.0004 $0.0000004 per operation | — |\n| asia-southeast1 Singapore | $0.020 | $0.005 $0.000005 per operation | $0.0004 $0.0000004 per operation | — |\n| asia-southeast2 Jakarta | $0.023 | $0.005 $0.000005 per operation | $0.0004 $0.0000004 per operation | — |\n| asia-southeast3 Bangkok | $0.021 | $0.005 $0.000005 per operation | $0.0004 $0.0000004 per operation | — |\n| asia-southeast4 Kuala Lumpur | $0.021 | $0.005 $0.000005 per operation | $0.0004 $0.0000004 per operation | — |\n| australia-southeast1 Sydney | $0.023 | $0.005 $0.000005 per operation | $0.0004 $0.0000004 per operation | — |\n| australia-southeast2 Melbourne | $0.023 | $0.005 $0.000005 per operation | $0.0004 $0.0000004 per operation | — |\n| europe-central2 Warsaw | $0.023 | $0.005 $0.000005 per operation | $0.0004 $0.0000004 per operation | — |\n\n...\n\n| europe-southwest1 Madrid | $0.023 | $0.005 $0.000005 per operation | $0.0004 $0.0000004 per operation | — |\n| europe-west1 Belgium | $0.020 | $0.005 $0.000005 per operation | $0.0004 $0.0000004 per operation | — |\n\n...\n\n| europe-west12 Turin | $0.023 | $0.005 $0.000005 per operation | $0.0004 $0.0000004 per operation | — |\n\n...\n\n| us-west8 Phoenix | $0.020 | $0.005 $0.000005 per operation | $0.0004 $0.0000004 per operation | — |\n| southamerica-east1 Sao Paulo | $0.035 | $0.005 $0.000005 per operation | $0.0004 $0.0000004 per operation | — |\n| southamerica-west1 Santiago | $0.030 | $0.005 $0.000005 per operation | $0.0004 $0.0000004 per operation | — |\n| asia1 Tokyo and Osaka | $0.0506 | $0.010 $0.000010 per operation | $0.0004 $0.0000004 per operation | — |\n| eur4 Finland and Netherlands | $0.044 | $0.010 $0.000010 per operation | $0.0004 $0.0000004 per operation | — |\n| eur5 Belgium and London | $0.0473 | $0.010 $0.000010 per operation | $0.0004 $0.0000004 per operation | — |\n| eur7 London and Frankfurt | $0.0506 | $0.010 $0.000010 per operation | $0.0004 $0.0000004 per operation | — |\n| eur8 Frankfurt and Zürich | $0.0528 | $0.010 $0.000010 per operation | $0.0004 $0.0000004 per operation | — |\n| nam4 Iowa and South Carolina | $0.044 | $0.010 $0.000010 per operation | $0.0004"
+   },
+   {
+    "url": "https://storagecalculators.com/google-cloud-storage-calculator/",
+    "title": "Google Cloud Storage Calculator | Storage Calculators",
+    "content": "Google prices Cloud Storage by class and by bucket location type, and the location multiplier is easy to miss because it's ... bucket creation and never shown again. The calculator uses a single US region (us-east1) at Standard's $0.020. The alternatives:"
+   }
+  ]
+ }
+}

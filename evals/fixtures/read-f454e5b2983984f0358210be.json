@@ -1,0 +1,11 @@
+{
+ "kind": "read",
+ "request": {
+  "url": "https://superhuman.com/docs/pricing"
+ },
+ "response": {
+  "finalUrl": "https://superhuman.com/plans/docs",
+  "title": "Superhuman Docs | Pricing & Plans",
+  "markdown": "Superhuman Docs | Pricing & Plans"
+ }
+}

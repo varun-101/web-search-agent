@@ -1,0 +1,41 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "iPhone 18 Pro battery capacity mAh US eSIM 2026 teardown",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.macrumors.com/2026/09/20/ifixit-iphone-18-pro-teardown/",
+    "title": "iFixit Shares iPhone 18 Pro Teardown With Inside Look at New Features - MacRumors",
+    "content": "iFixit today published an iPhone 18 Pro and iPhone 18 Pro Max teardown in both article and video formats, providing a closer look inside the new devices.\n\n The teardown confirms the battery capacities for the eSIM-only models: \n\n- iPhone 18 Pro: 4,288 mAh (+0.8% vs. 4,252 mAh for iPhone 17 Pro) \n- iPhone 18 Pro Max: 5,567 mAh (+9.4% vs. 5,088 mAh for iPhone 17 Pro Max)\n\neSIM-only models of the iPhone 18 Pro and iPhone 18 Pro Max are sold in the U.S., Canada, Mexico, Japan, Saudi Arabia, the United Arab Emirates, Qatar, Oman, Bahrain, and Kuwait. The devices have a SIM card tray in all other countries.\n\nBattery capacities for iPhone 18 Pro models with SIM card trays surfaced previously.",
+    "published": "2026-09-21T03:44:50.000Z"
+   },
+   {
+    "url": "https://www.tomsguide.com/phones/iphones/iphone-18-pro-battery-size-just-revealed-heres-the-official-capacity-from-ifixits-teardown",
+    "title": "iPhone 18 Pro, 18 Pro Max battery size just revealed — here's the official capacity from iFixit's teardown | Tom's Guide",
+    "content": "Apple typically doesn't officially list the battery capacity for its iPhones. On the Apple website the only battery spec listed is \"Up to 45 hours video playback.\"\n\n...\n\nFrom their teardown, iFixit found that the North American i Phone 18 Pro has a battery capacity of 4,288mAh. Compared to the iPhone 17 Pro eSIM version, that's only a 1% increase over last year's 4,252 mAh battery.\n\nIn our iPhone 18 Pro battery tests, that 1% larger battery capacity added an hour of battery life, up to 16 hours and 17 minutes, compared to 15 hours and 17 minutes on the 17 Pro. Of course, those gains are also attributable to the iPhone 18 Pro's new A20 chip, which is more efficient than the A19 chip in last year's model.\n\n...\n\nInterestingly, the iFixit teardown appears to show a different capacity for the U.S. version of the iPhone 18 Pro compared to the EU versions. In Europe, all phones must have a publicly accessible Energy Label which list key details about the device including battery specs.\n\nPer the listing we've seen, iPhone 18 Pro will have a 4,056 mAh battery, while the iPhone 18 Pro Max will offer 5,391 mAh capacity. The EU iPhones will likely come with physical SIM card slots and not eSIMs only. This does mean the EU models could differ somewhat.",
+    "published": "2026-09-18T21:17:21.000Z"
+   },
+   {
+    "url": "https://www.igeeksblog.com/iphone-18-pro-ifixit-teardown-battery-variable-aperture/",
+    "title": "iFixit iPhone 18 Pro teardown shows battery sizes and new variable aperture",
+    "content": "The teardown confirms battery sizes for the eSIM-only models sold in the U.S. and several other countries, gets close to the new variable aperture camera, and flags a repairability issue iFixit hasn’t seen this badly before.\n\n## Battery capacities are official for eSIM models\n\niFixit read the labels directly:\n\n- iPhone 18 Pro (eSIM): 4,288 mAh, 16.76 Wh, up 0.8% from 4,252 mAh on iPhone 17 Pro\n- iPhone 18 Pro Max (eSIM): 5,567 mAh, 21.751 Wh, up 9.4% from 5,088 mAh on iPhone 17 Pro Max\n\nThose numbers apply to eSIM-only units sold in the U.S., Canada, Mexico, Japan, Saudi Arabia, UAE, Qatar, Oman, Bahrain and Kuwait. Models with a physical SIM tray in other regions have smaller cells, as earlier filings suggested. The iPhone 18 Pro still relies on Apple’s own playback claims for real-world battery life, so capacity alone doesn’t tell you how long it lasts.\n\nOnce you get past the display, the battery is actually a bright spot. Apple kept the screwed-in metal battery tray from last year. You remove the tray and battery together with 13 screws and no wrestling with strong adhesive. The cell itself uses electrically releasable adhesive, about 90 seconds at 12 volts, and lifts cleanly."
+   },
+   {
+    "url": "https://www.phonearena.com/news/iphone-18-pro-max-teardown-confirms-its-battery-and-exposes-a-fragile-flaw_id183530",
+    "title": "iPhone 18 Pro Max teardown confirms its battery, and ...",
+    "content": "iFixit, the repair company that has been taking apart new ... Here's what it found inside: \n\n- Battery capacity: the eSIM-only US iPhone 18 Pro carries a 4,288 mAh cell and the Pro Max a 5,567 mAh one, matching the certification leak we covered in July exactly.\n- Battery tray: Apple kept last year's screwed-in metal tray, so there's no stubborn adhesive to fight on the way out.\n- Display frame: the plastic frame around the screen cracked or pulled away on three of the four phones iFixit opened.\n- Main camera: the variable aperture runs on six blades, each about as thin as a human hair, and iFixit calls it as close to unrepairable as it gets.\n- Repairability: both phones score a provisional 7 out of 10, and the frame damage hasn't been counted against them yet.",
+    "published": "2026-09-22T18:51:23.000Z"
+   },
+   {
+    "url": "https://www.fonearena.com/blog/492853/apple-iphone-18-pro-18-pro-max-teardown.html",
+    "title": "Apple iPhone 18 Pro and 18 Pro Max iFixit teardown reveals aperture mechanism, cooling system and more",
+    "content": "The iPhone 18 Pro and Pro Max retain a front-entry repair design. The rear glass can be opened, but the wireless charging coil is the only serviceable component accessible from that side, so battery access requires removing the display.\n\nDuring the teardown, three of the four display panels continued working but had cracked or separated white plastic frames. Since the frame is part of the display assembly, fresh adhesive cannot repair damaged plastic. iFixit notes that adhesive strength, heating technique and differences in the plastic could affect the result, while four teardowns are not enough to establish a failure rate.\n\nOnce the display is removed, the battery and its metal tray can be taken out together without dealing with battery adhesive. The cell remains glued to the tray, but electrically releasable adhesive allowed iFixit to remove it in about 90 seconds at 12 volts.\n\nThe eSIM versions have the following battery capacities:\n\n- iPhone 18 Pro: 16.76 Wh (4,288 mAh)\n- iPhone 18 Pro Max: 21.751 Wh (5,567 mAh)\n\nPhysical SIM models have smaller batteries.",
+    "published": "2026-09-21T10:30:35.000Z"
+   }
+  ]
+ }
+}

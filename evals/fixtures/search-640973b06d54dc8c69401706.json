@@ -1,0 +1,40 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "NYSE stock market holiday calendar November 11 2026 Veterans Day open",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/is-the-stock-market-open-on-veterans-day-153919156.html",
+    "title": "Is the stock market open on Veterans Day?",
+    "content": "The stock market will be open on Wednesday, Nov. 11, on Veterans Day. The bond market and banks are typically closed this day. \n\nIn 2026, the stock market will observe 10 holidays, including two early closings. Many stock market holidays are also federal holidays and banking holidays.\n\n...\n\nThe U.S. stock market's regular hours are 9:30 a.m. to 4 p.m. Eastern time, Monday through Friday. The two major U.S. stock exchanges, the New York Stock Exchange (NYSE) and the Nasdaq, each observe these trading hours. Both stock exchanges are closed on weekends.\n\n...\n\n## Stock market holidays for 2026 \n\nThe NYSE and Nasdaq will observe the following holidays in 2026: \n\n- New Year's Day: Thursday, Jan. 1 \n- Dr. Martin Luther King Jr. Day: Monday, Jan. 19 \n- Washington's Birthday, aka Presidents' Day: Monday, Feb. 16 \n- Good Friday: Friday, April 3 \n- Memorial Day: Monday, May 25 \n- Juneteenth National Independence Day: Friday, June 19 \n- Independence Day (observed): Friday, July 3 \n- Labor Day: Monday, Sept. 7 \n- Thanksgiving Day: Thursday, Nov. 26 \n- Christmas Day: Friday, Dec. 25 \n\nBoth stock exchanges will also close at 1 p.m. Eastern time on these days in 2026: \n\n- Friday, Nov. 27 (the day after Thanksgiving, aka Black Friday) \n- Thursday, Dec. 24 (Christmas Eve)\n\n...\n\nThe stock market is open on the Friday after Thanksgiving, but its trading session closes early at 1 p.m. Eastern time. It's one of two or three days annually that the stock market closes before 4 p.m.\n\n...\n\nIs the market closed on Veterans Day? \n\nVeterans Day isn't a stock market holiday, as both the New York Stock Exchange and Nasdaq are open for regular hours. However, the bond market does close in observance of Veterans Day.",
+    "published": "2026-11-10T13:11:39.000Z"
+   },
+   {
+    "url": "https://www.usatoday.com/story/money/markets/2026/11/10/stock-market-open-closed-veterans-day-2026/92704232007/",
+    "title": "Is the stock market open on Veterans Day? What to know",
+    "content": "Veterans Day is on Wednesday, Nov. 11 and while banks and post offices will be closed on the holiday, the U.S stock market will remain open. Grocery stores, restaurants and retailers will also largely remain open, with numerous restaurant chains offering free meals and discounts for active-duty military personnel and veterans.\n\nThe U.S. bond market, however, will be closed, according to the Securities Industry and Financial Markets Association, and will reopen for regular business on Thursday, Nov. 12.\n\nThe celebration of Veterans Day, a federal holiday, dates back to Nov. 11, 1918, when \"temporary cessation of hostilities,\" or an armistice, between the Allied nations and Germany went into effect on the eleventh hour of the eleventh day of the eleventh month, according to the U.S. Department of Veterans Affairs.\n\n\"For that reason, November 11, 1918, is generally regarded as the end of 'the war to end all wars,'\" according to the government agency's website. Veterans Day continues to",
+    "published": "2026-11-10T13:43:31.000Z"
+   },
+   {
+    "url": "https://www.fidelity.com/learning-center/smart-money/stock-market-holidays",
+    "title": "Stock market holidays 2026",
+    "content": "The NYSE ... ET on the following days.\n\n| Holiday | Date | NYSE | Nasdaq |\n| --- | --- | --- | --- |\n| New Year’s Day | January 1 | Closed | Closed |\n| Martin Luther King, Jr. Day | January 19 | Closed | Closed |\n| Presidents’ Day | February 16 | Closed | Closed |\n| Good Friday | April 3 | Closed | Closed |\n| Memorial Day | May 25 | Closed | Closed |\n| Juneteenth | June 19 | Closed | Closed |\n| Independence Day (observed) | July 3 | Closed | Closed |\n| Labor Day | September 7 | Closed | Closed |\n| Thanksgiving | November 26 | Closed | Closed |\n| Day after Thanksgiving | November 27 | 1:00 p.m. ET close | 1:00 p.m. ET close |\n| Christmas Eve | December 24 | 1:00 p.m. ET close | 1:00 p.m. ET close |\n| Christmas Day | December 25 | Closed | Closed |\n\n...\n\n### Is the stock market open on Veterans Day?\n\nYes, stock markets are open on Veterans Day in 2026. Bond markets and banks, however, are typically closed on Veterans Day.",
+    "published": "2026-01-22T16:00:10.000Z"
+   },
+   {
+    "url": "https://www.aarp.org/money/personal-finance/stock-market-holidays/",
+    "title": "Stock Market Holidays 2026: Are NYSE and Nasdaq Open ...",
+    "content": "The New York Stock Exchange (NYSE) and the Nasdaq Stock Market follow the same holiday schedule. They observe 10 holidays in 2026, but Veterans Day is not among them, and the exchanges will operate normally on Wednesday, Nov. 11.\n\nHere is the 2026 holiday schedule for the NYSE and Nasdaq:\n\n- New Year’s Day: Thursday, Jan. 1\n- Martin Luther King Jr. Day: Monday, Jan. 19\n- Washington’s Birthday: Monday, Feb. 16\n- Good Friday: Friday, April 3\n- Memorial Day: Monday, May 25\n- Juneteenth National Independence Day: Friday, June 19\n- Independence Day: Friday, July 3 (observed)\n- Labor Day: Monday, Sept. 7\n- Thanksgiving: Thursday, Nov. 26\n- Christmas: Friday, Dec. 25\n\nThe exchanges typically operate from 9:30 a.m. to 4 p.m. ET on business days. They will close early, at 1 p.m. ET, on two occasions in 2026: the day after Thanksgiving (Friday, Nov. 27) and Christmas Eve (Thursday, Dec. 24)."
+   },
+   {
+    "url": "https://www.nyse.com/publicdocs/nyse/ICE_NYSE_2026_Yearly_Trading_Calendar.pdf",
+    "title": "2026 TRADING CALENDAR",
+    "content": "S M T W T F S S M T W T F S S M T W T F S S ... 18 19 20 21 ... 29 30 31\n\nExchange Holiday - Market Closed\n\n****Please note when setting a record date DTCC is closed, and therefore is not counted as a settlement date. Early Market Close at 1pm eastern"
+   }
+  ]
+ }
+}

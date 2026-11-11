@@ -1,0 +1,11 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Read current USD Hot LRS data stored per GB month first tier retailPrice effectiveStartDate",
+  "site": "prices.azure.com"
+ },
+ "response": {
+  "provider": "exa",
+  "results": []
+ }
+}

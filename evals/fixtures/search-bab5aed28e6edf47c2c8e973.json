@@ -1,0 +1,38 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "site.coda.io/pricing \"Pro\" \"$12\" \"$15\"",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://superhuman.com/plans/docs",
+    "title": "Superhuman Docs | Pricing & Plans",
+    "content": "## Pro\n\n$12 USD / month\n\n- Unlimited doc size\n- Write, edit, and ask with AI Beta\n- Build AI trackers, pages, and views Beta\n- Create with Claude and more via MCP\n- 30-day version history\n- Hide specific pages\n- Custom icons, branding, domains\n\nIntegrate with:\n\n+46 more\n\nBest value"
+   },
+   {
+    "url": "https://rewindex.com/company/coda/pricing",
+    "title": "Coda pricing: plans and prices · Rewindex",
+    "content": "### Free\n\n- $0 / month Free $0 USD Get Superhuman Free\n\n- $12 per user / month, billed annually · Doc Maker Pro $12 USD / month per Doc Maker , billed annually\n- $15 per user / month, billed monthly · Doc Maker$15 when billed monthly Get Superhuman Pro"
+   },
+   {
+    "url": "https://coworker.ai/blog/coda-pricing",
+    "title": "Coda Pricing in 2026: What You'll Pay | Coworker AI",
+    "content": "## What each tier costs\n\nPricing below is pulled from the live Superhuman Docs plan page, which is where coda.io/pricing now resolves, as of September 2026.\n\n| Tier | Price (billed annually) | Price (billed monthly) | Who it's for |\n| --- | --- | --- | --- |\n| Free | $0 | $0 | Individuals or small teams testing the product |\n| Pro | $12/Doc Maker/month | $15/Doc Maker/month | Small to mid-sized teams needing unlimited doc size and AI features |\n| Business | $33/Doc Maker/month | $40/Doc Maker/month | Teams needing unlimited automations, private folders, and doc locking |\n| Enterprise | Custom | Custom | Orgs needing SSO, SCIM provisioning, audit events, and compliance reports |",
+    "published": "2026-09-30T13:15:00.000Z"
+   },
+   {
+    "url": "https://www.usagepricing.com/blueprint/coda",
+    "title": "Coda (Superhuman Docs) Pricing | UsagePricing",
+    "content": "- Coda's pricing page now redirects to Superhuman's site, reflecting the company's 2026 rebrand to 'Superhuman Docs' following Grammarly's December 2024 acquisition of Coda. Coda's pricing page now redirects to Superhuman's site, reflecting the company's 2026 rebrand to 'Superhuman Docs' following Grammarly's December 2024 acquisition of Coda.\n- Superhuman Docs offers four tiers — Free, Pro, Business, and Enterprise — billed per 'Doc Maker' seat rather than per generic workspace member, a model Coda has used since at least December 2019. Superhuman Docs offers four tiers — Free, Pro, Business, and Enterprise — billed per 'Doc Maker' seat rather than per generic workspace member, a model Coda has used since at least December 2019.\n- Pro and Business list prices rose at the July 2026 rebrand to $15 and $40 per Doc Maker per month respectively, up from roughly $10 and $30, which had held flat for years beforehand; existing customers were grandfathered onto their prior rates. Pro and Business list prices rose at the July 2026 rebrand to $15 and $40 per Doc Maker per month respectively, up from roughly $10 and $30, which had held flat for years beforehand; existing customers were grandfathered onto their prior rates.\n- On the Superhuman Docs pricing page, Pro costs $12 per Doc Maker per month billed annually or $15 billed monthly, and Business costs $33 per Doc Maker per month billed annually or $40 billed monthly. On the Superhuman Docs pricing page, Pro costs $12 per Doc Maker per month billed annually or $15 billed monthly, and Business costs $33 per Doc Maker per month billed annually or $40 billed monthly.\n- Enterprise pricing remains fully custom and quote-based, adding SAML SSO, SCIM provisioning, AI admin controls, audit events, and HIPAA compliance on top of Business. Enterprise pricing remains fully custom and quote-based, adding SAML SSO, SCIM provisioning, AI admin controls, audit events, and HIPAA compliance on top of Business.\n- Superhuman Docs is cross-sold as part of a four-product suite — Docs, Go, Grammarly, and Mail — under the Superhuman brand, which also acquired the data-and-analytics startup Rows in February 2026. Superhuman Docs is cross-sold as part of a four-product suite — Docs, Go, Grammarly, and Mail — under the Superhuman brand, which also acquired the data-and-analytics startup Rows in February 2026.\n\n...\n\n### Superhuman Docs (Individual &\n\n...\n\n| Tier | Price | Included | Key mechanics |\n| --- | --- | --- | --- |\n| Free | $0 | Collaborative docs, connected tables/views/forms, formulas & automations (low quota), limited trials of Docs AI and MCP, 36+ integrations, 1GB attachments per doc, 7-day version history | Entry point for individuals; automations run on a “low quota” |\n| Pro | $12/mo billed annually; $15/mo billed monthly | Everything in Free, plus unlimited doc size, full Docs AI + AI trackers/pages (beta), MCP access, 30-day version history, 5GB attachments per doc, custom icons/branding/domains, daily connector refresh, Grammarly included on annual billing ($15/mo per Maker extra on monthly) | Priced per “Doc Maker” seat; “Everything in Free, plus” upsell framing |"
+   },
+   {
+    "url": "https://apis.io/plans/coda/coda-plans-pricing/",
+    "title": "Coda Pricing & API Plans | APIs.io",
+    "content": "| Plan | Price | Includes | Overage |\n| --- | --- | --- | --- |\n| Free | $0 USD per per Doc Maker | Collaborative docs, Docs AI trial, connected tables/views/forms, formulas and automations | — |\n| Pro | $12 USD / month per per Doc Maker, billed annually | Everything in Free, plus unlimited doc size, AI, 30-day version history | $15 when billed monthly |\n| Business | $33 USD / month per per Doc Maker, billed annually | Everything in Pro, plus databases, unlimited automations and version history | $40 when billed monthly |\n| Enterprise | Custom | Everything in Business, plus SAML SSO, SCIM, governance, HIPAA | — |"
+   }
+  ]
+ }
+}

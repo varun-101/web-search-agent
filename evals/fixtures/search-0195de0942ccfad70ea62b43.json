@@ -1,0 +1,37 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "AWS Lambda pricing eu-central-1 Frankfurt x86 requests GB second price 0.0000166667 free tier 1 million 400000",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://aws.amazon.com/lambda/pricing/",
+    "title": "AWS Lambda Pricing",
+    "content": "Lambda Event Functions are priced based on the number of requests served and the duration your code runs, measured in GB-seconds. You choose the memory allocated to your function and get proportional CPU and resources. The free tier includes one million requests and 400,000 GB-seconds per month.\n\n...\n\nFor simplicity, let’s assume your application processes three million requests per month. The average function execution duration is 120 ms. You have configured your function with 1536 MB of memory, on an x86 based processor. Your charges would be calculated as follows: \n\nMonthly compute charges\n\nThe monthly compute price is $0.0000166667 per GB-s and the free tier provides 400,000 GB-s. Total compute (seconds) = 3 million * 120ms = 360,000 seconds Total compute (GB-s) = 360,000 * 1536MB/1024 MB = 540,000 GB-s Total compute – Free tier compute = monthly billable compute GB- s 540,000 GB-s – 400,000 free tier GB-s = 140,000 GB-s Monthly compute charges = 140,000 * $0.0000166667 = $2.33\n\n...\n\nThe monthly request price is $0.20 per ... Total requests – Free tier requests = monthly billable requests 3 million requests – 1 million free tier requests = 2 million monthly billable requests Monthly request charges = 2M * $0.2/M = $0.40"
+   },
+   {
+    "url": "https://cloud-credits.org/prices/lambda/eu-central-1",
+    "title": "AWS Lambda price in eu-central-1",
+    "content": "# AWS Lambda price in eu-central-1\n\nUpdated 2026-10-19\n\nAWS Lambda in eu-central-1 (EU (Frankfurt)): Requests $ per 1M (x86) $0.20; Compute $/GB-second (x86, first tier) $0.0000166667; Requests $ per 1M (Arm) $0.20; Compute $/GB-second (Arm, first tier) $0.0000133334. Example (10M requests × 200 ms × 512 MB on Arm, before free tier): about $15.33/month.\n\n## eu-central-1 vs us-east-1\n\n| Item | eu-central-1 | us-east-1 | Diff | Source |\n| --- | --- | --- | --- | --- |\n| Requests $ per 1M (x86) | $0.20 | $0.20 | +0% | AWS offer file |\n| Compute $/GB-second (x86, first tier) | $0.0000166667 | $0.0000166667 | +0% | AWS offer file |\n| Requests $ per 1M (Arm) | $0.20 | $0.20 | +0% | AWS offer file |\n| Compute $/GB-second (Arm, first tier) | $0.0000133334 | $0.0000133334 | +0% | AWS offer file |\n\n...\n\nPrices and credit amounts are estimates and may change. Check AWS for current terms."
+   },
+   {
+    "url": "https://cloud-credits.org/prices/lambda",
+    "title": "AWS Lambda pricing in 14 AWS regions",
+    "content": "AWS Lambda in us-east-1: Requests $ per 1M (x86) $0.20; Compute $/GB-second (x86, first tier) $0.0000166667; Requests $ per 1M (Arm) $0.20; Compute $/GB-second (Arm, first tier) $0.0000133334. Example (10M requests × 200 ms × 512 MB on Arm, before free tier): about $15.33/month.\n\n## By region\n\n| Region | Requests $ per 1M (x86) | Compute $/GB-second (x86, first tier) | Requests $ per 1M (Arm) | Compute $/GB-second (Arm, first tier) | Example: 10M requests × 200 ms × 512 MB on Arm, before free tier |\n| --- | --- | --- | --- | --- | --- |\n| us-east-1 | $0.20 | $0.0000166667 | $0.20 | $0.0000133334 | $15.33 |\n| us-east-2 | $0.20 | $0.0000166667 | $0.20 | $0.0000133334 | $15.33 |\n| us-west-2 | $0.20 | $0.0000166667 | $0.20 | $0.0000133334 | $15.33 |\n| eu-central-1 | $0.20 | $0.0000166667 | $0.20 | $0.0000133334 | $15.33 |\n| eu-west-1 | $0.20 | $0.0000166667 | $0.20 | $0.0000133334 | $15.33 |\n| eu-west-2 | $0.20 | $0.0000166667 | $0.20 | $0.0000133334 | $15.33 |\n| eu-north-1 | $0.20 | $0.0000166667 | $0.20 | $0.0000133334 | $15.33 |\n| ap-south-1 | $0.20 | $0.0000166667 | $0.20 | $0.0000133334 | $15.33 |\n| ap-southeast-1 | $0.20 | $0.0000166667 | $0.20 | $0.0000133334 | $15.33 |\n| ap-southeast-2 | $0.20 | $0.0000166667 | $0.20 | $0.0000133334 | $15.33 |\n| ap-northeast-1 | $0.20 | $0.0000166667 | $0.20 | $0.0000133334 | $15.33 |\n| ca-central-1 | $0.20 | $0.0000166667 | $0.20 | $0.0000133334 | $15.33 |\n| sa-east-1 | $0.20 | $0.0000166667 | $0.20 | $0.0000133334 | $15.33 |\n| af-south-1 | $0.27 | $0.0000221 | $0.27 | $0.00001768 | $20.38 |"
+   },
+   {
+    "url": "https://www.eon.io/blog/aws-lambda-pricing",
+    "title": "AWS Lambda Pricing Explained: 2026 Cost Guide + ...",
+    "content": "AWS Lambda pricing starts at $0.20 per million requests and $0.0000166667 per GB-second of compute on x86, after a monthly free tier that never expires. The bill for the running workload actually generated in 2026 sits well above what those two rates suggest.\n\n...\n\nEvery AWS account gets 1 million requests and 400,000 GB-seconds of compute a month with no expiry. That allowance stretches roughly 3.2 million seconds of execution at 128 MB but only 100,000 seconds at 4 GB, which a moderately busy function exhausts in a day. Provisioned-concurrency functions don't qualify; they bill at full rates from the first invocation."
+   },
+   {
+    "url": "https://metronome.com/pricing-index/aws-lambda",
+    "title": "AWS - Lambda",
+    "content": "Pricing Model: Freemium and usage-based with dual-metric structure (requests + duration-based compute) Packaging Model: Pay-per-use consumption model with permanent free tier and automatic volume discounts Credit Model: Permanent monthly free tier: 1M requests + 400,000 GB-seconds (shared across x86 and ARM architectures)\n\n...\n\nPricing Snapshot Tier Price Key Features Rate Limits Context Window x86 $0.20 per 1M requests $0.0000166667 per GB-second 1M requests + 400K GB-seconds free monthly Up to 20% volume discounts at high tiers ARM (Graviton2) $0.20 per 1M requests $0.0000133334 per GB-second (20% lower) Shared free tier pool with x86 Up to 20% volume discounts at high tiers"
+   }
+  ]
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Read abstract conclusions publication date DMS tentative detection vanishes comprehensive models",
+  "site": "aanda.org"
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.aanda.org/articles/aa/abs/2025/12/aa55216-25/aa55216-25.html",
+    "title": "Gas-phase formation routes of dimethyl sulfide in the interstellar medium | Astronomy & Astrophysics (A&A)",
+    "content": "Conclusions. This work does not directly address the potential formation of DMS in the atmospheres of exoplanets. However, it clearly indicates that there are efficient abiotic formation routes of this interesting species. Furthermore, the characterization of the potential energy surface for the CH 3 +CH 3 S radiative association supports the recent suggestion that DMS could be formed via photolysis in exoplanetary atmospheres.",
+    "published": "2025-12-01T21:45:13.000Z"
+   },
+   {
+    "url": "https://www.aanda.org/articles/aa/abs/2016/05/aa28074-16/aa28074-16.html",
+    "title": "",
+    "content": "= 1 ← 0 (including only the AA species). In the microwave region, we analyzed 584 transitions with J ≤ ... ν t = 0 and 18 transitions with J ≤ 5 of the ... state ν t = 1. In the FIR range, ... to the torsional band ν 15 = 1 ← 0 with J ≤ 27 were",
+    "published": "2016-04-25T00:00:00.000Z"
+   },
+   {
+    "url": "https://www.aanda.org/articles/aa/pdf/2025/02/aa52900-24.pdf",
+    "title": "Predicting the detectability of sulphur-bearing molecules in ...",
+    "content": "using a tool that produces synthetic ice spectra, with the aim of studying the ... position of the targeted bands. Despite these obstacles, the detection of H2S in dense clouds – ... (H2S, SO2) would enable us to validate a state-of-the-art approach in"
+   },
+   {
+    "url": "https://www.aanda.org/articles/aa/full_html/2025/08/aa55580-25/aa55580-25.html",
+    "title": "Insufficient evidence for DMS and DMDS in the atmosphere of K2-18 b - From a joint analysis of JWST NIRISS, NIRSpec, and MIRI observations | Astronomy & Astrophysics (A&A)",
+    "content": "| Issue | A&A Volume 700, August 2025 |\n| --- | --- |\n| Article Number | A284 |\n| Number of page(s) | 11 |\n| Section | Planets, planetary systems, and small bodies |\n| DOI | https://doi.org/10.1051/0004-6361/202555580 |\n| Published online | 27 August 2025 |\n\n...\n\nContext. Recent JWST observations of the temperate sub-Neptune K2-18 b have been interpreted as suggestive of a liquid water ocean with possible biological activity. Signatures of dimethyl sulfide (DMS) and dimethyl disulfide (DMDS) have been observed in the near-infrared (using the NIRISS and NIRSpec instruments) and mid-infrared (using MIRI). However, the statistical significance of the atmospheric imprints of these potential biomarkers has yet to be quantified from a joint analysis of the entire planet spectrum.\n\nAims. We aim to test the robustness of the proposed DMS and DMDS detections by simultaneously modeling the NIRISS and NIRSpec observations jointly with the MIRI spectrum for the first time, considering different data reductions and modeling choices.\n\nMethods. We used three well-tested pipelines to re-reduce the JWST observations and two retrieval codes to analyze the resulting transmission spectra as well as previously published data.\n\nResults. The first joint analysis of the panchromatic (0.6–12 µm) spectrum of K2-18 b finds insufficient evidence for the presence of DMS and/or DMDS in the atmosphere of the planet. We find that any marginal preferences are the result of limiting the number of molecules considered in the model and oversensitivity to small changes between data reductions.\n\nConclusions. Our results confirm that there is no statistical significance for DMS or DMDS in K2-18 b’s atmosphere. While previous works have demonstrated this on MIRI or NIRISS/NIRSpec observations alone, our analysis of the full, panchromatic transmission spectrum does not support claims of potential biomarkers. Using the best-fitting model including DMS and/or DMDS on the published data, we estimate that ∼25 more MIRI transits would be needed for a 3σ rejection of a flat line relative to DMS and/or DMDS features in the planet’s mid-infrared transmission spectrum.\n\n...\n\nK2-18 b is undoubtedly one of the most promising planets for interior, atmosphere, and habitability studies of a sub-Neptune in the JWST era. Transmission spectroscopy robustly finds CH 4 in its hydrogen-rich atmosphere, but the presence of other species is still under debate. In this letter, we provide an independent analysis at both the data reduction and atmospheric modeling levels, leveraging the full wavelength coverage (0.6–12 µm) publicly available for this planet for the first time. We can reproduce the abundances reported by M23 for CH 4 and CO 2 using either the previous spectrum or our independent reductions, although the exact abundance of CO 2 is influenced by the specific pipeline used. DMS and/or DMDS are not detected robustly across different data reductions or molecules included in the baseline model, consistent with the results from P-C25 for NIRISS/NIRSpec when adding instrumental offsets and Welbanks et al. (2025) for MIRI.\n\n...\n\nThe clear",
+    "published": "2025-08-01T11:23:48.000Z"
+   },
+   {
+    "url": "https://www.aanda.org/articles/aa/abs/2025/08/aa55580-25/aa55580-25.html",
+    "title": "Insufficient evidence for DMS and DMDS in the atmosphere of K2-18 b - From a joint analysis of JWST NIRISS, NIRSpec, and MIRI observations | Astronomy & Astrophysics (A&A)",
+    "content": "Results. The first joint analysis of the panchromatic (0.6–12 µm) spectrum of K2-18 b finds insufficient evidence for the presence of DMS and/or DMDS in the atmosphere of the planet. We find that any marginal preferences are the result of limiting the number of molecules considered in the model and oversensitivity to small changes between data reductions.\n\nConclusions. Our results confirm that there is no statistical significance for DMS or DMDS in K2-18 b’s atmosphere. While previous works have demonstrated this on MIRI or NIRISS/NIRSpec observations alone, our analysis of the full, panchromatic transmission spectrum does not support claims of potential biomarkers. Using the best-fitting model including DMS and/or DMDS on the published data, we estimate that ∼25 more MIRI transits would be needed for a 3σ rejection of a flat line relative to DMS and/or DMDS features in the planet’s mid-infrared transmission spectrum.",
+    "published": "2025-08-01T05:36:28.000Z"
+   }
+  ]
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "site.nice.org.uk hypertension home blood pressure average 135/85 diagnosis HBPM",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.nice.org.uk/guidance/NG136/chapter/recommendations",
+    "title": "Recommendations | Hypertension in adults: diagnosis and management | Guidance | NICE",
+    "content": "If ABPM is unsuitable or the person is unable to tolerate it, offer home blood pressure monitoring (HBPM) to confirm the diagnosis of hypertension.\n\n...\n\n#### 1.2.7\n\nWhen using HBPM to confirm a diagnosis of hypertension, ensure that:\n\n- for each blood pressure recording, 2 consecutive measurements are taken, at least 1 minute apart and with the person seated and\n- blood pressure is recorded twice daily, ideally in the morning and evening and\n- blood pressure recording continues for at least 4 days, ideally for 7 days. Discard the measurements taken on the first day and use the average value of all the remaining measurements to confirm a diagnosis of hypertension. [2011]\n\n#### 1.2.8\n\nConfirm diagnosis of hypertension in people with a:\n\n- clinic blood pressure of 140/90 mmHg or higher and\n- ABPM daytime average or HBPM average of 135/85 mmHg or higher. [2019]"
+   },
+   {
+    "url": "https://cks.nice.org.uk/topics/hypertension/diagnosis/diagnosis/",
+    "title": "Hypertension - Diagnosis - CKS - NICE",
+    "content": "- - Measure blood pressure in both arms using an appropriate cuff size.\n- - If the difference in readings between arms is more than 15 mmHg, repeat the measurements.\n- If the difference in readings between arms\n\n...\n\n- Be aware that automated devices may not measure blood pressure accurately if there is pulse irregularity (for example due to atrial fibrillation).\n\n...\n\n- If pulse irregularity is present, measure blood pressure manually using direct auscultation over the brachial artery.\n- In people with symptoms of postural hypotension (falls or postural dizziness), measure blood pressure with the person either supine or seated.\n- - Measure blood pressure again with the person standing for at least 1 minute before measurement.\n- If the systolic blood pressure falls by 20 mmHg or more when the person is standing, measure subsequent blood pressures with the person standing.\n- If blood pressure measured in the clinic is 140/90 mmHg or higher, take a second measurement during the consultation.\n- - If the second measurement is substantially different from the first, take a third measurement.\n- Record the lower of the last two measurements as the clinic blood pressure.\n- If the person's blood pressure is between 140/90 mmHg and 180/120 mmHg, offer ambulatory blood pressure monitoring (ABPM) to confirm the diagnosis of hypertension. If ABPM is unsuitable or the person is unable to tolerate it, offer home blood pressure monitoring (HBPM).\n- - When using ABPM, ensure that at least two measurements per hour are taken during the person's usual waking hours (for example between 8 am and 10 pm). Use the average value of at least 14 measurements taken during the person's usual waking hours to confirm a diagnosis of hypertension.\n- When using HBPM, ensure that:\n- - For each blood pressure recording, two consecutive measurements are taken, at least 1 minute apart and with the person seated.\n- Blood pressure is recorded twice daily, ideally in the morning and evening.\n- Blood pressure recording continues for at least 4 days, ideally for 7 days — discard the measurements taken on the first day and use the average value of all the remaining measurements to confirm the diagnosis of hypertension.\n- While waiting for confirmation of a diagnosis of hypertension, carry out investigations for target organ damage, followed by a formal assessment of the person's cardiovascular risk. For more information, see the section on Investigations.\n- If the person's blood pressure is 180/120 mmHg or higher:\n\n...\n\n- - Signs of retinal haemorrhage and/or papilloedema (accelerated hypertension).\n\n...\n\n- - Classify the severity of confirmed hypertension using the following criteria:\n\n...\n\n- - There is evidence of target organ damage, consider carrying out investigations for alternative causes of the target organ damage. For information on investigations, see CKS topics on Chronic kidney disease and Heart failure - chronic.\n- There is no evidence of target organ damage, measure the person's clinic blood pressure at least every 5 years subsequently, and consider measuring it more frequently if the person's clinic blood pressure is close to 140/90 mmHg."
+   },
+   {
+    "url": "https://bnf.nice.org.uk/treatment-summaries/hypertension/",
+    "title": "Hypertension | Treatment summaries | BNF | NICE",
+    "content": "Stage 1 hypertension is a clinic blood pressure ranging from 140/90 mmHg to 159/99 mmHg, and an ambulatory daytime average or home blood pressure average ranging from 135/85 mmHg to 149/94 mmHg.\n...\nblood pressure should be maintained at below 135/85 mmHg"
+   },
+   {
+    "url": "https://www.nice.org.uk/guidance/ng136/resources/visual-summary-pdf-6899919517",
+    "title": "NG136 Hypertension in adults: Visual summary 23/07/2025",
+    "content": "HBPM Use clinical judgement for people with frailty or multimorbidity\n\nUnder 135/85 mmHg\n\n• Check BP at least every 5 years and more often if clinic BP close to 140/90 mmHg \n• If evidence of target organ damage, consider alternative causes \n\n135/85 to"
+   },
+   {
+    "url": "https://www.nice.org.uk/guidance/ng136/chapter/Terms-used-in-this-guideline",
+    "title": "Terms used in this guideline | Hypertension in adults: diagnosis and management | Guidance | NICE",
+    "content": "daytime ambulatory blood pressure monitoring (ABPM) or\n...\n### Stage 1 hypertension\n\nClinic blood pressure ranging from 140/90 mmHg to 159/99 mmHg and subsequent ABPM daytime average or HBPM average blood pressure ranging from 135/85 mmHg to 149/94 mmHg."
+   }
+  ]
+ }
+}

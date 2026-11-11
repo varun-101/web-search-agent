@@ -1,0 +1,39 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Ontario HST rate 13% digital subscription",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/digital-economy-gsthst/charge-collect/cross-border.html",
+    "title": "Cross-border digital products or services: GST/HST for digital-economy businesses - Canada.ca",
+    "content": "## What rate to charge\n\nThe rate of tax that you are required to charge and collect on specified supplies depends on whether they are made in Canada, and if so, whether they are made in a participating province.\n\nTaxable supplies that are made in Canada are subject to the GST at a rate of 5%, or the HST at the harmonized rate if they are made in a participating province.\n\nThe current rates of tax are:\n\n- 5% (GST) in Alberta, British Columbia, Manitoba, Northwest Territories, Nunavut, Quebec, Saskatchewan, and Yukon\n- 13% (HST) in Ontario\n- 14% (HST) in Nova Scotia\n- 15% (HST) in New Brunswick, Newfoundland and Labrador, and Prince Edward Island\n\n...\n\n- Example 1 - Digital supply\n\nA non-resident vendor who is registered under the simplified GST/HST regime supplies subscription-based online music streaming directly to consumers around the world, including Canada.\n\nThe vendor supplies a monthly subscription to a particular consumer. In the ordinary course of its operations, the vendor only obtains a billing address and payment-related information from the consumer when the subscription is purchased. These two pieces of information reasonably indicate a geographic location in Ontario, Canada. The vendor does not obtain any other information about the consumer in connection with the supply, including any evidence that the consumer is registered for the GST/HST under the normal GST/HST regime.\n\nIn this case, the consumer is considered to have a usual place of residence that is in Ontario, Canada. The vendor is therefore required to charge and collect HST at the rate of 13% in respect of the supply of the monthly subscription since it is made in the participating province of Ontario.\n\n...\n\nIt is also considered to be situated in the participating province of Ontario since the vendor has obtained one or more participating province indicators in respect of the customer that are both situated in the same province and has not obtained any other information"
+   },
+   {
+    "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-specific-situations/e-commerce.html",
+    "title": "GST/HST and e-commerce - Canada.ca",
+    "content": "The rate of tax you need to charge for a supply is based on the place of supply. If the supply is made in a participating province, you must charge the HST that applies for that province. If the supply is made in a non-participating province, you must charge the GST of 5%. For the tax rate of each province, see GST/HST calculator (and rates).\n\n...\n\nThe licence states that the company and employees can use the software only from the office in Ontario. The Canadian rights for the software can only be used in Ontario and since Ontario is a participating province, your supply is subject to HST (at the rate of 13%)."
+   },
+   {
+    "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html",
+    "title": "GST/HST calculator (and rates) - Canada.ca",
+    "content": "The following table provides the GST/HST rates by province. It also provides the PST for provinces that don't participate in the HST.\n\nThe rate you will charge depends on the following factors:\n\n- Type of supply – learn about what supplies are taxable or not\n- Where the supply is made – learn about the place-of-supply rules\n- Who the supply is made to – learn about who may not pay the GST/HST\n\nGST/HST and PST rates\n\n| Province | GST and HST | PST |\n| --- | --- | --- |\n| Alberta | 5% | 0% |\n| British Columbia | 5% | 7% |\n| Manitoba | 5% | 7% |\n| New Brunswick | 15% | N/A |\n| Newfoundland and Labrador | 15% | N/A |\n| Northwest Territories | 5% | 0% |\n| Nova Scotia | 14% | N/A |\n| Nunavut | 5% | 0% |\n| Ontario | 13% | N/A |\n| Quebec | 5% | 9.975% |\n| Prince Edward Island | 15% | N/A |\n| Saskatchewan | 5% | 6% |\n| Yukon | 5% | 0% |"
+   },
+   {
+    "url": "https://treadstonelaw.ca/articles/hst-digital-products-subscriptions-ontario-customers",
+    "title": "HST on Digital Products Ontario | Treadstone Law",
+    "content": "GST/HST applies at the rate tied to where the supply is considered to be made — commonly linked to the customer's location for many types of supplies. In practice, a registered Ontario business selling to a customer in Ontario generally charges the HST rate, while a sale to a customer in a different province can be subject to that province's applicable rate instead. Getting the customer's location right — through billing address, payment information, or another reasonable indicator — matters for charging the correct rate.",
+    "published": "2026-08-01T06:32:35.000Z"
+   },
+   {
+    "url": "https://www.afternoon.co/blog/canadian-sales-tax-guide-for-US-SaaS-companies",
+    "title": "Canadian Sales Tax Guide for US SaaS Companies (2026 Update) | Afternoon Blog",
+    "content": "## GST and HST rates by province\n\nThe following rates apply to ordinary taxable supplies once you have determined the place of supply and that you must collect. They do not include separate provincial sales taxes or QST.\n\n| Place of supply | GST or HST |\n| --- | --- |\n| Ontario | 13% HST |\n| Nova Scotia | 14% HST |\n| New Brunswick, Newfoundland and Labrador, Prince Edward Island | 15% HST |\n| Alberta, British Columbia, Manitoba, Québec, Saskatchewan, Northwest Territories, Nunavut, Yukon | 5% GST |\n\nUse the CRA rate and place-of-supply guidance. A province's 5% GST entry does not mean that no provincial tax applies. Follow the digital-economy location rules for your regime and retain the location evidence; do not choose a rate from your US office address.\n\nFor an illustrative taxable CAD $100 subscription before tax, an Ontario supply has CAD $13 HST and a CAD $113 total. An Alberta supply has CAD $5 GST and a CAD $105 total. These examples assume collection is required and no exemption or other adjustment applies.",
+    "published": "2026-01-15T08:03:33.000Z"
+   }
+  ]
+ }
+}

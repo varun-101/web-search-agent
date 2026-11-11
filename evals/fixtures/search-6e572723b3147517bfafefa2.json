@@ -1,0 +1,37 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Current maker billing and pricing figures Pro",
+  "site": "help.coda.io"
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://help.coda.io/hc/en-us/articles/39555725230989-Billing-and-pricing-basics",
+    "title": "Billing and pricing basics – Coda",
+    "content": "With Coda’s unique Maker billing model, we only charge for Doc Makers in paid workspaces. Editors and viewers are entirely free!\n\n...\n\n- Free - Choose this plan if you're just getting started on Coda. You'll be able to share docs with as many people as you like, and even keep your docs organized with folders. Personal docs won’t have any size or object limits. And if you outgrow the Free plan, you can easily upgrade down the line.\n- Pro - This plan is ideal if you plan on building large docs, but won't be working actively with a team. You'll have no cap on the doc size and access to more automations and Packs.\n- Team - The key is in the name - if you're planning on collaborating with a team, select this option. You'll get more automations and Packs, and doc protection features for added control.\n- Enterprise - Choose this plan if you're planning on rolling out Coda across multiple teams or departments. With increased scalability (through SSO), hands-on support, and additional admin controls, this plan allows you to get the most out of Coda. We'll help you find the custom fit for your situation.\n\n...\n\nHow much does each pricing plan cost?\n\nWith our Maker billing model, you only pay for Doc Makers in your workspace. Each pricing plan (Free, Pro, Team, and Enterprise) has a different cost per Doc Maker. To see the cost per Doc Maker, head to our pricing page.\n\n...\n\nWhen will I get billed for my workspaces?\n\nFor our Pro and Team tiers: When you sign up for a new plan, you will be billed up front for all the Doc Makers in your workspace. If you add a new paid user to your workspace (or upgrade an existing one), we'll prorate them for the remainder of your billing cycle. On the annual plan, you will be charged monthly for these additional membership changes, with prorations applied for the remainder of the billing year."
+   },
+   {
+    "url": "https://help.coda.io/hc/en-us/articles/39555796209165-Upgrade-your-Coda-workspace",
+    "title": "Upgrade your Coda workspace – Coda",
+    "content": "- If you select annual, you'll get a 15% discount on the monthly rate, and you will pay for the whole year.\n3.\n\n...\n\nWith Coda, you only pay for Doc Makers. So when a Doc Maker is added or removed from your workspace (or downgraded to an editor), your bill is affected. Workspace admins can control how Doc Makers are added via their workspace settings. Check out this article to learn more.\n\nAs soon as they are added, you'll start paying for the Doc Maker, prorated based on when they joined the workspace. For annual plans, you'll get the bill for Doc Maker additions on a monthly basis and monthly plans will get charged in their next monthly cycle.\n\nIf you demote a Doc Maker to an editor (or remove the Doc Maker from your workspace), you will see a prorated credit that is equal to the amount of time the user was no longer a Doc Maker in your billing cycle.\n\n...\n\nWhen you sign up for a new plan, you will be billed up front for all the Doc Makers in your workspace. ... On the"
+   },
+   {
+    "url": "https://help.coda.io/hc/en-us/articles/39555943452685-Manage-Doc-Makers-in-your-workspace",
+    "title": "Manage Doc Makers in your workspace – Coda",
+    "content": "At the end of each billing cycle, you will be billed for the workspace based on how many Doc Makers there are. Any changes to the number of Doc Makers in the workspace mid-cycle are automatically prorated in the next month.\n\nIf you’re on the annual plan, you'll pay for the prorated remainder of the year sometime in the next month after adding a new Doc Maker."
+   },
+   {
+    "url": "https://help.coda.io/hc/en-us/articles/39555859321357-Coda-AI-credits",
+    "title": "Coda AI credits – Coda",
+    "content": "## How many credits do I get?\n\nCoda AI is included for all Doc Makers in paid plans, based on an allotted number of AI credits. Depending on which Coda plan your workspace is subscribed to (Pro, Team, or Enterprise), you’ll receive a certain number of credits per Doc Maker per month. The monthly credits per Doc Maker are as follows:\n\n- Pro: 2000 credits per Doc Maker\n- Team: 6000 credits per Doc Maker\n- Enterprise: 12000 credits per Doc Maker\n\nYour workspace’s total credits are therefore based on the number of Doc Makers. These credits are pooled for your workspace, and Doc Makers collectively pull from this total amount as they use Coda AI. For example, if you are on a Team Plan and have 4 Doc Makers, your workspace has 6,000 * 4 = 24,000 credits per month, which is shared across all Doc Makers. Learn about monitoring credit usage per Doc Maker in this article.\n\n...\n\nAlternatively, you can purchase more AI credits. These credit options include:\n\n1. 2,000 additional credits per Doc Maker for $2 per month\n2. 6,000 additional credits per Doc Maker for $6 per month\n3. Unlimited AI for $12 per Doc Maker per month\n\nNote that the above costs are per Doc Maker in your workspace. So if you have 10 Doc Makers in your workspace and go for option #1, you’ll be paying an additional $2 * 10 = $20 per month. Since AI credits are pooled for a workspace, you cannot buy additional credits for only some Doc Makers and not for others."
+   },
+   {
+    "url": "https://help.coda.io/hc/en-us/articles/40685056076685-What-s-changing-Grammarly-becomes-Superhuman",
+    "title": "What's changing: Grammarly becomes Superhuman – Coda",
+    "content": "### Are there changes to Maker Billing?\n\nFor Coda users and customers, there are no changes to maker billing. Maker billing continues to work exactly as it does today.\n\n Note: The new Superhuman bundle (which includes Go, Mail, Grammarly, and Coda) is priced per seat, not per maker. Paid Superhuman subscribers will have access to a paid (Doc Maker) seat in Coda."
+   }
+  ]
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Current ETIAS launch status November 2026 applications opening date fee exemptions under 18 over 70 transitional period",
+  "site": "travel-europe.europa.eu"
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://travel-europe.europa.eu/etias/faq",
+    "title": "ETIAS - Frequently asked questions",
+    "content": "ETIAS is currently not in operation and no applications for travel authorisations are collected at this point. The European Union will inform about the specific date for the start of ETIAS several months prior to its launch.\n\n...\n\nWhen does ETIAS enter into force?\n\nThe European Travel Information and Authorisation System (ETIAS) is currently not in operation and no applications for travel authorisations are collected at this point.\n\nThe European Union will inform about the specific date for the start of ETIAS several months prior to its launch.\n\nWhere do I apply for my ETIAS travel authorisation?\n\nETIAS is currently not in operation, so no applications are being collected and no action is required from travellers at this point. Once ETIAS starts, you will be able to submit your application using this official ETIAS website or via the official ETIAS mobile app.\n\n...\n\nYou can apply for an ETIAS travel authorisation yourself by filling in and submitting an application, or you\n\n...\n\n### Fees and Payment \n\nHow much does the ETIAS application cost?\n\nWhen applying using this official ETIAS website, you will be charged a fee of EUR 20. Applicants who are under 18 or over 70 years of age are exempt from this payment. You are also exempt if you are a family member of an EU national and you fulfil the conditions to qualify for family member status."
+   },
+   {
+    "url": "https://travel-europe.europa.eu/etias/ltr/about-etias/news-corner/ETIAS-will-cost-EUR-20",
+    "title": "ETIAS will cost EUR 20",
+    "content": "The application fee for an ETIAS travel authorisation will increase to EUR 20 from the previous EUR 7, following an adjustment put forward by the European Commission. This increase aims to cover the operational costs of the European Travel Information and Authorisation System (ETIAS), taking into account the rise in inflation since the previous fee was set and the increased functionalities of the system. It will also bring the fee in line with other similar travel authorisation programmes, such as the UK ETA and the US ESTA.\n\nStarting from the last quarter of 2026, visa-exempt travellers will be required to apply for an ETIAS travel authorisation to travel to these 30 European countries. You will need to fill out and pay for an online application before your trip using the official ETIAS website or the mobile app. Certain applicants, including those under 18 or over 70, will be exempt from paying the fee.\n\nThe new fee adopted by the European Commission will now undergo the two-month review period of the Council and the European Parliament (renewable once)."
+   },
+   {
+    "url": "https://travel-europe.europa.eu/etias/how-to-apply/what-you-need-to-apply",
+    "title": "What you need to apply - ETIAS",
+    "content": "ETIAS is currently not in operation and no applications for travel authorisations are collected at this point. The European Union will inform about the specific date for the start of ETIAS several months prior to its launch.\n\n...\n\nApplications for minors (under 18 years of age) have to be submitted by a person exercising permanent or temporary parental authority or legal guardianship.\n\n## Application fee \n\nYou will need a payment card to cover the EUR 20 fee. You can use a variety of online payment options to pay the fee.\n\nApplicants who are under 18 or above 70 years of age are exempt from this payment. You are also exempt if you are a family member of an EU national and you fulfil the conditions to qualify for family member status."
+   },
+   {
+    "url": "https://travel-europe.europa.eu/etias/about-etias/news-corner.html",
+    "title": "News corner - ETIAS",
+    "content": "Starting from the last quarter of this year, nationals of the United Kingdom will be required to have an ETIAS travel authorisation when travelling to Europe.\n\n...\n\nETIAS will cost EUR 20\n\nThe application fee for an ETIAS travel authorisation will increase to EUR 20 from the previous EUR 7, following an adjustment put forward by the European Commission.\n\nFlying to Europe with ETIAS\n\nStarting in the last quarter of 2026, ETIAS is a new requirement for travellers who do not need a visa to visit Europe. Find out how this will affect you when travelling by air.\n\nRevised timeline for the EES and ETIAS\n\nOn 5 March, EU Home Affairs Ministers endorsed a revised timeline for the implementation of the Entry/Exit System (EES) and the European Travel Information and Authorisation System (ETIAS). ETIAS is expected to become operational in the last quarter of 2026."
+   },
+   {
+    "url": "https://travel-europe.europa.eu/etias/ltr/about-etias/news-corner/revised-timeline-ees-and-etias",
+    "title": "Revised timeline for the EES and ETIAS - ETIAS",
+    "content": "On 5 March, EU Home Affairs Ministers endorsed a revised timeline for the implementation of the Entry/Exit System (EES) and the European Travel Information and Authorisation System (ETIAS).\n\nAfter the EES becomes operational first in October 2025, ETIAS is expected to follow in the last quarter of 2026.\n\nETIAS is the new travel authorisation requirement for nationals of 59 visa-exempt countries and territories around the world. It will be mandatory to enter to 30 European countries for a short stay of up to 90 days within a 180-day period. Similar entry requirements for visa-free nationals are currently in place in the United States, Canada, and the United Kingdom, among other countries.\n\n## What will happen next \n\nThe specific date for the launch of ETIAS will be announced later by the European Commission and published on this website. The start of ETIAS will be followed by transitional and grace periods, which will last for at least 12 months."
+   }
+  ]
+ }
+}

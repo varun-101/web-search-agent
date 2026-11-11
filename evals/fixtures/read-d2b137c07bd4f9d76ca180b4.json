@@ -1,0 +1,11 @@
+{
+ "kind": "read",
+ "request": {
+  "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026"
+ },
+ "response": {
+  "finalUrl": "https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026",
+  "title": "Consumer price inflation, UK: October 2026 - Office for National Statistics",
+  "markdown": "Consumer price inflation, UK: October 2026 - Office for National Statistics           \n\nRelease\n\n# Consumer price inflation, UK: October 2026 \n\nRelease date: 18 November 2026 7:00am\n\nImportant information:\n\nThis release is not yet published\n\n## Summary\n\nPrice indices percentage changes and weights for the different measures of consumer price inflation.\n\n## About the data\n\n## Accredited Official Statistics \n\nThese are accredited official statistics. They have been independently reviewed by the Office for Statistics Regulation (OSR) and found to comply with the standards of trustworthiness, quality and value in the Code of Practice for Statistics. This broadly means that the statistics:\n\n-   meet user needs\n-   are presented clearly and accessibly\n-   are produced using appropriate data and sound methods\n-   are managed impartially and objectively in the public interest"
+ }
+}

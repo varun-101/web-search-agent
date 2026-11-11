@@ -1,0 +1,11 @@
+{
+ "kind": "read",
+ "request": {
+  "url": "https://coda.io/pricing"
+ },
+ "response": {
+  "finalUrl": "https://superhuman.com/plans/docs?source=coda.io",
+  "title": "Superhuman Docs | Pricing & Plans",
+  "markdown": "Superhuman Docs | Pricing & Plans"
+ }
+}

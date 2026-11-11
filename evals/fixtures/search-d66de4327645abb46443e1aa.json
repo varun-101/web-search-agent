@@ -1,0 +1,39 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Krakow Poland weather forecast 21 22 23 24 November 2026",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://exa.ai/library/weather/krakow-lesser-poland-voivodeship-poland?latitude=50.0643&longitude=19.9237&date=2026-11-21",
+    "title": "Krakow, Lesser Poland Voivodeship, Poland Weather Forecast",
+    "content": "# 4-Day Forecast for Krakow, Lesser Poland Voivodeship, Poland - November 21-24, 2026\n\n| Day | Conditions | High | Low | Rain % | Precip | Wind |\n|:----|:-----------|-----:|----:|-------:|-------:|-----:|\n| Sat 21 | Light drizzle | 41°F | 32°F | 24% | 1.8mm | 13 mph W |\n| Sun 22 | Light drizzle | 45°F | 30°F | 20% | 0.4mm | 6 mph S |\n| Mon 23 | Light drizzle | 43°F | 35°F | 24% | 0.2mm | 13 mph W |\n| Tue 24 | Overcast | 47°F | 33°F | 27% | 0mm | 6 mph SSW |",
+    "published": "2026-11-11T17:23:25.400Z"
+   },
+   {
+    "url": "https://www.timeanddate.com/weather/poland/krakow/ext",
+    "title": "Kraków, Poland 14 day weather forecast",
+    "content": "| | Conditions | | | Comfort | | | | Precipitation | | Sun | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Day | | Temperature | Weather | Feels Like | Wind | | Humidity | Chance | Amount | UV | Sunrise | Sunset |\n| Wed Nov 11 | | 44 / 34 °F | Snow changing to rain. Overcast. | 40 °F | 4 mph | ↑ | 75% | 48% | 0.19\" | 0 (Low) | 6:46 am | 4:01 pm |\n| Thu Nov 12 | | 56 / 39 °F | Sprinkles. Overcast. | 54 °F | 2 mph | ↑ | 81% | 46% | 0.08\" | 0 (Low) | 6:48 am | 4:00 pm |\n| Fri Nov 13 | | 44 / 37 °F | Rain. Overcast. | 32 °F | 15 mph | ↑ | 77% | 89% | 0.52\" | 0 (Low) | 6:49 am | 3:58 pm |\n| Sat Nov 14 | | 43 / 29 °F | Sprinkles. Overcast. | 36 °F | 9 mph | ↑ | 75% | 38% | 0.06\" | 0 (Low) | 6:51 am | 3:57 pm |\n| Sun Nov 15 | | 45 / 21 °F | Sunny. | 41 °F | 3 mph | ↑ | 68% | 0% | 0.00\" | 0 (Low) | 6:53 am | 3:56 pm |\n| Mon Nov 16 | | 48 / 23 °F | Overcast. | 46 °F | 3 mph | ↑ | 74% | 0% | 0.00\" | 0 (Low) | 6:54 am | 3:54 pm |\n| Tue Nov 17 | | 50 / 36 °F | Sprinkles late. Overcast. | 46 °F | 4 mph | ↑ | 85% | 42% | 0.08\" | 0 (Low) | 6:56 am | 3:53 pm |\n| Wed Nov 18 | | 57 / 49 °F | Sprinkles. Mostly cloudy. | 50 °F | 19 mph | ↑ | 69% | 59% | 0.12\" | 0 (Low) | 6:57 am | 3:52 pm |\n| Thu Nov 19 | | 52 / 46 °F | Sprinkles early. Morning clouds. | 46 °F | 18 mph | ↑ | 64% | 50% | 0.03\" | 0 (Low) | 6:59 am | 3:51 pm |\n| Fri Nov 20 | | 50 / 41 °F | Afternoon clouds. | 43 °F | 13 mph | ↑ | 70% | 6% | 0.00\" | 0 (Low) | 7:00 am | 3:50 pm |\n| Sat Nov 21 | | 50 / 40 °F | Sprinkles. Overcast. | 49 °F | 2 mph | ↑ | 87% | 65% | 0.10\" | 0 (Low) | 7:02 am | 3:49 pm |\n| Sun Nov 22 | | 49 / 41 °F | Cloudy. | 48 °F | 3 mph | ↑ | 84% | 60% | 0.04\" | 0 (Low) | 7:04 am | 3:48 pm |\n| Mon Nov 23 | | 49 / 41 °F | Rain. Overcast. | 47 °F | 3 mph | ↑ | 95% | 69% | 0.34\" | 0 (Low) | 7:05 am | 3:47 pm |\n| Tue Nov 24 | | 47 / 39 °F | Rain. Overcast. | 43 °F | 9 mph | ↑ | 91% | 71% | 0.42\" | 0 (Low) | 7:07 am | 3:46 pm |\n| Wed Nov 25 | | 48 / 40 °F | Sprinkles. Overcast. | 42 °F | 13 mph | ↑ | 75% | 64% | 0.05\" | 0 (Low) | 7:08 am | 3:45 pm |\n| * Updated Wednesday, November 11, 2026 10:23:55 am Kraków time - Weather by CustomWeather, © 2026 | | | | | | | | | | | | |"
+   },
+   {
+    "url": "https://windbornesystems.com/weather/poland/krakow/",
+    "title": "Kraków, Lesser Poland Weather Forecast | WindBorne Systems",
+    "content": "| Day There is a low chance of drizzle throughout the day. ... Night There is a low chance of drizzle throughout the night. Temperatures will range from 36°F to 44°F, feeling as cold as 29°F. ... There is a low chance of drizzle throughout the night. Temperatures will range from 2°C to 7°C, feeling as cold as -2°C. ... | | | | | | | |\n| | Show Saturday forecast details Saturday Nov 21 | 42°F 6°C Feels 36°F 2°C | 36°F 2°C Feels 29°F-2°C | 0.09 in 2.3 mm· 38% | 72% | Medium chance of drizzle | W 11 mph 17 km/h |\n| Day There is a medium chance of drizzle throughout the day. ... Night There is ... Mostly cloudy, with a breeze from the W at 10–11 mph.\n\n...\n\n| | Show Sunday forecast details Sunday Nov 22 | 41°F 5°C Feels 35°F 2°C | 33°F 1°C Feels 26°F-3°C | 0.07 in 1.8 mm· 30% | 72% | Low chance of drizzle | W 9 mph 14 km/h |\n| Day There is a low chance of drizzle throughout the day. ... Mostly cloudy, with a breeze from the WSW at 8–9 mph.\n\n...\n\n| | Show Monday forecast details Monday Nov 23 | 41°F 5°C Feels 35°F 2°C | 33°F 0°C Feels 26°F-3°C | 0.07 in 1.8 mm· 27% | 77% | Low chance of drizzle | WSW 8 mph 13 km/h |\n| Day There is a low chance of drizzle throughout the day. ... Mostly cloudy, with a breeze from the WSW at 9 mph. There is a low chance of drizzle throughout the day. ... Mostly cloudy, with a breeze from the WSW at 14 km/h. Night There is a low chance of drizzle throughout the night. ... Mostly cloudy, with a breeze from the WSW at 8–9 mph. There is a low chance of drizzle throughout the night.\n\n...\n\n| | Show Tuesday forecast details Tuesday Nov 24 | 39°F 4°C Feels 33°F 1°C | 33°F 1°C Feels 26°F-3°C | 0.08 in 2.1 mm· 31% | 82% | Low chance of drizzle | WSW 9 mph 14 km/h |\n| Day There is a low chance of drizzle throughout the day. ... Night There is a low chance of brief light rain overnight.",
+    "published": "2026-08-26T15:53:38.000Z"
+   },
+   {
+    "url": "https://pogoda33.pl/pogoda-krajowa/miesi%C4%85c",
+    "title": "Pogoda Krajowa na miesiąc (wrzesień i październik 2026): Długoterminowa prognoza pogody na 33 dni - Pogoda 33",
+    "content": "##### 22 listopada Niedziela \n\n19 °.. 11 ° \n\nniebo niewidoczne\n\n 4-12 m/s 1017 hPa \n\n##### 23 listopada Poniedziałek \n\n17 °.. 10 ° \n\nmało chmur\n\n 2-4 m/s 1017 hPa \n\n##### 24 listopada Wtorek \n\n17 °.. 11 ° \n\npochmurnie z przejaśnieni\n\n 1 m/s 1008 hPa"
+   },
+   {
+    "url": "https://wisemeteo.com/en/country/poland/region/lesser-poland-voivodeship/city/krakow/date/11-21",
+    "title": "Krakow, Lesser Poland Voivodeship - weather outlook for 21 November 2026",
+    "content": ", Lesser Poland Voivodeship - weather forecast for 21 November 2026\n...\n22 November 2026 \n\n Saturday \n\nKrakow\n\nLesser Poland Voivodeship, Poland\n\n 39° 36° \n\n60%\n\n0.201 inch\n\n85%\n\n100\n\nSunrise 07:00:58 Sunset 15:49:08\n\nPressure\n\nHumidity\n\n0:00\n\n \n\n36°\n\n50%"
+   }
+  ]
+ }
+}

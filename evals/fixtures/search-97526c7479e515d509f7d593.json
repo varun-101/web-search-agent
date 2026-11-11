@@ -1,0 +1,37 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Read current pricing Pro Doc Maker annual monthly prices editors free",
+  "site": "coda.io"
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://help.coda.io/hc/en-us/articles/39555725230989-Billing-and-pricing-basics",
+    "title": "Billing and pricing basics – Coda",
+    "content": "With Coda’s unique Maker billing model, we only charge for Doc Makers in paid workspaces. Editors and viewers are entirely free!\n\nℹ️ A quick note on role definitions:\n\n- Doc Makers are workspace members who have the ability to create docs, create pages, and use Coda AI\n- Editors have the ability to update existing pages, but can’t create new docs or pages.\n\nTo learn more about the different roles and their abilities,\n\n...\n\nWhen you upgrade to a paid plan, you have the choice of paying annually or monthly. You can use your self-service billing account to change payment methods, update billing details, change pricing plans, and. For more info on managing your billing account, check out this article.\n\n...\n\nCoda offers a range of pricing plans, so there’s sure to be one that fits the needs of you and your team.\n\n- Free - Choose this plan if you're just getting started on Coda. You'll be able to share docs with as many people as you like, and even keep your docs organized with folders. Personal docs won’t have any size or object limits. And if you outgrow the Free plan, you can easily upgrade down the line.\n- Pro - This plan is ideal if you plan on building large docs, but won't be working actively with a team. You'll have no cap on the doc size and access to more automations and Packs.\n- Team - The key is in the name - if you're planning on collaborating with a team, select this option. You'll get more automations and Packs, and doc protection features for added control.\n- Enterprise - Choose this plan if you're planning on rolling out Coda across multiple teams or departments. With increased scalability (through SSO), hands-on support, and additional admin controls, this plan allows you to get the most out of Coda. We'll help you find the custom fit for your situation.\n\n...\n\nHow much does each pricing plan cost?\n\nWith our Maker billing model, you only pay for Doc Makers in your workspace. Each pricing plan (Free, Pro, Team, and Enterprise) has a different cost per Doc Maker. To see the cost per Doc Maker, head to our pricing page.\n\n...\n\nWhen will I get billed for my workspaces?\n\nFor our Pro and Team tiers: When you sign up for a new plan, you will be billed up front for all the Doc Makers in your workspace. If you add a new paid user to your workspace (or upgrade an existing one), we'll prorate them for the remainder of your billing cycle. On the annual plan, you will be charged monthly for these additional membership changes, with prorations applied for the remainder of the billing year."
+   },
+   {
+    "url": "https://help.coda.io/hc/en-us/articles/39556004184077-Roles-in-Coda-Doc-Makers-Admins-and-Editors",
+    "title": "Roles in Coda: Doc Makers, Admins, and Editors – Coda",
+    "content": "A workspace can have an unlimited number of members in any role but both Doc Maker (Workspace admin) and Doc Maker are paid licenses, while editors are free in Coda. Below you will find a detailed breakdown of what each type of member is able to do.\n\n...\n\nEditors are free in Coda, and you are able to have an unlimited number of editors in your workspace and docs.\n\nThere is no separate role for viewers, and no need for one since editors are free! But you can give view only permission to docs if needed - learn more here.\n\n...\n\nAt Coda, we only charge for each Doc Maker in a workspace - editors and viewers in docs are free. For more information, see our billing & pricing basics article."
+   },
+   {
+    "url": "https://help.coda.io/hc/en-us/articles/39555796209165-Upgrade-your-Coda-workspace",
+    "title": "Upgrade your Superhuman Docs workspace",
+    "content": "1. Head to coda.io/pricing\n2. Use the toggle to choose between Pay monthly and Pay annually\n\n- If you select annual, you'll get a 15% discount on the monthly rate, and you will pay for the whole year.\n3. Next to Current workspace, select the workspace you’d like to upgrade.\n\n...\n\nWith Coda, you only pay for Doc Makers. So when a Doc Maker is added or removed from your workspace (or downgraded to an editor), your bill is affected. Workspace admins can control how Doc Makers are added via their workspace settings. Check out this article to learn more.\n\nAs soon as they are added, you'll start paying for the Doc Maker, prorated based on when they joined the workspace. For annual plans, you'll get the bill for Doc Maker additions on a monthly basis and monthly plans will get charged in their next monthly cycle.\n\n...\n\nHow does Coda’s billing model work?\n\nCoda’s Maker billing model is designed to be flexible and cost-effective, and to encourage collaboration. Therefore you only pay for Doc Makers - editors and viewers are free. You can read all about it our Maker billing model here."
+   },
+   {
+    "url": "https://coda.io/compare/airtable",
+    "title": "Compare Coda to Airtable, Coda vs Airtable comparison - Coda",
+    "content": "Paying for every viewer and editor creates barriers to collaboration and sharing. With Coda's Maker billing, everyone is free to view, edit, and contribute. ... That’s it.\n\n...\n\n50\n\nTeam size\n\n...\n\n+ -\n\nDoc Makers\n\nTeam\n\n$360\n\nat $36 per Doc Maker per month\n\nFlexibly evolves with team needs. 600+ integrations and templates. Never pay for collaborators."
+   },
+   {
+    "url": "https://coda.io/product/tool-consolidation",
+    "title": "Enhance, reduce, and replace dozens of apps with Coda - Coda",
+    "content": "Doc Makers\n\nTeam\n\n$360\n\nat $36 per Doc Maker per month\n\nFlexibly evolves with team needs. 100+ integrations and templates. Never pay for collaborators.\n\n$2700\n\nat $54 per seat per month\n...\n. Limited number of plug-ins. Charges for every seat and viewer."
+   }
+  ]
+ }
+}

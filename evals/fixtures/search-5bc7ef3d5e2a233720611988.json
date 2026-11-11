@@ -1,0 +1,40 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Read conclusions date and evidence for DMS DMDS K2-18 b",
+  "site": "aanda.org"
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.aanda.org/articles/aa/full_html/2025/08/aa55580-25/aa55580-25.html",
+    "title": "Insufficient evidence for DMS and DMDS in the atmosphere of K2-18 b - From a joint analysis of JWST NIRISS, NIRSpec, and MIRI observations | Astronomy & Astrophysics (A&A)",
+    "content": "| Issue | A&A Volume 700, August 2025 |\n| --- | --- |\n| Article Number | A284 |\n| Number of page(s) | 11 |\n| Section | Planets, planetary systems, and small bodies |\n| DOI | https://doi.org/10.1051/0004-6361/202555580 |\n| Published online | 27 August 2025 |\n\n...\n\nResults. The first joint analysis of the panchromatic (0.6–12 µm) spectrum of K2-18 b finds insufficient evidence for the presence of DMS and/or DMDS in the atmosphere of the planet. We find that any marginal preferences are the result of limiting the number of molecules considered in the model and oversensitivity to small changes between data reductions.\n\nConclusions. Our results confirm that there is no statistical significance for DMS or DMDS in K2-18 b’s atmosphere. While previous works have demonstrated this on MIRI or NIRISS/NIRSpec observations alone, our analysis of the full, panchromatic transmission spectrum does not support claims of potential biomarkers. Using the best-fitting model including DMS and/or DMDS on the published data, we estimate that ∼25 more MIRI transits would be needed for a 3σ rejection of a flat line relative to DMS and/or DMDS features in the planet’s mid-infrared transmission spectrum.\n\n...\n\nOur retrievals of the \n\nJExoRES\n\n reduction of the 0.8–12 µm transmission spectrum disfavor the presence of DMS and/or DMDS. Including them relatively to a model without those species causes ln Z to decrease by 0.3, indicating no evidence for these species. Data-reduction choices have a moderate impact on the qualitative conclusions. When considering the \n\nexoTEDRF\n\n and \n\nexoTEDRF+SPARTA\n\n spectra, the inclusion of DMS and DMDS results in a positive Bayes factor (i.e., ∆ ln Z = 2.1-2.3). Small changes across data reductions at 7 µm (DMS preferred for \n\nexoTEDRF+SPARTA\n\n) and at 10 µm (DMDS preferred for \n\nexoTEDRF\n\n-only) are likely responsible for the discrepancy (see top panels in Fig. 3). In no case does the preference for DMS and/or DMDS reach ∆ ln Z > 5, considered standard for any molecule-detection claim. The Bayes factor for each model tested on each transmission-spectrum is shown in Table 1.\n\n...\n\nspectrum represents the underlying atmosphere. We find that an average of 26 transits have to be stacked to obtain a 3σ rejection of a flat line when scaling the \n\nJExoRES\n\n...\n\nHowever, this result is highly sensitive to the noise realization, and the\n\n...\n\n## 5 Conclusions\n\nK2-18 b is undoubtedly one of the most promising planets for interior, atmosphere, and habitability studies of a sub-Neptune in the JWST era. Transmission spectroscopy robustly finds CH 4 in its hydrogen-rich atmosphere, but the presence of other species is still under debate. In this letter, we provide an independent analysis at both the data reduction and atmospheric modeling levels, leveraging the full wavelength coverage (0.6–12 µm) publicly available for this planet for the first time. We can reproduce the abundances reported by M23 for CH 4 and CO 2 using either the previous spectrum or our independent reductions, although the exact abundance of CO 2 is influenced by the specific pipeline used. DMS and/or DMDS are not detected robustly across different data reductions or molecules included in the baseline model, consistent with the results from P-C25 for NIRISS/NIRSpec when adding instrumental offsets and Welbanks et al. (2025) for MIRI.\n\nRegarding DMS and/or DMDS, we note that there are no cross-sections yet available for pressures lower than 1 bar, which would be more representative of the upper atmosphere probed in transmission, and this leads to overestimated absorption features. Conversely, the line lists for most organic molecules and hydrocarbons, including ethane, are extremely incomplete to date, which can lead to an underestimation of their absorption signal. The clear deficiencies in the current line lists highlight the need for further experimental and theoretical studies to address them, particularly as next-generation facilities including HWO and the ELTs aim to supercharge the search for habitable conditions on other planets.",
+    "published": "2025-08-01T11:23:48.000Z"
+   },
+   {
+    "url": "https://www.aanda.org/articles/aa/full_html/2026/06/aa57718-25/aa57718-25.html",
+    "title": "The atmospheric composition of the sub-Neptune K2-18b and insights into its formation | Astronomy & Astrophysics (A&A)",
+    "content": "dependent. The tentative detection of dimethyl sulphide, reported in previous studies, vanishes in our most comprehensive retrieval models. We find\n...\nMIRI) low-resolution spectroscopy (LRS) was initially reported as further evidence of DMS or dimethyl",
+    "published": "2026-06-01T07:11:56.000Z"
+   },
+   {
+    "url": "https://www.aanda.org/articles/aa/pdf/2026/03/aa57601-25.pdf",
+    "title": "Is the high-energy environment of K2-18b special?",
+    "content": ". A reanalysis of the original detection data by Schmidt et al. (2025) found both the claimed ... found no significant feature in the same JWST data. Most importantly, Luque et al. (2025) jointly analyzed NIRISS,"
+   },
+   {
+    "url": "https://www.aanda.org/articles/aa/full_html/2025/10/aa56905-25/aa56905-25.html",
+    "title": "Investigating aerosols as a way to reconcile K2-18 b JWST MIRI and NIRISS/NIRSpec observations | Astronomy & Astrophysics (A&A)",
+    "content": "from a similar gas composition, tholins exo2 exhibits ... . Only the C-H haze features of tholins exo1 are consistent with the observed spectral features, particularly the 7 μm band previously attributed to DMS and DMDS by Madhusudhan et al. (2025).",
+    "published": "2025-10-01T04:59:40.000Z"
+   },
+   {
+    "url": "https://www.aanda.org/articles/aa/full_html/2026/06/aa57718-25/F4.html",
+    "title": "The atmospheric composition of the sub-Neptune K2-18b and insights into its formation | Astronomy & Astrophysics (A&A)",
+    "content": ". Note that CO 2 was not included in the Blc- ... ′ simplified retrievals. Similarly, DMS was not included in the majority of simplified ... . Dashed lines indicate 95% upper limits for CO 2 and DMS. Bottom:"
+   }
+  ]
+ }
+}

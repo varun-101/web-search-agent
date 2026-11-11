@@ -1,0 +1,38 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Azure Blob Hot LRS East US first 50 TB $0.0184 per GB current pricing",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.usage.ai/blogs/azure/blob-storage/pricing/",
+    "title": "Azure Blob Storage Pricing 2026: Rates, Tiers & Examples",
+    "content": "| Region | Hot | Cool | Cold | Archive |\n| --- | --- | --- | --- | --- |\n| East US | $0.0208 | $0.0152 | $0.0036 | $0.00099 |\n| East US 2 | $0.0184 | $0.0100 | $0.0036 | $0.00200 |\n| West US 2 | $0.0184 | $0.0100 | $0.0036 | $0.00099 |",
+    "published": "2026-11-11T08:41:44.000Z"
+   },
+   {
+    "url": "https://oceanlab.in/pricing/azure",
+    "title": "Microsoft Azure pricing, checked at the source",
+    "content": "Azure usage rates in USD, checked 2026-10-25 What you pay for Rate Free or included Plan Notes Source VM Standard_B2s (2 vCPU, 4 GB, burstable) Linux eastus $30.37 per instance-month ... Burstable B-series. [Source](https://prices.azure.com/api/retail/prices?$ filter=serviceName%20eq%20'Virtual%20Machines'%20and%20armRegionName%20eq%20'eastus'%20and%20armSkuName%20eq%20'Standard_B2s'%20and%20priceType%20eq%20'Consumption') checked 2026-10-25 Functions Consumption plan executions eastus $0.20 per 1M requests First 1M requests included All API lists $0.000002 per 10 executions after 100,000 units of 10 (= 1M free), so $0.20 per million. [Source](https://prices.azure.com/api/retail/prices?$ filter=serviceName%20eq%20'Functions'%20and%20armRegionName%20eq%20'eastus') checked 2026-10-25 Functions Consumption plan execution time eastus $0.000016 per GB-second First 400,000 GB-second included All First 400,000 GB-s per month free per subscription. [Source](https://prices.azure.com/api/retail/prices?$ filter=serviceName%20eq%20'Functions'%20and%20armRegionName%20eq%20'eastus') checked 2026-10-25 Blob Storage Hot LRS (General Purpose v2) eastus $0.0208 per GB-month, falling with volume None All First 50 TB tier is $0.0208 per GB-month. Volume prices: 0 to 51,200: $0.0208; 51,200 to 512,000: $0.02; above 512,000: $0.0191 . [Source](https://prices.azure.com/api/retail/prices?$ filter=serviceName%20eq%20'Storage'%20and%20armRegionName%20eq%20'eastus'%20and%20skuName%20eq%20'Hot%20LRS'%20and%20productName%20eq%20'General%20Block%20Blob%20v2') checked 2026-10-25 Blob Hot LRS write operations eastus $5 per 1M operations None All Listed as $0.05 per 10,000 writes, converted to per 1,000,000. Reads are $0.004 per 10,000. [Source](https://prices.azure.com/api/retail/prices?$ filter=serviceName%20eq%20'Storage'%20and%20armRegionName%20eq%20'eastus'%20and%20skuName%20eq%20'Hot%20LRS'%20and%20productName%20eq%20'General%20Block%20Blob%20v2') checked 2026-10-25 Internet egress from East US (Microsoft network routing) eastus $0.087 per GB, falling with volume First 100 GB free All First 100 GB a month free, then $0.087/GB. Volume prices: 0 to 100: free; 100 to 10,335: $0.087; 10,335 to 51,295: $0.083; 51,295 to 153,695: $0.07; above 153,695: $0.05 . [Source](https://prices.azure.com/api/retail/prices?$ filter=serviceName%20eq%20'Bandwidth'%20and%20armRegionName%20eq%20'eastus') checked 2026-10-25 Front Door Standard, edge to client, Zone 1 North America Zone 1 $0.0825 per GB, falling with volume None All Plus a $35/month Standard base fee and requests ($ 0.009 per 10,000 first tier). Volume prices: 0 to 10,000: $0.0825; 10,000 to 50,000: $0.065; 50,000 to 150,000: $0.056; 150,000 to 500,000: $0.0141; 500,000 to 1M: $0.00693; 1M to 5M: $0.00574; above 5M: $0.0054 . [Source](https://prices.azure.com/api/retail/prices?$ filter=productName%20eq%20'Azure%20Front%20Door'%20and%20skuName%20eq%20'Standard'%20and%20armRegionName%20eq%20'Zone%201'%20and%20priceType%20eq%20'Consumption') checked 2026-10-25 Front Door Standard base fee Zone 1 $35 per profile-month None All Billed hourly for hours used. [Source](https://prices.azure.com/api/retail/prices?$ filter=productName%20eq%20'Azure%20Front%20Door'%20and%20skuName%20eq%20'Standard'%20and%20armRegionName%20eq%20'Zone%201'%20and%20priceType%20eq%20'Consumption') checked 2026-10-25 PostgreSQL Flexible Server Burstable B1ms (1 vCore, 2 GiB) eastus $12.41 per instance-month None All $0.017/hour x 730 hours. Storage billed separately. [Source](https://prices.azure.com/api/retail/prices?$ filter=serviceName%20eq%20'Azure%20Database%20for%20PostgreSQL'%20and%20armRegionName%20eq%20'eastus'%20and%20contains(meterName,'B1MS')) checked 2026-10-25 PostgreSQL Flexible Server storage (SSD) eastus $0.115 per GB-month None All [Source](https://prices.azure.com/api/retail/prices?$ filter=serviceName%20eq%20'Azure%20Database%20for%20PostgreSQL'%20and%20armRegionName%20eq%20'eastus'%20and%20contains(meterName,'Storage')) checked 2026-10-25"
+   },
+   {
+    "url": "https://azure.microsoft.com/en-us/pricing/details/storage/blobs/",
+    "title": "Azure Blob Storage pricing | Microsoft Azure",
+    "content": "two business days prior to the last business day of the previous month end. If the two business days prior to the ... bank holiday in major markets, the rate setting day is generally the day immediately preceding the two business days. This"
+   },
+   {
+    "url": "https://svpremium.dev/object-storage/azure-blob-storage/",
+    "title": "Azure Blob Storage pricing & alternatives · SV Premium",
+    "content": "General Purpose v2 block blob, Hot tier, LRS, East US: $0. ... ,000 ($5/M); read operations $0.004 per 10,000 ($0. ... for the next 40 TB, $0.07 next 100 ... , $0.05 next 350 TB. ZRS ... more. EU regions are self-serve; DPA via the Microsoft Products and"
+   },
+   {
+    "url": "https://www.eon.io/blog/azure-blob-storage-pricing",
+    "title": "Azure Blob Storage Pricing: Full Cost Breakdown (2026)",
+    "content": "0.0045, and archive $0.00099.\n- Reading a\n...\nRates are Azure list prices for East US on LRS, first 50 TB band, current as of September 2026. They change by region and redundancy, and Azure bills in binary gigabytes, so 1 TB is 1,024 GB on the invoice."
+   }
+  ]
+ }
+}

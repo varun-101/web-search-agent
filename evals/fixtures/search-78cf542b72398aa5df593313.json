@@ -1,0 +1,41 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "iPhone 18 Pro US model battery capacity mAh 2026 211 grams",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.macrumors.com/roundup/iphone-18-pro/",
+    "title": "iPhone 18 Pro:  Everything We Know | MacRumors",
+    "content": "Weight has increased, and the iPhone 18 Pro weighs 211 grams, up from 206 grams. The iPhone 18 Pro Max weighs 249 grams, up from 233 grams.\n\n...\n\nThe iPhone 18 Pro gains three hours of battery life, while the 18 Pro Max gains six hours. The iPhone 18 Pro has a 4,288 mAh battery, up from the iPhone 17 Pro's 4,252 mAh battery, while the iPhone 18 Pro Max has a 5,567 mAh battery, up from 5,088 mAh. \n\nBattery capacity listed here is for eSIM-only models sold in the United States and other countries. In some locations, iPhones have a SIM tray and a slightly smaller battery.",
+    "published": "2026-03-19T19:21:47.000Z"
+   },
+   {
+    "url": "https://www.tomsguide.com/phones/iphones/iphone-18-pro-battery-size-just-revealed-heres-the-official-capacity-from-ifixits-teardown",
+    "title": "iPhone 18 Pro, 18 Pro Max battery size just revealed — here's the official capacity from iFixit's teardown | Tom's Guide",
+    "content": "From their teardown, iFixit found that the North American i Phone 18 Pro has a battery capacity of 4,288mAh. Compared to the iPhone 17 Pro eSIM version, that's only a 1% increase over last year's 4,252 mAh battery.\n\n...\n\nInterestingly, the iFixit teardown appears to show a different capacity for the U.S. ... In Europe, all phones must\n\n...\n\nPer the listing we've seen, iPhone 18 Pro will have a 4,056 mAh battery, while the iPhone 18 Pro Max will offer 5,391 mAh capacity. The EU iPhones will likely come with physical SIM card slots and not eSIMs only. This does mean the EU models could differ somewhat.",
+    "published": "2026-09-18T21:17:21.000Z"
+   },
+   {
+    "url": "https://support.apple.com/en-us/148590",
+    "title": "iPhone 18 Pro - Tech Specs - Apple Support",
+    "content": "# iPhone 18 Pro - Tech Specs\n\nYear introduced: 2026\n\n### Finish\n\n...\n\n### Capacity 1 \n\n- 256GB\n- 512GB\n- 1TB\n- 2TB\n\n### Size and Weight 2 \n\n- Width: 2.83 inches (71.9 mm)\n- Height: 5.91 inches (150.0 mm)\n- Depth: 0.34 inch (8.75 mm)\n- Weight: 7.44 ounces (211 grams)\n\n...\n\n### Power and Battery 7 \n\n- Typical use: Up to 24 hours\n- Video playback: Up to 36 hours 8 \n- Video playback (streamed): Up to 33 hours 8 \n- Built‑in rechargeable lithium‑ion battery\n- Fast-charge capable: \n- Up to 50% charge in around 15 minutes 9 when using 60W-capable adapter or higher with Adjustable Voltage Supply (available separately) paired with USB-C charging cable\n- Up to 50% charge in 30 minutes 9 with 35W adapter or higher paired with MagSafe Charger (both available separately)"
+   },
+   {
+    "url": "https://www.macrumors.com/2026/07/06/iphone-18-pro-battery-capacities-revealed/",
+    "title": "iPhone 18 Pro Battery Capacities Revealed by Regulatory Filings - MacRumors",
+    "content": "According to new filings in China's C3 database, spotted by the leaker known as \" Digital Chat Station\" on Weibo, the ‌iPhone 18 Pro‌ is seemingly rated for 4,056mAh in China and 4,288mAh in the U.S., up modestly from the iPhone 17 Pro's 3,988mAh and 4,252mAh. The ‌iPhone 18 Pro‌ Max shows a bigger jump, rated for 5,391mAh in China and 5,567mAh in the U.S., compared with 4,823mAh and 5,088mAh on the ‌iPhone 17‌ Pro Max, an increase of nearly 500mAh.\n\n### iPhone 18 Pro\n\n| | China | China Difference | U.S. | U.S. Difference |\n| --- | --- | --- | --- | --- |\n| iPhone 16 Pro | 3,582mAh | +308mAh | 3,582mAh | +308mAh |\n| ‌iPhone 17‌ Pro | 3,988mAh | +406mAh | 4,252mAh | +670mAh |\n| ‌iPhone 18 Pro‌ | 4,056mAh | +68mAh | 4,288mAh | +36mAh |\n\n...\n\nThe devices in the filings are not directly named the ‌iPhone 18 Pro‌ and ‌iPhone 18 Pro‌ Max, but are highly likely to relate to these models.\n\nThe China and U.S. capacities differ because Apple has continued to include a SIM tray on iPhones sold outside the United States, while U.S. models have been eSIM only since the iPhone 14 lineup. Without a physical tray taking up internal space, Apple can fit a slightly larger battery into the U.S. version of each device.\n\nThe certification listings cover battery models S2232 and S2233 for the ‌iPhone 18 Pro‌ and 2235L/2235 and 2236L/2236 for the ‌iPhone 18 Pro‌ Max, and also show rated energy figures of up to 21.751Wh and a 4.520V charge limit voltage, and list all four batteries as valid through May or June 2031.",
+    "published": "2026-07-06T12:41:44.000Z"
+   },
+   {
+    "url": "https://www.macobserver.com/tips/round-ups/iphone-18-pro-battery-mah-reported/",
+    "title": "iPhone 18 Pro Battery Capacity: The Reported 4,288 and 5,567 mAh Figures vs Apple's Hour Ratings",
+    "content": "Apple rates the iPhone 18 Pro at up to 36 hours of video playback and the iPhone 18 Pro Max at up to 45 hours, and it does not publish battery capacity in milliampere-hours. Reported figures put the cells at 4,288 mAh for the 18 Pro and 5,567 mAh for the 18 Pro Max, both for the eSIM-only versions, and Apple has not confirmed either number.\n\n...\n\n## Key facts\n\n| Rating | iPhone 18 Pro | iPhone 18 Pro Max | Source |\n| --- | --- | --- | --- |\n| Battery capacity | 4,288 mAh (eSIM-only model) | 5,567 mAh (eSIM-only model) | Reported; not confirmed by Apple |\n| Typical use | Up to 24 hours | Up to 30 hours | Apple’s tech specs |\n| Video playback | Up to 36 hours | Up to 45 hours | Apple’s tech specs (eSIM-only model) |\n| Streamed video | Up to 33 hours | Up to 40 hours | Apple’s tech specs |\n| Wired charging | Up to 50 percent in around 15 minutes with a 60W USB-C adapter | Same | Apple’s tech specs |\n| Wireless charging | Up to 50 percent in 30 minutes with a 35W adapter plus MagSafe; MagSafe and Qi2 up to 25W | Same | Apple’s tech specs |\n| Weight | 211 g | 249 g | Apple’s tech specs |\n\n...\n\nThe 4,288 mAh and 5,567 mAh numbers come from third-party spec listings, not from Apple, and they are attached to the eSIM-only versions of each phone. That qualifier matters because Apple’s own video playback ratings carry the same note: 36 and 45 hours are quoted for the eSIM-only models sold in the United States, Canada, Japan, Mexico, the UAE, Saudi Arabia, Qatar, Kuwait, Oman, Bahrain, Guam and the U.S. Virgin Islands.",
+    "published": "2026-09-10T02:56:00.000Z"
+   }
+  ]
+ }
+}

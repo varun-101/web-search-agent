@@ -1,0 +1,37 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "GBP CAD exchange rate 9 November 2026",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://finance.yahoo.com/quote/GBPCAD%3DX/history/",
+    "title": "gbp/cad (gbpcad=x)",
+    "content": "| Date | Open | High | Low | Close Close price adjusted for splits\n...\n8836 | 1.8836 | - |\n...\n1.8861 | 1.8884 | 1.8814 | 1.8862 |\n...\n12, 2026 | 1.8874 | 1.8887 | 1.8853 | 1.8874 | 1.8874 | - |\n| Oct 9, ... | 1.8813 | 1.8898"
+   },
+   {
+    "url": "https://www.mtfxgroup.com/tools/historical-currency-exchange-rates/gbp-to-cad-rate/",
+    "title": "GBP to CAD Historical Exchange Rates",
+    "content": "### GBP to CAD Exchange Rate Table\n\n| Date | 1 GBP = | 1 CAD = |\n| --- | --- | --- |\n| Oct 30, 2026 | 1.87124 CAD | 0.5344 GBP |\n| Oct 31, 2026 | 1.87216 CAD | 0.5341 GBP |\n| Nov 01, 2026 | 1.87048 CAD | 0.5346 GBP |\n| Nov 02, 2026 | 1.87524 CAD | 0.5333 GBP |\n| Nov 03, 2026 | 1.8794 CAD | 0.5321 GBP |\n| Nov 04, 2026 | 1.88311 CAD | 0.5310 GBP |\n| Nov 05, 2026 | 1.88573 CAD | 0.5303 GBP |\n| Nov 06, 2026 | 1.88671 CAD | 0.5300 GBP |\n| Nov 07, 2026 | 1.88649 CAD | 0.5301 GBP |\n| Nov 08, 2026 | 1.88496 CAD | 0.5305 GBP |\n| Nov 09, 2026 | 1.89803 CAD | 0.5269 GBP |\n| Nov 10, 2026 | 1.89339 CAD | 0.5282 GBP |"
+   },
+   {
+    "url": "https://mapleboost.ca/data/gbp-to-cad-history",
+    "title": "GBP to CAD Exchange Rate History (Bank of Canada) | MapleBoost",
+    "content": "As of Nov 9, 2026, 1 GBP = 1.8954 CAD (up 0.0097, +0.51% from the prior business day). Source: Bank of Canada daily average rates.\n\n...\n\n| Date | 1 GBP in CAD | Change |\n| --- | --- | --- |\n| 2026-11-09 | 1.8954 | +0.0097 (+0.51%) |\n| 2026-11-06 | 1.8857 | +0.0016 (+0.08%) |\n\n...\n\n| 2026-11-04 | 1.8811 | +0.0032 (+0.17%) |\n| 2026-11-03 | 1.8779 | +0.0027 (+0.14%) |\n| 2026-11-02 | 1.8752 | +0.0053 (+0.28%) |\n| 2026-10-30 | 1.8699 | +0.0023 (+0.12%) |\n\n...\n\n| 2026-10-26 | 1.8721 | +0.0008 (+0.04%) |\n\n...\n\n| 2026-10-22 | 1.8768 | -0.0058 (-0.31%) |\n| 2026-10-21 | 1.8826 | +0.0024 (+0.13%) |\n| 2026-10-20 | 1.8802 | +0.0035 (+0.19%) |\n\n...\n\n| 2026-10-15 | 1.8824 | +0.0028 (+0.15%) |\n| 2026-10-14 | 1.8796 | -0.0045 (-0.24%) |\n| 2026-10-13 | 1.8841 | -0.0038 (-0.20%) |\n| 2026-10-09 | 1.8879 | +0.0057 (+0.30%) |\n| 2026-10-08 | 1.8822 | -0.0012 (-0.06%) |\n| 2026-10-07 | 1.8834 | -0.0050 (-0.26%) |\n| 2026-10-06 | 1.8884 | +0.0048 (+0.25%) |\n| 2026-10-05 | 1.8836 | -0.0017 (-0.09%) |\n| 2026-10-02 | 1.8853 | +0.0043 (+0.23%) |\n| 2026-10-01 | 1.8810 | +0.0052 (+0.28%) |\n| 2026-09-29 | 1.8758 | -0.0029 (-0.15%) |\n| 2026-09-28 | 1.8787 | +0.0047 (+0.25%) |\n| 2026-09-25 | 1.8740 | +0.0052 (+0.28%) |\n| 2026-09-24 | 1.8688 | +0.0005 (+0.03%) |\n| 2026-09-23 | 1.8683 | -0.0082 (-0.44%) |\n| 2026-09-22 | 1.8765 | +0.0010 (+0.05%) |\n\n...\n\n| 2026-08-06 | 1.8869 | -0.0023 (-0.12%) |\n\n...\n\n| 2026-07-28 | 1.8750 | -0.0025 (-0.13%) |\n\n...\n\n| 2026-07-23 | 1.8762 | -0.0078 (-0.41%) |\n\n...\n\n| 2026-07-21 | 1.8862 | -0.0021 (-0.11%) |\n| 2026-07-20 | 1.8883 | +0.0036 (+0.19%) |\n| 2026-07-17 | 1.8847 | -0.0083 (-0.44%) |\n| 2026-07-16 | 1.8930 | -0.0023 (-0.12%) |\n\n...\n\n| 2026-07-10 | 1.8970 | -0.0023 (-0.12%) |\n| 2026-07-09 | 1.8993 | +0.0030 (+0.16%) |\n| 2026-07-08 | 1.8963 | -0.0026 (-0.14%) |\n| 2026-07-07 | 1.8989 | -0.0018 (-0.09%) |\n| 2026-07-06 | 1.9007 | +0.0042 (+0.22%) |\n\n...\n\n| 2026-07-02 | 1.8939 | +0.0116 (+0.62%) |\n\n...\n\n| 2026-06-29 | 1.8821 | +0.0081 (+0.43%) |\n| 2026-06-26 | 1.8740 | -0.0006 (-0.03%) |\n| 2026-06-25 | 1.8746 | +0.0014 (+0.07%) |\n| 2026-06-24 | 1.8732 | -0.0010 (-0.05%) |\n| 2026-06-23 | 1.8742 | -0.0022 (-0.12%) |\n\n...\n\n| 2026-06-19 | 1.8746 | +0.0059 (+0.32%) |\n\n...\n\n| 2026-06-17 | 1.8783 | -0.0004 (-0.02%) |\n| 2026-06-16 | 1.8787 | +0.0012 (+0.06%) |\n| 2026-06-15 | 1.8775 | +0.0032 (+0.17%) |\n|\n\n...\n\n| 2026-06-11 | 1.8695 | +0.0040 (+0.21%) |\n\n...\n\n| 2026-06-09 | 1.8675 | +0.0060 (+0.32%) |\n| 2026-06-08 | 1.8615 | -0.0004 (-0.02%) |\n| 2026-06-05 | 1.8619 | -0.0055 (-0.29%) |\n| 2026-06-04 | 1.8674 | +0.0034 (+0.18%) |\n| 2026-06-03 | 1.8640 | +0.0006 (+0.03%) |\n| 2026-06-02 | 1.8634 | +0.0024 (+0.13%) |\n| 2026-06-01 | 1.8610 | +0.0043 (+0.23%) |\n| 2026-05-29 | 1.8567 | +0.0016 (+0.09%) |\n| 2026-05-28 | 1.8551 | -0.0030 (-0.16%) |\n| 2026-05-27 | 1.8581 | +0.0002 (+0.01%) |\n\n...\n\n### What is the GBP to CAD rate today?\n\nAs of Nov 9, 2026, 1 GBP = 1.8954 CAD (Bank of Canada daily average). It was 1.8502 a year earlier, a +2.44% change.\n\n### Is this a live trading rate?\n\nNo — it’s the Bank of Canada’s official daily average, published once each business day around 16:30 ET. Your bank or card will add a markup on top.\n\nLast updated: Nov 9, 2026. Data: Bank of Canada Valet API. Spot an error?"
+   },
+   {
+    "url": "https://tealfx.com/rates/boe/2026/november/9/cad",
+    "title": "Bank of England CAD/GBP Spot Rates — 9 November 2026 | TealFX",
+    "content": "# Bank of England CAD/GBP spot rate, 9 November 2026\n\n 1.89 40 1 \n\n CAD per £1 · Canadian Dollar, Canada \n\n1 CAD in sterling\n\n£0.5280\n\nFixing\n\n4pm, Mon 9 Nov\n\nvs 6 Nov 2026\n\n +0.0097 (+0.51%) \n\nBank of England daily spot rate (4pm London), series XUDLCDS\n\n bankofengland.co.uk ↗ \n\nPublished by\n\nBank of England\n\nSeries\n\nXUDLCDS\n\nFrequency\n\nDaily, UK working days\n\nThe Bank of England states its spot rates are not official rates.\n\n...\n\nWhat is the Bank of England CAD/GBP rate for 9 November 2026? \n\nThe Bank of England daily spot exchange rate for Canadian Dollar (CAD) on 9 November 2026 is 1.8940 CAD per £1. To convert a CAD amount to sterling, divide by 1.8940."
+   },
+   {
+    "url": "https://www.bankofcanada.ca/rates/exchange/legacy-noon-and-closing-rates/",
+    "title": "Historical noon and closing rates",
+    "content": "future. For up to date exchange rates data, view our\n...\nAll Bank of Canada exchange rates are indicative rates only, obtained from averages of aggregated price quotes from financial institutions. For details, please read our full Terms and Conditions."
+   }
+  ]
+ }
+}

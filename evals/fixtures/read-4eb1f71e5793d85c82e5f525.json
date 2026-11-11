@@ -1,0 +1,11 @@
+{
+ "kind": "read",
+ "request": {
+  "url": "https://www.xe.com/en-au/currencytables/"
+ },
+ "response": {
+  "finalUrl": "https://www.xe.com/en-au/currencytables/",
+  "title": "Historical Rates Tables | Xe",
+  "markdown": "Historical Rates Tables | Xe   \n\n1.  Home\n2.  Currency Tables\n\n# Historical rate tables\n\nBuild historic rate tables with your chosen base currency with XE Currency Tables. For commercial purposes, get an automated currency feed through the XE Currency Data API.\n\n## Live Currency Rates\n\n| Currency | Rate | Change |\n| --- | --- | --- |\n| EUR / USD | 1.10872 | ▼ |\n| GBP / EUR | 1.19709 | ▼ |\n| USD / JPY | 159.927 | ▲ |\n| GBP / USD | 1.32724 | ▼ |\n| USD / CHF | 0.833582 | ▲ |\n| USD / CAD | 1.42488 | ▲ |\n| EUR / JPY | 177.314 | ▲ |\n| AUD / USD | 0.684981 | ▼ |\n\n## Central Bank Rates\n\n| Currency | Interest Rate |\n| --- | --- |\n| JPY | 1.25% |\n| CHF | 0.00% |\n| EUR | 2.50% |\n| USD | 4.00% |\n| CAD | 2.50% |\n| AUD | 4.85% |\n| NZD | 2.75% |\n| GBP | 4.00% |"
+ }
+}

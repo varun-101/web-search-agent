@@ -1,0 +1,37 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Read current forecast for Krakow November 21-24 2026 temperatures and rain.",
+  "site": "timeanddate.com"
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.timeanddate.com/weather/poland/krakow/ext",
+    "title": "Kraków, Poland 14 day weather forecast",
+    "content": "# Kraków 14 Day Extended Forecast\n\nCurrently: 43 °F. Sunny. (Weather station: Krakow Airport, Poland). See more current weather\n\n## Kraków Extended Forecast with high and low temperatures\n\n°F\n\nLast 2 weeks of weather\n\n## 2 Week Extended Forecast in Kraków, Poland\n\n| | Conditions | | | Comfort | | | | Precipitation | | Sun | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Day | | Temperature | Weather | Feels Like | Wind | | Humidity | Chance | Amount | UV | Sunrise | Sunset |\n| Wed Nov 11 | | 44 / 34 °F | Snow changing to rain. Overcast. | 40 °F | 4 mph | ↑ | 75% | 48% | 0.19\" | 0 (Low) | 6:46 am | 4:01 pm |\n| Thu Nov 12 | | 56 / 39 °F | Sprinkles. Overcast. | 54 °F | 2 mph | ↑ | 81% | 46% | 0.08\" | 0 (Low) | 6:48 am | 4:00 pm |\n| Fri Nov 13 | | 44 / 37 °F | Rain. Overcast. | 32 °F | 15 mph | ↑ | 77% | 89% | 0.52\" | 0 (Low) | 6:49 am | 3:58 pm |\n| Sat Nov 14 | | 43 / 29 °F | Sprinkles. Overcast. | 36 °F | 9 mph | ↑ | 75% | 38% | 0.06\" | 0 (Low) | 6:51 am | 3:57 pm |\n| Sun Nov 15 | | 45 / 21 °F | Sunny. | 41 °F | 3 mph | ↑ | 68% | 0% | 0.00\" | 0 (Low) | 6:53 am | 3:56 pm |\n| Mon Nov 16 | | 48 / 23 °F | Overcast. | 46 °F | 3 mph | ↑ | 74% | 0% | 0.00\" | 0 (Low) | 6:54 am | 3:54 pm |\n| Tue Nov 17 | | 50 / 36 °F | Sprinkles late. Overcast. | 46 °F | 4 mph | ↑ | 85% | 42% | 0.08\" | 0 (Low) | 6:56 am | 3:53 pm |\n| Wed Nov 18 | | 57 / 49 °F | Sprinkles. Mostly cloudy. | 50 °F | 19 mph | ↑ | 69% | 59% | 0.12\" | 0 (Low) | 6:57 am | 3:52 pm |\n| Thu Nov 19 | | 52 / 46 °F | Sprinkles early. Morning clouds. | 46 °F | 18 mph | ↑ | 64% | 50% | 0.03\" | 0 (Low) | 6:59 am | 3:51 pm |\n| Fri Nov 20 | | 50 / 41 °F | Afternoon clouds. | 43 °F | 13 mph | ↑ | 70% | 6% | 0.00\" | 0 (Low) | 7:00 am | 3:50 pm |\n| Sat Nov 21 | | 50 / 40 °F | Sprinkles. Overcast. | 49 °F | 2 mph | ↑ | 87% | 65% | 0.10\" | 0 (Low) | 7:02 am | 3:49 pm |\n| Sun Nov 22 | | 49 / 41 °F | Cloudy. | 48 °F | 3 mph | ↑ | 84% | 60% | 0.04\" | 0 (Low) | 7:04 am | 3:48 pm |\n| Mon Nov 23 | | 49 / 41 °F | Rain. Overcast. | 47 °F | 3 mph | ↑ | 95% | 69% | 0.34\" | 0 (Low) | 7:05 am | 3:47 pm |\n| Tue Nov 24 | | 47 / 39 °F | Rain. Overcast. | 43 °F | 9 mph | ↑ | 91% | 71% | 0.42\" | 0 (Low) | 7:07 am | 3:46 pm |\n| Wed Nov 25 | | 48 / 40 °F | Sprinkles. Overcast. | 42 °F | 13 mph | ↑ | 75% | 64% | 0.05\" | 0 (Low) | 7:08 am | 3:45 pm |\n| * Updated Wednesday, November 11, 2026 10:23:55 am Kraków time - Weather by CustomWeather, © 2026 | | | | | | | | | | | | |"
+   },
+   {
+    "url": "https://www.timeanddate.com/weather/@6690154",
+    "title": "Weather for Kraków, Poland",
+    "content": "| --- | --- | --- | --- | --- | --- | --- | --- |\n\n...\n\n| Forecast | | | | | | | |\n\n...\n\n| | Light rain. ... | Rain. ... | Sprin­kles. Overcast. | Overcast.\n\n...\n\n| Wind Speed | 4 mph | 4 mph | 1 mph | 3 mph | 2 mph | 3 mph | 8 mph |\n\n...\n\n| Humidity | 75% | 91% | 93% | 94% | 81% | 98% | 96% |\n| Dew Point\n\n...\n\n| Probability of Precipitation | 4% | 35% | 23% | 22% | 5% | 5% | 56% |\n\n...\n\n| Mon | Tue | Wed | Thu | Fri | Sat | Sun |"
+   },
+   {
+    "url": "https://www.timeanddate.com/weather/poland/krakow",
+    "title": "Weather for Kraków, Poland",
+    "content": "## Forecast for the next 48 hours\n\n| | Wednesday | | | Thursday | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| | Morning | Afternoon | Evening | Night | Morning | Afternoon | Evening |\n| Forecast | | | | | | | |\n| Temperature | 36 °F | 42 °F | 39 °F | 40 °F | 42 °F | 52 °F | 45 °F |\n| | Light snow. Overcast. | Sprin­kles. Overcast. | Sprin­kles. Overcast. | Sprin­kles. Overcast. | Drizzle. Overcast. | Drizzle. Overcast. | Sprin­kles. Overcast. |\n| Feels Like | 33 °F | 40 °F | 36 °F | 40 °F | 42 °F | 52 °F | 45 °F |\n| Wind Speed | 4 mph | 4 mph | 5 mph | 2 mph | 2 mph | 2 mph | 3 mph |\n| Wind Direction | E ↑ | ENE ↑ | E ↑ | E ↑ | WSW ↑ | WSW ↑ | WNW ↑ |\n| Humidity | 84% | 75% | 92% | 94% | 96% | 85% | 94% |\n| Dew Point | 32 °F | 35 °F | 37 °F | 38 °F | 41 °F | 47 °F | 44 °F |\n| Visibility | 6 mi | 6 mi | 4 mi | 4 mi | 3 mi | 3 mi | 3 mi |\n| Probability of Precipitation | 10% | 3% | 6% | 22% | 35% | 23% | 14% |\n| Amount of Rain | 0.00\" | 0.02\" | 0.03\" | 0.02\" | 0.02\" | 0.01\" | 0.02\" |\n| Amount of Snow | 0.08\" | 0.00\" | 0.00\" | 0.00\" | 0.00\" | 0.00\" | 0.00\" |\n| * Updated Wednesday, November 11, 2026 2:42:29 am Kraków time - Weather by CustomWeather, © 2026 | | | | | | | |\n\n...\n\n## Forecast for the next 2 weeks\n\n| Mon | Tue | Wed | Thu | Fri | Sat | Sun |\n| --- | --- | --- | --- | --- | --- | --- |\n| 9 | 10 View historic weather | 11 44 / 32 °F | 12 53 / 38 °F | 13 44 / 36 °F | 14 43 / 27 °F | 15 44 / 21 °F |\n| 16 45 / 22 °F | 17 52 / 31 °F | 18 57 / 40 °F | 19 51 / 42 °F | 20 50 / 42 °F | 21 50 / 42 °F | 22 48 / 40 °F |\n| 23 48 / 39 °F | 24 45 / 38 °F | 25 45 / 38 °F | 26 | 27 | 28 | 29 |"
+   },
+   {
+    "url": "https://www.timeanddate.com/weather/poland/krakow/hourly",
+    "title": "Hourly forecast for Kraków, Poland",
+    "content": ") |\n| 9:00 pm | | 39 °F | Overcast\n...\n10:00 pm | | 40 °F | Overcast. | 37 ° ... \" (snow) 0.00\" (rain) |\n| 11 ... 00 pm | | 40 °F | Overcast. | 37 °F |\n...\n2:00 am | | 40 °F | Overcast\n...\nOvercast. | 40 °F | 2 mph | ↑ |"
+   },
+   {
+    "url": "https://www.timeanddate.com/weather/@49.48330,20.03330/ext",
+    "title": "49°28'59.8\"N, 20°01'59.8\"E, Poland 14 day weather forecast",
+    "content": "Comfort | | | | Precipitation | | Sun | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ... --- | --- |\n| Day | | Temperature | Weather | Feels Like | Wind | | Humidity | Chance | Amount | UV | Sunrise | Sunset |\n| Wed Nov 4 | | 47 /"
+   }
+  ]
+ }
+}

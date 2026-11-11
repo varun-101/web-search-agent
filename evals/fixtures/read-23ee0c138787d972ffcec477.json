@@ -1,0 +1,11 @@
+{
+ "kind": "read",
+ "request": {
+  "url": "https://vanmoof-b2c.myshopify.com/products/vanmoof-s5-gray"
+ },
+ "response": {
+  "finalUrl": "https://www.vanmoof.com/en-NL/our-rides/s5",
+  "title": "VanMoof S5 electric bike | VanMoof",
+  "markdown": "VanMoof S5 electric bike | VanMoof"
+ }
+}

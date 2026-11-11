@@ -1,0 +1,37 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "US federal holidays 2026 Veterans Day November 11 Thanksgiving November 26 OPM",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/?year=2026",
+    "title": "Federal Holidays",
+    "content": "# 2026\n\n2026 Holiday Schedule\n\n| Date | Holiday |\n| --- | --- |\n| Thursday, January 01 | New Year’s Day |\n| Monday, January 19 | Birthday of Martin Luther King, Jr. |\n| Monday, February 16 * | Washington’s Birthday |\n| Monday, May 25 | Memorial Day |\n| Friday, June 19 | Juneteenth National Independence Day |\n| Friday, July 03 ** | Independence Day |\n| Monday, September 07 | Labor Day |\n| Monday, October 12 | Columbus Day |\n| Wednesday, November 11 | Veterans Day |\n| Thursday, November 26 | Thanksgiving Day |\n| Friday, December 25 | Christmas Day |\n\n* This holiday is designated as \"Washington’s Birthday\" in section 6103(a) of title 5 of the United States Code, which is the law that specifies holidays for Federal employees. Though other institutions such as state and local governments and private businesses may use other names, it is our policy to always refer to holidays by the names designated in the law.\n\n** If a holiday falls on a Saturday, for most Federal employees, the preceding Friday will be treated as a holiday for pay and leave purposes. (See 5 U.S.C. 6103(b).) If a holiday falls on a Sunday, for most Federal employees, the following Monday will be treated as a holiday for pay and leave purposes. (See Section 3(a) of Executive Order 11582, February 11, 1971.) See also our Federal Holidays – \"In Lieu Of\" Determination Fact Sheet at https://www.opm.gov/policy-data-oversight/pay-leave/work-schedules/fact-sheets/Federal-Holidays-In-Lieu-Of-Determination."
+   },
+   {
+    "url": "http://www.fsis.usda.gov/policy/fsis-notice/43-25",
+    "title": "Federal Holidays in Calendar Year 2026 | Food Safety and Inspection Service",
+    "content": "1. New Year's Day, January 1\n2. Birthday of Martin Luther King, Jr., the third Monday in January\n3. Washington's Birthday, the third Monday in February\n4. Memorial Day, the last Monday in May\n\n...\n\nJuneteenth National Independence Day, June 19\n\n...\n\nIndependence Day, July 4\n\n...\n\nLabor Day, the first Monday in September\n\n...\n\nCol\n\n...\n\nVeterans Day, November 11\n10. Thanksgiving Day, the fourth Thursday in November\n\n...\n\n| FEDERAL HOLIDAY | MONDAY-FRIDAY | SUNDAY-THURSDAY | TUESDAY-SATURDAY | MONDAY-THURSDAY |\n| --- | --- | --- | --- | --- |\n| New Year’s Day January 1 Thursday | January 1 Thursday | January 1 Thursday | January 1 Thursday | January 1 Thursday |\n| Birthday of Martin Luther King, Jr. January 19 Monday | January 19 Monday | January 19 Monday | January 17* Saturday | January 19 Monday |\n| Washington’s Birthday February 16 Monday | February 16 Monday | February 16 Monday | February 14* Saturday | February 16 Monday |\n| Memorial Day May 25 Monday | May 25 Monday | May 25 Monday | May 23* Saturday | May 25 Monday |\n| Juneteenth June 19 Friday | June 19 Friday | June 18* Thursday | June 19 Friday | June 18* Thursday |\n| Independence Day July 4 Saturday | July 3* Friday | July 2* Thursday | July 4 Saturday | July 2* Thursday |\n| Labor Day September 7 Monday | September 7 Monday | September 7 Monday | September 5* Saturday | September 7 Monday |\n| Columbus Day October 12 Monday | October 12 Monday | October 12 Monday | October 10* Saturday | October 12 Monday |\n| Veterans Day November 11 Wednesday | November 11 Wednesday | November 11 Wednesday | November 11 Wednesday | November 11 Wednesday |\n| Thanksgiving Day November 26 Thursday | November 26 Thursday | November 26 Thursday | November 26 Thursday | November 26 Thursday |\n| Christmas Day December 25 Friday | December 25 Friday | December 24* Thursday | December 25 Friday | December 24* Thursday |"
+   },
+   {
+    "url": "https://www.archives.gov/news/federal-holidays",
+    "title": "2026 Federal Holidays and Research Room Closings | National Archives",
+    "content": "| Date | Holiday |\n| --- | --- |\n| Thursday, January 1, 2026 | New Year’s Day |\n| Monday, January 19 | Birthday of Martin Luther King Jr. |\n| Monday, February 16 | Washington’s Birthday* |\n| Friday, May 15 | In-Service Day |\n| Monday, May 25 | Memorial Day |\n| Friday, June 19 | Juneteenth National Independence Day |\n| Friday, July 3 | Independence Day |\n| Monday, September 7 | Labor Day |\n| Monday, October 12 | Columbus Day |\n| Wednesday, November 11 | Veterans Day |\n| Wednesday, November 25 | Research rooms close at 1 p.m. local time |\n| Thursday, November 26 | Thanksgiving Day |\n| Thursday, December 24 | Research rooms close at 1 p.m. local time |\n| Friday, December 25 | Christmas Day |\n| Thursday, December 31 | Research rooms close at 1 p.m. local time |\n| Friday, January 1, 2027 | New Year's Day |"
+   },
+   {
+    "url": "https://www.ca2.uscourts.gov/clerk/calendars/federal_holidays.html",
+    "title": "Federal Holidays",
+    "content": "| Federal Holidays 2026 | |\n| --- | --- |\n| Date | Holiday |\n| Thursday, January 1, 2026 | New Year's Day |\n| Monday, January 19, 2026 | Birthday of Martin Luther King, Jr. |\n| Monday, February 16, 2026** | Washington's Birthday |\n| Monday, May 25, 2026 | Memorial Day |\n| Friday, June 19, 2026 | Juneteenth National Independence Day |\n| Friday, July 3, 2026*** | Independence Day |\n| Monday, September 7, 2026 | Labor Day |\n| Monday, October 12, 2026 | Columbus Day |\n| Wednesday, November 11, 2026 | Veterans Day |\n| Thursday, November 26, 2026 | Thanksgiving Day |\n| Friday, December 25, 2026 | Christmas Day |"
+   },
+   {
+    "url": "https://ffeba.com/data/federal-holidays/",
+    "title": "Federal holidays 2026: OPM dates, observed days and the next holiday | FFEBA",
+    "content": "| Friday | |\n| Independence Day | July 3,\n...\n| Monday | |\n| Columbus Day | October 12, ... | Monday | |\n| Veterans Day | November 11, 2026 | Wednesday\n...\n| Thanksgiving Day | November 26, 2026 | Thursday"
+   }
+  ]
+ }
+}

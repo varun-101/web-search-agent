@@ -1,0 +1,11 @@
+{
+ "kind": "read",
+ "request": {
+  "url": "https://support.spotify.com/ca-en/article/tax-on-spotify/"
+ },
+ "response": {
+  "finalUrl": "https://support.spotify.com/ca-en/article/tax-on-spotify/",
+  "title": "Page not found - Spotify",
+  "markdown": "Page not found - Spotify  \n\nSkip to content\n\nभारत (हिन्दी)\n\n# This page is out of tune\n\nWe can't find the page you're looking for. Check the link again, listen on our Web Player, or go to our Support page.\n\nDon't have an account yet? Well, first things first.\n\nSign up free"
+ }
+}

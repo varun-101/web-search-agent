@@ -1,0 +1,41 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "site.usps.com Veterans Day November 11 2026 post offices closed mail delivery Priority Mail Express",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://about.usps.com/who/legal/foia/documents/delivery-operations/veterans-holiday-2026.pdf",
+    "title": "• A delivery manager or supervisor must: Post the holiday work schedules and review attendance patterns to be addressed prior to the holiday",
+    "content": "Collection times must be performed as close to the latest posted pick-up time as possible. ... Personnel on duty should check collection boxes at Post Office, lobby\n\n...\n\nVeterans Day Holiday, “Non-Widely Observed”, Wednesday, November 11, 2026:\n\n• There will be no regular delivery service except for Holiday Premium Priority Mail Express and Holiday Same Day Package Delivery (HUB and spoke structures) \n• Amazon will drop to all Sunday/Holiday sites for holiday delivery o Night Owls will also be scheduled o Review Route Book drop times to schedule personnel to accept volume according to the scheduled drops \n• UPS will execute drops from 10:00 am-12:00 pm to Sunday Hub locations for ZIP Codes serviced by the HUB Monday-Saturday. Volume is not committed for Holiday delivery. \n• EAS must use DMS, when available, to confirm proper scanning and delivery of Holiday Same Day parcels has been completed at all locations \n• Delivery of any product not committed on this day will only be designated by the Vice President for that assigned Region \n• Collection Operations: o District Managers will coordinate with plant partners and perform full collections if cancelations are scheduled o Collection times must be performed as close to the last posted pick up time as possible o District Mangers will coordinate with Logistics to ensure adequate transportation is scheduled to transport all collected mail o Collections must start and run-on time to meet the Dispatch of Value (DOV) to the mail processing facilities\n\n...\n\nWednesday, November 11: Veterans Day Holiday, “Non-Widely Observed”:\n\n• Retail services will not be available, except in those facilities normally open on this holiday. \n• Post offices should provide post office box access for customers to the maximum extent possible. \n• Post Office Operations personnel on duty should check and clear collection points in front of and within the post office (e.g., collection boxes, inside lobby drops and self-service kiosks) follow separation and MTEL placarding procedures to prepare and dispatch all outgoing mail on first available truck. \n• District managers or designee will coordinate with plant partners to staff remittance units if warranted. District Integrated Operating Plan Specialists should review District and local surface and air transportation network holiday schedules. If networks are operating, ensure major mailers are contacted to make certain volumes are collected and inducted into the system in a timely manner. \n• District Integrated Operating Plan Specialists should work in conjunction with local processing and transportation personnel to ensure IOP agreements are being followed and MAQ/PAQ anomalies are being recorded properly. o Amazon will drop to all Sunday Amazon HUB sites on Wednesday for holiday HUB delivery. Please review the route book to be staffed for the scheduled holiday drop time. o There will be Amazon Night Owl drops scheduled Tuesday night into Wednesday for holiday delivery. o “Holiday” configuration must be used as day of week selection in PDTA. o UPS Ground Saver will make holiday drops to the designated HUB offices on Wednesday 11/11 between 10-12 local time. These drops will apply only to the HUB ZIP Code and this volume is scheduled for delivery on Friday ,11/13/2026. \n• Ensure all MTE is prepped and dispatched to plant partners."
+   },
+   {
+    "url": "https://about.usps.com/newsroom/national-releases/2026/1104-usps-to-observe-veterans-day-on-nov-11.htm",
+    "title": "U.S. Postal Service To Observe Veterans Day Holiday, Nov. 11 - Newsroom - About.usps.com",
+    "content": "WASHINGTON — The U.S. Postal Service will observe Veterans Day on Wednesday, November 11. All Post Office locations will be closed. Regular mail delivery and retail services will resume on Thursday, November 12. \n\nCustomers are reminded that when Post Offices are closed, they can still visit usps.com to order stamps and free USPS boxes, and to access services such as Hold Mail, Change of Address, PO Box rental or renewal, and Click-N-Ship to print pre-paid labels. In addition, self-service kiosks are available in select lobbies nationwide. These kiosks feature:\n\n- Postage printing for Priority Mail, Priority Mail Express and international shipping;\n- Stamps for purchase;\n- Ability to weigh and mail packages; and\n- Package tracking information.\n\n...\n\nMany self-service kiosks are available 24/7, offering customers flexibility and convenience even when Post Offices are closed.",
+    "published": "2026-11-04T00:00:00.000Z"
+   },
+   {
+    "url": "https://about.usps.com/newsroom/local-releases/mo/2026/1109-usps-to-observe-veterans-day-on-nov-11.htm",
+    "title": "U.S. Postal Service To Observe Veterans Day Holiday, Nov. 11 - Missouri newsroom - About.usps.com",
+    "content": ", and Click-N-Ship to print pre-paid labels. In ... . These kiosks feature:\n\n- Postage printing for Priority Mail, Priority Mail Express and ... shipping;\n- Stamps for purchase;\n- Ability to weigh and mail packages; and\n- Package tracking information.",
+    "published": "2026-11-09T00:00:00.000Z"
+   },
+   {
+    "url": "https://about.usps.com/newsroom/local-releases/va/2026/1106-usps-to-observe-veterans-day-on-nov-11.htm",
+    "title": "U.S. Postal Service To Observe Veterans Day Holiday, Nov. 11 - Virginia newsroom - About.usps.com",
+    "content": "are closed, they can still visit usps.com to order stamps and free USPS ... , and to access services such as Hold Mail, Change of Address, PO\n...\nshipping;\n- Stamps for purchase;\n- Ability to weigh and mail packages; and\n- Package tracking information.",
+    "published": "2026-11-06T00:00:00.000Z"
+   },
+   {
+    "url": "https://about.usps.com/newsroom/local-releases/ma/2026/1105-usps-to-observe-veterans-day-holiday-nov-11.htm",
+    "title": "U.S. Postal Service To Observe Veterans Day Holiday, Nov. 11  - Massachusetts newsroom - About.usps.com",
+    "content": "Change of Address, PO Box rental or renewal, and Click-N-Ship\n...\n- Postage printing for Priority Mail, Priority Mail Express and international shipping;\n- Stamps for purchase;\n- Ability to weigh and mail packages; and\n- Package tracking information.",
+    "published": "2026-11-05T00:00:00.000Z"
+   }
+  ]
+ }
+}

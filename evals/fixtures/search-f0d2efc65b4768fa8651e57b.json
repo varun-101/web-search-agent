@@ -1,0 +1,39 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Notion pricing plans Plus Business per seat monthly annually Coda pricing Pro Team doc maker monthly annually",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.notion.com/pricing",
+    "title": "Notion Pricing Plans: Free, Plus, Business, & Enterprise.",
+    "content": "### Plus\n\n$10 per member / month\n\nFor small teams and professionals to work together.\n\nEverything in Free, and:\n\n- Trial of Notion AI\n- Custom forms\n- Custom sites\n- Charts\n- Collaborative blocks\n- File uploads\n- Basic connections\n\n...\n\n### Business Recommended\n\n$20 per member / month\n\nFor growing businesses to streamline teamwork.\n\nEverything in Plus, and:\n\n- Notion Agent\n- AI Meeting Notes\n- Enterprise Search Beta\n- SAML SSO\n- Granular database permissions\n- Verify any page\n- Private teamspaces\n- Domain verification\n- Premium connections"
+   },
+   {
+    "url": "https://2sync.com/blog/coda-vs-notion",
+    "title": "Coda vs. Notion: honest comparison for 2026",
+    "content": "Coda uses \"maker billing\": only the people who create and manage docs pay. Everyone else edits for free. This makes Coda significantly cheaper for larger teams where a few builders serve many editors:\n\n- Free: Unlimited docs, tables, and automations for everyone\n- Pro: $12/Doc Maker/month billed annually ($ 15 monthly); unlimited free editors\n- Business (renamed from Team in the July 2026 rebrand): $33/Doc Maker/month billed annually ($ 40 monthly); advanced admin controls, doc and page locking, and support\n- Enterprise: Custom pricing, HIPAA compliance, dedicated support\n\nThese are the new list prices for anyone signing up today.\n\n...\n\nNotion charges per seat, which is simpler but adds up faster as teams grow:\n\n- Free: Unlimited pages and blocks for individuals; 10 guest seats, 7-day page history\n- Plus: $10/seat/month (annual) or $12 monthly; unlimited blocks, file uploads, 30-day history\n- Business: $20/seat/month (annual) or $24 monthly; teamspaces, advanced permissions, Notion AI bundled\n- Enterprise: Custom pricing, dedicated support, SSO, compliance guarantees"
+   },
+   {
+    "url": "https://notionsolutions.net/notion-vs-coda/",
+    "title": "Notion vs Coda: Doc Maker Billing, Free Limits and Cost",
+    "content": "On the Superhuman Docs plans page, Pro costs $12 per Doc Maker per month billed annually, or $15 billed monthly. Business, which several published comparisons still quote under its old Team name, costs $33 billed annually or $40 monthly, and Enterprise is custom. The plan FAQ is blunt about the rest: \"Editors and Viewers are always free,\" and \"Even on Enterprise, you pay only for Doc Makers.\" Coda's billing basics add that each billing cycle is charged on the number of Doc Makers at its end, and that upgrading a free workspace takes only one paid Doc Maker.\n\n...\n\nMonthly cost on annual billing: Notion counts members, Coda counts Doc Makers\n\n| Team shape | Notion Plus | Notion Business | Coda Pro | Coda Business |\n| --- | --- | --- | --- | --- |\n| Solo freelancer, clients as guests | $10 (or Free, $0) | $20 | $12 (or Free, $0) | $33 |\n| 3 people, all create pages | 3 × $10 = $30 | 3 × $20 = $60 | 3 × $12 = $36 | 3 × $33 = $99 |\n| 2 builders + 8 who only update tables | 10 members: $100; 2 members + 8 guests: $20 | 10 members: $200; 2 members + 8 guests: $40 | 2 × $12 = $24 | 2 × $33 = $66 |\n| 6 people, all create pages | 6 × $10 = $60 | 6 × $20 = $120 | 6 × $12 = $72 | 6 × $33 = $198 |\n\nAnnual billing means paying the year up front: the three-person studio pays $360 a year on Notion Plus against $432 on Coda Pro. The guest figures in the third row only hold if those eight people can work as outsiders, with their own Notion accounts and access to the pages they're invited to but not the teamspaces. On monthly billing, Coda Pro is $15 and Business $40 per Doc Maker, so the two-builder team pays $30 or $80. Notion's page says yearly billing saves up to 20%, so its monthly prices sit above the ones in this table.",
+    "published": "2026-10-30T10:17:02.000Z"
+   },
+   {
+    "url": "https://help.coda.io/hc/en-us/articles/39555725230989-Billing-and-pricing-basics",
+    "title": "Billing and pricing basics – Coda",
+    "content": "With Coda’s unique Maker billing model, we only charge for Doc Makers in paid workspaces. Editors and viewers are entirely free!\n\n...\n\nWhen you upgrade to a paid plan, you have the choice of paying annually or monthly. You can use your self-service billing account to change payment methods, update billing details, change pricing plans, and. For more info on managing your billing account, check out this article.\n\n...\n\nWith our Maker billing model, you only pay for Doc Makers in your workspace. Each pricing plan (Free, Pro, Team, and Enterprise) has a different cost per Doc Maker. To see the cost per Doc Maker, head to our pricing page.\n\n...\n\nFor our Pro and Team tiers: When you sign up for a new plan, you will be billed up front for all the Doc Makers in your workspace. If you add a new paid user ... On the annual plan, you will be charged monthly for these additional membership changes, with prorations applied for the remainder of the billing year."
+   },
+   {
+    "url": "https://testedintelligence.com/notion-vs-coda-2026/",
+    "title": "Notion vs Coda 2026: Per-Seat Docs or Doc-Maker Pricing — Which Workspace Should You Pay For? - Tested Intelligence",
+    "content": "Notion Free is $0. Plus is $10 per member/month billed annually, adding custom forms, custom sites and charts. Business is $20 per member/month billed annually and is the first tier with the full AI package: Notion Agent, AI Meeting Notes and Enterprise Search beta. Every member pays, whether they write one page a year or a hundred.\n\nSuperhuman Docs (Coda) Free is $0. Pro is $12 per Doc Maker/month billed annually ($15 monthly), with unlimited doc size, 30-day version history and custom domains. Business is $33 per Doc Maker/month billed annually ($40 monthly), adding unlimited automations and unlimited version history. Editors and viewers do not need a paid seat.",
+    "published": "2026-11-10T14:20:15.000Z"
+   }
+  ]
+ }
+}

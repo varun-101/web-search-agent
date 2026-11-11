@@ -1,0 +1,38 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Read current VanMoof S5 price and whether in stock or sold out.",
+  "site": "ridershub.co"
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://ridershub.co/collections/vanmoof",
+    "title": "VanMoof\n – RIDERS HUB",
+    "content": "VanMoof – RIDERS HUB\n\n# VanMoof\n\n- \n\nVanMoof S6\n\n€3.298,00 EUR\n- \n\nVanMoof S6 Open\n\n€3.298,00 EUR\n- Sold out \n\n \n\nVanMoof S5\n\n€2.998,00 EUR\n- Sold out \n\n \n\nVanMoof A5\n\n€2.798,00 EUR€2.998,00 EUR\n\n \n\n## Buy a VanMoof and take a test ride right away\n\nExperience the ride: Take a VanMoof for a test ride. Because you want to feel how a VanMoof rides for yourself, we offer you the chance to take a no-obligation test ride. During your visit, you'll also have the opportunity to compare various VanMoof models with e-bikes from other top brands like Cowboy and Lemmo. That way, you can be sure you're making the right choice—one that fits your riding style and preferences. Scheduling a test ride is easy. Simply book an appointment online or contact us by phone. We're happy to help you find the perfect match and make sure you head out well-informed and relaxed.\n\n \n\n## Trust and warranty when buying a VanMoof e-bike\n\nBuying a VanMoof e-bike isn't something you do lightly. It's a well-considered decision, and you want to be sure you can rely on a trusted dealer if any issues arise. That's why we offer a 1-year warranty on all VanMoof models, and you're always welcome to come to us for support.\n\n...\n\n### VanMoof S5\n\n60 - 150 km\n\n### VanMoof"
+   },
+   {
+    "url": "https://ridershub.co/products/vanmoof-s5",
+    "title": "VanMoof S5\n – RIDERS HUB",
+    "content": "# VanMoof S5\n\n€${ $filters.price(currentVariantPrice) } EUR €${ $filters.price(currentOriginalVariantPrice) } EUR \n\nThe VanMoof S5 is the ultimate step over e-bike, designed for riders who demand power, style, and cutting-edge technology. Perfect for both long adventures and short urban commutes, this sporty electric bike delivers an exceptionally smooth and intuitive riding experience."
+   },
+   {
+    "url": "https://ridershub.co/",
+    "title": "RIDERS HUB | VanMoof & Cowboy | Bike shop Amsterdam",
+    "content": "RIDERS HUB | VanMoof & Cowboy | Bike shop Amsterdam \n\n \n\nVanMoof S6 Open\n\n Sold out \n\n \n\nVanMoof S5\n\n Sold out \n\n \n\nVanMoof A5\n\n Sold out \n\n \n\nCowboy Cruiser\n\n Sold out \n\n \n\nCowboy Cruiser ST"
+   },
+   {
+    "url": "https://ridershub.co/blogs/hub/spring-drop-score-your-vanmoof-s5-extremely-limited-edition",
+    "title": "Spring Drop: Score your VanMoof S5 (Extremely limited edition!)\n – RIDERS HUB",
+    "content": "# Spring Drop: Score your VanMoof S5 (Extremely limited edition!) \n\nApril 25, 2026\n\n \n\nSpring is in the air. The days are getting longer, the light softer, and the city invites you to explore it once again. The perfect moment to get back on your bike — or to upgrade.\n\nAt RIDERS HUB, we’ve secured something special: an exclusive selection of the highly sought-after VanMoof S5. A carefully sourced, limited stock available for a short time only.\n\n## The Spring Drop (while supplies last)\n\nThis collection is small and exclusive. Once these models are gone, this selection will not return.\n\n## Ride immediately, no waiting time\n\nNo long delivery times or uncertainty. These bikes are available directly from stock, so you can hit the road this spring without delay. The VanMoof S5 is known for its minimalist design, smart technology, and effortless urban riding experience.\n\n## This is what we have ready for you:\n\n- VanMoof S5 Available in two refined colors: Grey and Dark Grey. Only 10 units per color available.\n- VanMoof S6 (compact model) A smaller, more accessible model with the same quality and look. Only 5 units available.\n\n## Purchased from specialists\n\nAt RIDERS HUB, you’re not just buying a bike — you’re investing in peace of mind. As specialists, we ensure your VanMoof stays in top condition. For maintenance or service, you can visit our high-tech Shimano workshops in Amsterdam South and West.\n\n## Reserve your ride\n\nWith such limited availability, timing matters. If you want to secure your preferred model and color, we recommend getting in touch or visiting the store soon.",
+    "published": "2026-04-25T00:00:00.000Z"
+   },
+   {
+    "url": "https://ridershub.co/pages/book-a-testrit",
+    "title": "Book a test ride\n – RIDERS HUB",
+    "content": "## Book your test ride today\n\nCurious if an e-bike really fits your life? The quickest way to find out is to ride one. At Riders Hub you can try the latest models (VanMoof S6, S6 Open, S5, A5, plus the Cowboy Cruiser and Cruiser ST). Our team will set up the bike to your height, walk you through the smart features, and send you on a short route so you can feel the power, handling, and comfort for yourself. Whether you’re commuting, cruising, or tackling hills, a few minutes in the saddle says more than hours of specs and reviews. Slots fill quickly, so pick a time that suits you and we’ll have a bike ready when you arrive. Tap “Book a test ride” and take the first pedal toward your next ride.\n\n## Ridershub E-Bike Test Ride FAQs \n\nFind quick answers on booking a test ride at Ridershub—available models, duration, what to bring, age/ID, helmets and safety, weather policy, rescheduling, and buying after your ride.\n\n How do I book a test ride? \n\n Book online via our scheduler, pick a date/time, and choose your model. You’ll get an instant confirmation email. \n\n Which models can I try? \n\n We typically have the latest VanMoof (S6, S6 Open, S5, A5) and Cowboy (Cruiser, Cruiser ST) ready. Check the scheduler for real-time availability. \n\n How long does a test ride take? \n\n Plan for 20–30 minutes including a quick briefing and bike setup. Want to compare bikes? Book two back-to-back slots. \n\n Is it free and without obligation? \n\n Yes—test rides are free and there’s no purchase obligation. An ID check or refundable deposit may be required per location/model."
+   }
+  ]
+ }
+}

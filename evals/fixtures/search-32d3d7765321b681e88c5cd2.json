@@ -1,0 +1,38 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Verify scheduled release date and time for Consumer price inflation UK October 2026.",
+  "site": "ons.gov.uk"
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026",
+    "title": "Consumer price inflation, UK: October 2026\n      - Office for National Statistics",
+    "content": "Consumer price inflation, UK: October 2026 - Office for National Statistics \n\n# Consumer price inflation, UK: October 2026 \n\n Release date: 18 November 2026 7:00am \n\nImportant information: \n\nThis release is not yet published\n\n## Summary\n\nPrice indices"
+   },
+   {
+    "url": "https://www.ons.gov.uk/releasecalendar?highlight=true&keywords=inflation&limit=10&page=1&release-type=type-upcoming&sort=date-newest",
+    "title": "Release calendar\n      - Office for National Statistics",
+    "content": "1. Consumer price inflation, UK: October 2026 time series\n\n Release date: 18 November 2026 7:00am | Confirmed \n2. Producer price inflation, UK: October 2026 time series\n\n Release date: 18 November 2026 7:00am | Confirmed \n3. Consumer price inflation, UK: October 2026\n\n Release date: 18 November 2026 7:00am | Confirmed"
+   },
+   {
+    "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/methodologies/howwepublishourconsumerpricesoutputs",
+    "title": "How we publish our consumer prices outputs - Office for National Statistics",
+    "content": "## 2. Publication schedule and high-level content\n\nThe Consumer Prices Index including owner occupiers' housing costs (CPIH), Consumer Prices Index (CPI), Retail Prices Index (RPI) and associated data are issued in our Consumer price inflation, UK statistical bulletin at 7.00am. This is usually published on the second or third Wednesday in the month immediately following the month to which the data refer. In practice, this means publication generally, but not always, falls between the 13th and 21st of the month.\n\nAt the same time, accompanying briefing notes are published giving more detail about the factors contributing to changes in the percentage change over 12 months for the headline indices.\n\n...\n\n### Choice of publication date\n\nThe consumer price inflation statistical bulletin is published as early as is practicable. We aim for publication to take place within four or five weeks following \"index day\". More information is available in our Traditional data aggregates in consumer prices article.\n\nThe choice of publication date needs to consider index day, the time needed to process and quality assure the data, along with the availability of other important input data, such as housing data. The dates of publication are announced in advance on our release calendar. During each summer, the final dates for the following calendar year and provisional dates for the year after that are released.",
+    "published": "2026-03-25T00:00:00.000Z"
+   },
+   {
+    "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukseptember2026",
+    "title": "Consumer price inflation, UK: September 2026\n      - Office for National Statistics",
+    "content": "Consumer price inflation, UK: September 2026 - Office for National Statistics \n\n# Consumer price inflation, UK: September 2026 \n\n Released: 21 October 2026 7:00am Next release: 18 November 2026 \n\n## Summary\n\nPrice indices percentage changes and weights for"
+   },
+   {
+    "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceindices/current",
+    "title": "Consumer price inflation time series - Office for National Statistics",
+    "content": "# Dataset(s): Consumer price inflation time series \n\nComprehensive database of time series covering measures of inflation data for the UK including CPIH, CPI and RPI.\n\n Contact: Consumer Price Inflation team (cpi@ons.gov.uk) \n\n Release date: 21 October 2026 \n\n Next release: 18 November 2026 \n\nProvides files to download data as it existed for this dataset on previous dates.\n\n...\n\n| Superseded files | Reason for update | Date superseded |\n| --- | --- | --- |\n| csv (23.2 MB) xlsx (20.2 MB) structured text (14.1 MB) | Scheduled update/revision | 21 October 2026 07:00 |\n| csv (23.2 MB) xlsx (20.1 MB) structured text (14.1 MB) | Scheduled update/revision | 16 September 2026 07:00 |\n| csv (23.1 MB) xlsx (20.1 MB) structured text (14.0 MB) | Scheduled update/revision | 19 August 2026 07:00 |\n| csv (23.1 MB) xlsx (20.1 MB) structured text (14.0 MB) | Scheduled update/revision | 22 July 2026 07:00 |\n| csv (23.1 MB) xlsx (20.1 MB) structured text (14.0 MB) | Scheduled update/revision | 18 June 2026 07:00 |\n| csv (23.0 MB) xlsx (20.0 MB) structured text (13.9 MB) | Scheduled update/revision | 20 May 2026 07:00 |\n| csv (23.0 MB) xlsx (20.0 MB) structured text (13.9 MB) | Scheduled update/revision | 22 April 2026 07:00 |\n| csv (23.0 MB) xlsx (20.0 MB) structured text (13.9 MB) | Correction See correction The previous version of this time series was published with the incorrect release date on the landing page. This has now been corrected. | 25 March 2026 12:51 |\n| csv (23.0 MB) xlsx (20.0 MB) structured text (13.9 MB) | Scheduled update/revision | 25 March 2026 07:00 |\n| csv (23.0 MB) xlsx (20.0 MB) structured text (13.9 MB) | Correction See correction We have identified and corrected a data input error affecting CDIDs KYHJ, KYHK, KYHL, KYHM and KYHQ. ... For further information, please contact the Consumer Price Inflation team. | 18 February 2026 09:55 |\n| csv (22.9 MB) xlsx (20.0 MB) structured text (13.8 MB) | Scheduled update/revision | 18\n\n...\n\n| csv (22.9 MB) xlsx (19.9 MB) structured text (13.7 MB) | Scheduled update/revision | 21 January 2026 07:00 |\n| csv (22.9 MB) xlsx (19.9 MB) structured text (13.7 MB) | Scheduled update/revision | 17 December 2025 07:00 |\n| csv (22.9 MB) xlsx (19.9 MB) structured text (13.7 MB) | Scheduled update/revision | 19 November 2025 07:00 |\n| csv (22.8 MB) xlsx (19.9 MB) structured text (13.6 MB) | Scheduled update/revision | 22 October 2025 07:00 |"
+   }
+  ]
+ }
+}

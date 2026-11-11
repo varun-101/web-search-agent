@@ -1,0 +1,39 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "AWS Lambda pricing eu-central-1 Frankfurt x86 duration price GB second requests 0.0000166667 0.20 million",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://aws.amazon.com/lambda/pricing/",
+    "title": "AWS Lambda Pricing",
+    "content": "Lambda Event Functions are priced based on the number of requests served and the duration your code runs, measured in GB-seconds. You choose the memory allocated to your function and get proportional CPU and resources. The free tier includes one million requests and 400,000 GB-seconds per month.\n\n...\n\nYou can allocate any amount of memory to your function between 128 MB and 10,240 MB, in 1 MB increments.\n\n...\n\nLambda on-demand duration pricing"
+   },
+   {
+    "url": "https://cloud-credits.org/prices/lambda/eu-central-1",
+    "title": "AWS Lambda price in eu-central-1",
+    "content": "# AWS Lambda price in eu-central-1\n\nUpdated 2026-10-19\n\nAWS Lambda in eu-central-1 (EU (Frankfurt)): Requests $ per 1M (x86) $0.20; Compute $/GB-second (x86, first tier) $0.0000166667; Requests $ per 1M (Arm) $0.20; Compute $/GB-second (Arm, first tier) $0.0000133334. Example (10M requests × 200 ms × 512 MB on Arm, before free tier): about $15.33/month.\n\n...\n\nPrices and credit amounts are estimates and may change. Check AWS for current terms."
+   },
+   {
+    "url": "https://mathieukerbel.com/blog/aws-lambda",
+    "title": "AWS Lambda: pricing, memory and how to cut the bill",
+    "content": "### Requests and duration in Paris\n\nDuration tiers apply \"to aggregate monthly duration of your functions running on the same architecture (x86 or Arm, respectively), in the same region, within the account\", so a large account pays less per GB-second as its month grows:\n\nLambda Event Functions in Paris (eu-west-3): requests and duration\n\n| Item | List price | Unit |\n| --- | --- | --- |\n| Requests | | |\n| Requests, x86 | $ 0.20 | /M req per million requests |\n| Requests, Arm | $ 0.20 | /M req per million requests |\n| Duration, x86 | | |\n| First 6 billion GB-seconds a month | $ 0.0000166667 | /GB-s per GB-second |\n| Next 9 billion GB-seconds | $ 0.000015 | /GB-s per GB-second |\n| Over 15 billion GB-seconds | $ 0.0000133334 | /GB-s per GB-second |\n| Duration, Arm | | |\n| First 7.5 billion GB-seconds a month | $ 0.0000133334 | /GB-s per GB-second |\n| Next 11.25 billion GB-seconds | $ 0.0000120001 | /GB-s per GB-second |\n| Over 18.75 billion GB-seconds | $ 0.0000106667 | /GB-s per GB-second |\n\nUSD, before tax. AWS Price List, eu-west-3, offer file published October 14, 2026, fetched October 15, 2026.",
+    "published": "2026-10-16T10:09:46.000Z"
+   },
+   {
+    "url": "https://vmprices.com/serverless/lambda/",
+    "title": "AWS Lambda pricing in every region | vmprices",
+    "content": "| Region | Location | A month x86, busy all month | A month Arm | GB, x86 an hour | GB, Arm an hour | Requests per million |\n| --- | --- | --- | --- | --- | --- | --- |\n| ap-east-2 | Taipei, Taiwan | $78.84 | $63.07 | $0.054 | $0.0432 | $0.18 |\n| ap-southeast-5 | Malaysia | $78.84 | $63.07 | $0.054 | $0.0432 | $0.18 |\n| ap-southeast-7 | Thailand | $78.84 | $63.07 | $0.054 | $0.0432 | $0.18 |\n| us-east-1 | N. Virginia, US | $87.60 | $70.08 | $0.06 | $0.048 | $0.20 |\n| us-west-2 | Oregon, US | $87.60 | $70.08 | $0.06 | $0.048 | $0.20 |\n| eu-west-1 | Ireland | $87.60 | $70.08 | $0.06 | $0.048 | $0.20 |\n| ap-northeast-1 | Tokyo, Japan | $87.60 | $70.08 | $0.06 | $0.048 | $0.20 |\n| ap-northeast-2 | Seoul, South Korea | $87.60 | $70.08 | $0.06 | $0.048 | $0.20 |\n| ap-northeast-3 | Osaka, Japan | $87.60 | $70.08 | $0.06 | $0.048 | $0.20 |\n| ap-south-1 | Mumbai, India | $87.60 | $70.08 | $0.06 | $0.048 | $0.20 |\n| ap-south-2 | Hyderabad, India | $87.60 | $70.08 | $0.06 | $0.048 | $0.20 |\n| ap-southeast-1 | Singapore | $87.60 | $70.08 | $0.06 | $0.048 | $0.20 |\n| ap-southeast-2 | Sydney, Australia | $87.60 | $70.08 | $0.06 | $0.048 | $0.20 |\n| ap-southeast-3 | Jakarta, Indonesia | $87.60 | $70.08 | $0.06 | $0.048 | $0.20 |\n| ap-southeast-4 | Melbourne, Australia | $87.60 | $70.08 | $0.06 | $0.048 | $0.20 |\n| ca-central-1 | Central Canada | $87.60 | $70.08 | $0.06 | $0.048 | $0.20 |\n| ca-west-1 | Calgary, Canada | $87.60 | $70.08 | $0.06 | $0.048 | $0.20 |\n| eu-central-1 | Frankfurt, Germany | $87.60 | $70.08 | $0.06 | $0.048 | $0.20 |\n| eu-north-1 | Stockholm, Sweden | $87.60 | $70.08 | $0.06 | $0.048 | $0.20 |\n| eu-south-2 | Aragón, Spain | $87.60 | $70.08 | $0.06 | $0.048 | $0.20 |\n| eu-west-2 | London, United Kingdom | $87.60 | $70.08 | $0.06 | $0.048 | $0.20 |\n| eu-west-3 | Paris, France | $87.60 | $70.08 | $0.06 | $0.048 | $0.20 |\n| sa-east-1 | São Paulo, Brazil | $87.60 | $70.08 | $0.06 | $0.048 | $0.20 |\n| us-east-2 | Ohio, US | $87.60 | $70.08 | $0.06 | $0.048 | $0.20 |\n| us-west-1 | N. California, US | $87.60 | $70.08 | $0.06 | $0.048 | $0.20 |\n| ap-southeast-6 | New Zealand | $91.98 | $73.58 | $0.063 | $0.0504 | $0.21 |\n| il-central-1 | Tel Aviv, Israel | $91.98 | $73.58 | $0.063 | $0.0504 | $0.21 |\n| mx-central-1 | Central Mexico | $91.98 | $73.58 | $0.063 | $0.0504 | $0.21 |\n| eu-central-2 | Zurich, Switzerland | $96.36 | $77.09 | $0.066 | $0.0528 | $0.22 |\n| eu-south-1 | Milan, Italy | $103 | $82.07 | $0.07026 | $0.05621 | $0.23 |\n| me-central-1 | United Arab Emirates | $109 | $86.90 | $0.0744 | $0.05952 | $0.25 |\n| me-south-1 | Bahrain | $109 | $86.90 | $0.0744 | $0.05952 | $0.25 |\n| af-south-1 | Cape Town, South Africa | $116 | $92.93 | $0.07956 | $0.06365 | $0.27 |\n| ap-east-1 | Hong Kong | $120 | $96.18 | $0.08251 | $0.06588 | $0.28 |"
+   },
+   {
+    "url": "https://www.cloudzero.com/blog/lambda-pricing/",
+    "title": "AWS Lambda pricing: what it actually costs in 2026",
+    "content": "rate | Arm (Graviton2) rate | Free tier (monthly) |\n| --- | --- | --- | --- |\n| Requests | $0.20 per ... ($0.0000002 each) | Same | 1,000,000 requests |\n| Duration | $ ... | $0.0000133334 per GB-second",
+    "published": "2026-07-24T12:37:06.000Z"
+   }
+  ]
+ }
+}

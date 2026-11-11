@@ -1,0 +1,39 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Germany statutory minimum wage January 1 2027 14.60 official",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.bmas.de/DE/Service/Gesetze-und-Gesetzesvorhaben/fuenfte-mindestlohnanpassungsverordnung-milov5.html",
+    "title": "Fünfte Mindestlohnanpassungsverordnung  -  BMAS",
+    "content": "# Fünfte Mindestlohnanpassungsverordnung\n\n Fünfte Verordnung zur Anpassung der Höhe des Mindestlohns (MiLoV5)\n\n Die Mindestlohnkommission hat am 27. Juni 2025 einen Vorschlag vorgelegt, wie sich die Höhe des Mindestlohns ab 1. Januar 2026 entwickeln soll. Die Bundesregierung ist diesem Vorschlag gefolgt, weshalb die Mindestlohnhöhe wie folgt angepasst wird:\n\n- ab 1. Januar 2026 13,90 Euro brutto je Zeitstunde und\n- ab 1. Januar 2027 14,60 Euro brutto je Zeitstunde."
+   },
+   {
+    "url": "https://www.gesetze-im-internet.de/milov5/__1.html",
+    "title": "§ 1 MiLoV5 - Einzelnorm",
+    "content": "§ 1 MiLoV5 - Einzelnorm\n\n# Fünfte Verordnung zur Anpassung der Höhe des Mindestlohns (Fünfte Mindestlohnanpassungsverordnung - MiLoV5) § 1 Höhe des Mindestlohns\n\nDer Mindestlohn beträgt \n\n| 1. | ab 1. Januar 2026 | 13,90 Euro brutto je Zeitstunde, |\n| --- | --- | --- |\n| 2. | ab 1. Januar 2027 | 14,60 Euro brutto je Zeitstunde. |"
+   },
+   {
+    "url": "https://www.bmas.de/DE/Arbeit/Arbeitsrecht/Mindestlohn/Informationen-zum-Mindestlohn/informationen-zum-mindestlohn-deutsch.html",
+    "title": "Der gesetzliche Mindestlohn - Ein Überblick  -  BMAS",
+    "content": "In Deutschland gibt es seit dem 1. Januar 2015 einen allgemeinen gesetzlichen Mindestlohn. Dieser gilt für alle Arbeitnehmerinnen und Arbeitnehmer im Inland. Seit dem 1. Januar 2026 beträgt er 13,90 Euro (brutto) pro Zeitstunde und wird zum 1. Januar 2027 auf 14,60 Euro (brutto) pro Zeitstunde angehoben.\n\n Der gesetzliche Mindestlohn gilt unabhängig vom Umfang der Tätigkeit und der Nationalität der Beschäftigten. Damit findet er auch Anwendung auf geringfügig Beschäftigte (sogenannte Minijobberinnen und Minijobber), Saisonarbeitskräfte und ausländische Beschäftigte, wenn sie in Deutschland arbeiten. Sie erhalten den Mindestlohn unabhängig davon, ob sie bei einem in- oder einem ausländischen Arbeitgeber angestellt sind.\n\n Ausgenommen vom Mindestlohn sind Beschäftigte unter 18 Jahren ohne abgeschlossene Berufsausbildung. Ebenfalls ausgenommen sind (für die ersten sechs Monate der Beschäftigung) Arbeitnehmerinnen und Arbeitnehmer die unmittelbar vor Beginn der Beschäftigung langzeitarbeitslos gewesen sind.\n\n...\n\nDie Arbeitnehmerinnen und Arbeitnehmer haben Anspruch auf den gesetzlichen Mindestlohn für jede tatsächlich geleistete Arbeitsstunde im Abrechnungszeitraum (in der Regel der Kalendermonat). Dies gilt auch für Überstunden.\n\n Arbeitgeber sind verpflichtet, den Mindestlohn zum Zeitpunkt der vereinbarten Fälligkeit zu zahlen. Die Zahlung hat spätestens am letzten Bankarbeitstag des Monats zu erfolgen, der auf den Monat folgt, in dem die Arbeitsleistung erbracht wurde. Hiervon kann lediglich in engen Grenzen bei Nutzung eines schriftlich vereinbarten Arbeitszeitkontos abgewichen werden. Fällt der letzte Tag eines Kalendermonats auf einen Samstag, Sonntag oder einen Feiertag, ist der Mindestlohnanspruch spätestens am davor liegenden Tag zu erfüllen."
+   },
+   {
+    "url": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2025/anhebung-gesetzlicher-mindestlohn-zum-1-1-2026.html",
+    "title": "Anhebung des gesetzlichen Mindestlohns zum 1. Januar 2026  -  BMAS",
+    "content": "In ihrer Sitzung vom 27. Juni 2025 hat die Mindestlohnkommission eine stufenweise Erhöhung des gesetzlichen Mindestlohns auf 13,90 Euro zum 1. Janua r 2026 und 14,60 Euro zum 1. Januar 2027 beschlossen. Damit steigt der Mindestlohn zunächst um 8,42 % und im Folgejahr um weitere 5,04 %. Insgesamt steigt er also um 13,88 %. Das ist die größte sozialpartnerschaftlich beschlossene Lohnerhöhung seit Einführung des Mindestlohns.\n\n...\n\nDas gemeinsame Ergebnis begrüße ich ausdrücklich. Es zeigt, die Sozialpartnerschaft in diesem Land funktioniert. Der gemeinsame Vorschlag bedeutet für Millionen Menschen mehr Geld im Portemonnaie. Ich werde der Bundesregierung deshalb vorschlagen, diese Anpassung durch Rechtsverordnung zum 1. Januar 2026 verbindlich zu machen.",
+    "published": "2025-06-27T00:00:00.000Z"
+   },
+   {
+    "url": "https://www.mindestlohn-kommission.de/en/Information-on-the-minimum-wage/Evolution-of-the-minimum-wage",
+    "title": "Evolution of the minimum wage\n\n\n\n  -  Mindestlohnkommission",
+    "content": "Following this decision and the enactment of a statutory order by the federal government on November 24, 2023, the statutory minimum wage was increased to €12.41 per hour with effect from January 1, 2024, and to €12.82 per hour with effect from January 1, 2025. The minimum wage was increased to €13.90 with effect from 1 January 2026. From 1 January 2027, the statutory minimum wage will be €14.60.",
+    "published": "2023-10-01T10:00:00.000Z"
+   }
+  ]
+ }
+}

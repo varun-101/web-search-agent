@@ -1,0 +1,37 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Spotify Canada subscription Ontario HST 13% tax added price",
+  "site": "support.spotify.com"
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://support.spotify.com/ca-en/article/sales-tax/",
+    "title": "Does the price for Premium include tax?",
+    "content": "Does the price for Premium include tax? - Spotify\n\n# Does the price for Premium include tax?\n\nWhere applicable, the price for Premium includes VAT (value added tax).\n\nYou can always see the details of what you’re being charged by checking out your receipts:\n\n1. Go to Payment history.\n2. Under Your payments, select the payment you want to view.\n3. Select Manage, then View receipts.\n\nNote: If you don't see any payments, clear any active filters.\n\nNote: Spotify is for personal/non-commercial use only.\n\n## Local taxes\n\nSome state and local governments may also require us to collect tax (ex. Sales Tax) if Spotify undergoes marketing/promotional activities in the state or locality, or uses local sales agents or consultants.\n\nThis fee is included at the point of the transaction, which is why you might see a slightly different price on your receipt to the rate that’s advertised.\n\n### What happens if tax becomes required for my location?\n\nIf we become required to add a tax for your location, the change will be made on your account automatically. All you need to do to accept it is carry on using Spotify.\n\nNote: If you've moved since signing up for Spotify, you need to update your payment details to ensure you’re being charged correctly."
+   },
+   {
+    "url": "https://support.spotify.com/ca-en/article/charged-too-much/",
+    "title": "Charged too much - Spotify",
+    "content": "# Charged too much\n\nCheck the price of your plan in your account page, under Your plan.\n\nWhere applicable, the price for Premium includes VAT (Value Added Tax). But in some places, an additional tax such as sales tax may be collected by local governments.\n\nIn your account page, you can view a breakdown of your charges under payment history:\n\n1. Go to Payment history.\n2. Under Your payments, select the payment you want to view.\n3. Select Manage, then View receipts.\n\nNote: If you don't see any payments, clear any active filters.\n\n## Are you a student?\n\nPremium Student is valid for 12 months from the date you signed up.\n\nWhen the student discount expires, your plan automatically continues at the standard rate for Premium Individual unless you cancel or apply for another year (with a 4-year limit).\n\nTo renew your student discount, go to www.spotify.com/student and log in to your school portal or upload proof of enrollment.\n\nOnce you renew, you get the discounted rate for another 12 months."
+   },
+   {
+    "url": "https://support.spotify.com/ca-en/article/check-receipts/",
+    "title": "Check your receipts",
+    "content": "# Check your receipts\n\nYou can view your plan and audiobook receipts by logging into your account page. Receipts are available for transactions from the last 2 years.\n\n1. Go to Payment history.\n2. Under Your payments, select the payment you want to view.\n3. Select Manage, then View receipts.\n\nNote: If you don't see any payments, clear any active filters.\n\nYou also get email receipts when you start a trial offer or make your first payment of a new subscription."
+   },
+   {
+    "url": "https://support.spotify.com/ca-en/article/price-updates/",
+    "title": "Price updates - Spotify",
+    "content": "# Price updates\n\nWe're updating our Premium prices to ensure we can continue to innovate in changing market conditions and deliver the best audio content around the world. These changes help us keep providing subscribers with a highly personalized experience and powerful discovery tools, ultimately continuing to deliver value to our fans.\n\n- ### When will I start getting charged the new price for my Premium plan?\n\nYou’ll get an email about the new price, and have a two-month grace period to cancel before it takes effect.\n- ### I’m on a trial offer. Will I have to pay the new price after my trial ends?\n\nIf you’re on a trial offer, you’ll have two months at the original price after your trial ends. After that, the new price for your plan will come into effect.\n- ### What if I don't want to pay this new price?\n\nWe offer a variety of paid subscription plans designed to meet your evolving needs. Check out the Spotify website to see if you’re eligible for other plans.\n\nAlternatively, we also provide a free, ad-supported service that allows you to stay connected with your favorite music, podcasts, and access to all your saved tracks, playlists, and podcasts.\n\nYou can cancel at any time, just remember to do it before your next billing date.\n- ### Where can I find my billing date?\n\nYour billing date depends on which day you subscribed to our service. Check it out on your account page.\n- ### Can I still redeem my gift card?\n\nYes, you can still redeem your gift card even if it was bought at a lower price. Please note that gift cards can only be redeemed on the Premium Individual plan."
+   },
+   {
+    "url": "https://support.spotify.com/ca-en/article/payment-methods/",
+    "title": "Accepted payment methods - Spotify",
+    "content": "# Accepted payment methods\n\nThere are multiple ways to pay for a Spotify Premium plan.\n\nNote: We may offer different payment methods depending on the country or region you’re in.\n\nTo see what payment methods are available where you are:\n\n1. Go to spotify.com/premium.\n2. Choose a Premium plan. \n\nAll the payment options for your account’s location will be on the next page.\n\nNote: You won’t be charged until you submit your payment info."
+   }
+  ]
+ }
+}

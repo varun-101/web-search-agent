@@ -1,0 +1,37 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Read current Pro and Team or Business pricing USD per Doc Maker annual monthly billing",
+  "site": "coda.io"
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://help.coda.io/hc/en-us/articles/39555725230989-Billing-and-pricing-basics",
+    "title": "Billing and pricing basics – Coda",
+    "content": "With Coda’s unique Maker billing model, we only charge for Doc Makers in paid workspaces. Editors and viewers are entirely free!\n\n...\n\nWhen you upgrade to a paid plan, you have the choice of paying annually or monthly. You can use your self-service billing account to change payment methods, update billing details, change pricing plans, and. For more info on managing your billing account, check out this article.\n\n...\n\nHow much does each pricing plan cost?\n\nWith our Maker billing model, you only pay for Doc Makers in your workspace. Each pricing plan (Free, Pro, Team, and Enterprise) has a different cost per Doc Maker. To see the cost per Doc Maker, head to our pricing page.\n\n...\n\nAt the end of each billing cycle, you will be billed for the workspace based\n\n...\n\nWhen will I get billed for my workspaces?\n\nFor our Pro and Team tiers: When you sign up for a new plan, you will be billed up front for all the Doc Makers in your workspace. If you add a new paid user to your workspace (or upgrade an existing one), we'll prorate them for the remainder of your billing cycle. On the annual plan, you will be charged monthly for these additional membership changes, with prorations applied for the remainder of the billing year."
+   },
+   {
+    "url": "https://coda.io/product/tool-consolidation",
+    "title": "Enhance, reduce, and replace dozens of apps with Coda - Coda",
+    "content": "## Pricing that builds bridges, not barriers.\n\nWith Coda, everyone is free to view, edit, comment, and contribute. We only charge for people who create docs. That’s it.\n\n50\n\n+ -\n\nTeam size\n\n10\n\n+ -\n\nDoc Makers\n\nTeam\n\n$360\n\nat $36 per Doc Maker per month\n\nFlexibly evolves with team needs. 100+ integrations and templates. Never pay for collaborators.\n\n$2700\n\nat $54 per seat per month\n\nFixed table-focused structure. Limited number of plug-ins. Charges for every seat and viewer."
+   },
+   {
+    "url": "https://coda.io/compare/airtable",
+    "title": "Compare Coda to Airtable, Coda vs Airtable comparison - Coda",
+    "content": "Paying for every viewer and editor creates barriers to collaboration and sharing. With Coda's Maker billing, everyone is free to view, edit, and contribute. ... That’s it.\n\nCalculate pricing for your team\n\n50\n\nTeam size\n\n10\n\n+ -\n\nDoc Makers\n\nTeam\n\n$360\n\nat $36 per Doc Maker per month\n\nFlexibly evolves with team needs. 600+ integrations and templates. Never pay for collaborators."
+   },
+   {
+    "url": "https://help.coda.io/hc/en-us/articles/39555803348109-Manage-your-billing-account",
+    "title": "Manage your Superhuman Docs billing account",
+    "content": "How do I know when my annual or monthly subscription will renew?\n\nFor customers on our Pro and Team plans: The easiest way to know when you’ll be charged next is to look at your previous invoices. For instance - if you pay annually and your last invoice was on July 15th 2023, you can expect your next charge on July 15th 2024. If you pay monthly, you can expect your next charge on August 15th 2023.\n\n...\n\nCan I switch from monthly billing to annual billing (or vice versa)?\n\nFor customers on our Pro and Team plans: If you’ve already paid for a subscription and would like to change the frequency of your future billing, you can do that by following these steps.\n\n1. Go to your workspace home (coda.io/docs)\n2. Click on your name in the lower-left corner\n3. Select Admin settings from the menu\n4. Scroll to find the Billing section, then click on the Workspace plan page\n5. If you belong to multiple workspaces, use the workspace selector at the top of the page to ensure the correct workspace is selected\n6. Then click Change plan\n7. You’ll be brought to Coda’s pricing page. Use the toggle to change from Pay monthly to Pay annually (or vice versa).\n8. Scroll down to the plan you already have (or the new plan, if you’re wanting to also upgrade). Click Change.\n9. Follow the steps to confirm the change."
+   },
+   {
+    "url": "https://help.coda.io/hc/en-us/articles/39555796209165-Upgrade-your-Coda-workspace",
+    "title": "Upgrade your Superhuman Docs workspace",
+    "content": "1. Head to coda.io/pricing\n2. Use the toggle to choose between Pay monthly and Pay annually\n\n- If you select annual, you'll get a 15% discount on the monthly rate, and you will pay for the whole year.\n3. Next to Current workspace, select the workspace you’d like to upgrade.\n\n...\n\nYour Coda subscription will be renewed on a monthly or annual basis - depending on the selection you made - with the same payment method you used when first upgrading. For information on managing your subscription - including changing your payment method for future billing, and changing your billing frequency - check out this article.\n\n...\n\nWith Coda, you only pay for Doc Makers. So when a Doc Maker is added or removed from your workspace (or downgraded to an editor), your bill is affected. Workspace admins can control how Doc Makers are added via their workspace settings. Check out this article to learn more.\n\nAs soon as they are added, you'll start paying for the Doc Maker, prorated based on when they joined the workspace. For annual plans, you'll get the bill for Doc Maker additions on a monthly basis and monthly plans will get charged in their next monthly cycle.\n\n...\n\nWhen will I get billed for my workspaces?\n\nWhen you sign up for a new plan, you will be billed up front for all the Doc Makers in your workspace. If you add a new paid user to your workspace (or upgrade an existing one), we'll prorate them for the remainder of your billing cycle. On the annual plan, you will be charged monthly for these additional membership changes, with prorations applied for the remainder of the billing year."
+   }
+  ]
+ }
+}

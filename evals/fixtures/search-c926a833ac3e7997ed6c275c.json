@@ -1,0 +1,40 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Bank of England Bank Rate 2 November 2026 rate 5 November 2026",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
+    "title": "Interest rates and Bank Rate: our latest decision | Bank of England – the UK's central bank",
+    "content": "## Current inflation rate 3.5% \n\n Target: 2%\n\nPublished on 5 November 2026\n...\nlow and stable. It meets eight times a year to decide what level of Bank Rate is needed to return inflation to –\n...\n- we have raised Bank Rate by 0.25 percentage points to 4",
+    "published": "2026-11-05T17:05:56.000Z"
+   },
+   {
+    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
+    "title": "Monetary Policy Summary and minutes of the Monetary Policy Committee meeting - November 2026 (to be published at 12pm) | Bank of England",
+    "content": ", November 2026\n\nAt its meeting ending on 4 November 2026, the Monetary Policy Committee (MPC) voted by a majority of 8–1 to increase Bank Rate by 0.25 percentage points, to 4%. One member voted to increase Bank Rate by 0.5 percentage points, to 4.25%.",
+    "published": "2026-11-05T17:05:56.000Z"
+   },
+   {
+    "url": "https://www.bankofengland.co.uk/boeapps/database/bank-rate.asp",
+    "title": "Bank Rate history and data | Bank of England Database",
+    "content": "| Date Changed | Rate |\n| --- | --- |\n| 05 Nov 26 | 4.00 |\n| 18 Dec 25 | 3.75 |\n| 07 Aug 25 | 4.00 |\n| 08 May 25 | 4.25 |\n| 06 Feb 25 | 4.50 |\n| 07 Nov 24 | 4.75 |\n| 01 Aug 24 | 5.00 |\n| 03 Aug 23 | 5.25 |\n| 22 Jun 23 | 5.00 |\n| 11 May 23 | 4.50 |\n| 23 Mar 23 | 4.25 |\n| 02 Feb 23 | 4.00 |\n| 15 Dec 22 | 3.50 |\n| 03 Nov 22 | 3.00 |\n| 22 Sep 22 | 2.25 |\n| 04 Aug 22 | 1.75 |\n| 16 Jun 22 | 1.25 |\n| 05 May 22 | 1.00 |\n\n...\n\n| 03 Feb 22 | 0.50 |\n| 16 Dec 21 | 0.25 |\n| 19 Mar 20 | 0.10 |\n| 11 Mar 20 | 0.25 |\n| 02 Aug 18 | 0.75 |\n\n...\n\n| 05 Feb 09 | 1.00 |\n\n...\n\n| 12 Apr 91 | 11.88 |\n| 22 Mar 91 | 12.38 |\n| 27 Feb 91 | 12.88 |\n| 13 Feb 91 | 13.38 |\n\n...\n\n| 06 Oct 89 | 14.88 |\n| 08 Sep 89 | 13.75 |\n| 04 Sep 89 | 13.88 |\n| 31 Aug 89 | 13.84 |\n| 25 May 89 | 13.75 |\n| 25 Nov 88 | 12.88 |\n| 25 Aug 88 | 11.88 |\n| 08 Aug 88 | 10.88 |\n| 21 Jul 88 | 10.38 |\n| 07 Jul 88 | 9.88 |\n| 24 Jun 88 | 8.88 |\n| 10 Jun 88 | 8.38 |\n| 03 Jun 88 | 7.88 |\n| 17 May 88 | 7.38 |\n| 08 Apr 88 | 7.88 |\n| 17 Mar 88 | 8.38 |\n| 01 Feb 88 | 8.88 |\n| 03 Dec 87 | 8.38 |\n| 04 Nov 87 | 8.88 |\n| 23 Oct 87 | 9.38 |\n| 06 Aug 87 | 9.88 |\n| 08 May 87 | 8.88 |\n| 28 Apr 87 | 9.38 |\n| 18 Mar 87 | 9.88 |\n| 09 Mar 87 | 10.38 |\n| 15 Oct 86 | 10.88 |\n| 23 May 86 | 9.88 |\n| 18 Apr 86 | 10.38 |\n| 11\n\n...\n\n| 19 Mar 86 | 11.38 |\n\n...\n\n| 26 Jul 85 | 11.38 |\n| 11 Jul 85 | 11.88 |\n| 19 Apr 85 | 12.38 |\n\n...\n\n| 20 Mar 85 | 13.38 |\n| 28 Jan 85 | 13.88 |\n| 14 Jan 85 | 11.88 |\n\n...\n\n| 19 Nov 84 | 9.75 |\n| 05 Nov 84 | 10.00 |\n| 17 Aug 84 | 10.50 |\n| 16 Aug 84 | 10.75 |\n\n...\n\n| 08 Aug 84 | 11.50 |\n| 11 Jul 84 | 12.00 |\n| 06 Jul 84 | 10.00 |\n| 29 Jun 84 | 8.88 |\n| 10 May 84 | 9.06 |\n| 14 Mar 84 | 8.56 |\n| 07 Mar 84 | 8.81 |\n| 03 Oct 83 | 9.06 |\n| 10 Aug 83 | 9.56 |\n| 09 Aug 83 | 9.44 |\n| 14 Jun 83 | 9.56 |\n| 13 Jun 83 | 9.81 |\n| 14 Apr 83 | 10.06 |\n| 13 Apr 83 | 10.31 |\n| 15 Mar 83 | 10.56 |\n| 12 Jan 83 | 11.00 |\n\n...\n\n| 01 Nov 82 | 9.38 |\n\n...\n\n| 28 Sep 82 | 10.38 |\n| 27 Sep 82 | 10.50 |\n\n...\n\n| 26 Aug 82 | 10.88 |\n| 25 Aug 82 | 11.00 |\n| 24 Aug 82 | 11.13 |\n| 17 Aug 82 | 11.25 |\n| 16 Aug 82 | 11.38 |\n| 04 Aug 82 | 11.50 |\n| 02 Aug 82 | 11.56 |\n| 30 Jul 82 | 11.63 |\n| 29 Jul 82 | 11.75 |\n| 28 Jul 82 | 11.81 |\n| 26 Jul 82 | 11.94 |\n| 21 Jul 82 | 12.06 |\n| 13 Jul 82 | 12.13 |\n| 12 Jul 82 | 12.25 |\n| 09 Jul 82 | 12.50 |\n| 08 Jun 82 | 12.63 |\n| 20 Apr 82 | 13.13 |\n| 19 Apr 82 | 13.00 |\n| 16 Apr 82 | 13.13 |\n| 10 Mar 82 | 13.25 |\n| 25 Feb 82 | 13.63 |\n| 22 Feb 82 | 13.81 |\n| 22 Jan 82 | 13.88 |\n| 21 Jan 82 | 14.00 |\n| 20 Jan 82 | 14.13 |\n| 19 Jan 82 | 14.25 |\n| 18 Jan 82 | 14.31 |\n| 04 Dec 81 | 14.38 |\n| 25 Nov 81 | 14.56 |\n| 09 Nov 81 | 14.63 |\n| 06 Nov 81 | 15.06 |\n| 28 Oct 81 | 15.13 |\n| 12 Oct 81 | 15.00 |\n| 15 Sep 81 | 14.00 |\n| 25 Aug 81 | 12.69 |\n| 11 Mar 81 | 12.00 |\n| 25 Nov 80 | 14.00 |\n| 03 Jul 80 | 16.00 |\n| 15 Nov 79 | 17.00 |\n| 13 Jun 79 | 14.00 |\n| 05 Apr 79 | 12.00 |\n| 01 Mar 79 | 13.00 |\n| 08 Feb 79 | 14.00 |\n| 09 Nov 78 | 12.50 |\n| 08 Jun 78 | 10.00 |\n| 15 May 78 | 9.00 |\n| 08 May 78 | 8.75 |\n| 12 Apr 78 | 7.50 |\n| 09 Jan 78 | 6.50 |\n| 28 Nov 77 | 7.00 |\n| 17 Oct 77 | 5.00 |\n| 10 Oct 77 | 5.50 |\n| 19 Sep 77 | 6.00 |\n| 12 Sep 77 | 6.50 |\n| 15 Aug 77 | 7.00 |\n| 08 Aug 77 | 7.50 |\n| 16 May 77 | 8.00 |\n| 02 May 77 | 8.25 |\n| 25 Apr 77 | 8.75 |\n| 18 Apr 77 | 9.00 |\n| 12 Apr 77 | 9.25 |\n| 31 Mar 77 | 9.50 |\n| 21 Mar 77 | 10.50 |\n| 10 Mar 77 | 11.00 |\n| 03 Feb 77 | 12.00 |\n| 31 Jan 77 | 12.25 |\n| 24 Jan 77 | 13.25 |\n| 10 Jan 77 | 14.00 |\n| 29 Dec 76 | 14.25 |\n| 20 Dec 76 | 14.50 |\n| 22 Nov 76 | 14.75 |\n| 07 Oct 76 | 15.00 |\n| 13 Sep 76 | 13.00 |\n| 24 May 76 | 11.50 |\n| 26 Apr 76 | 10.50 |\n| 08 Mar 76 | 9.00 |\n| 01 Mar 76 | 9.25 |\n| 09 Feb 76 | 9.50 |\n| 02 Feb 76 | 10.00 |\n| 26 Jan 76 | 10.50 |\n| 19 Jan 76 | 10.75 |\n| 05 Jan 76 | 11.00 |\n| 29 Dec 75 | 11.25 |\n| 01 Dec 75 | 11.50 |\n| 17 Nov 75 | 11.75 |\n| 06 Oct 75 | 12.00 |\n| 28 Jul 75 | 11.00 |\n| 05 May 75 | 10.00 |\n| 21 Apr 75 | 9.75 |\n| 24 Mar 75 | 10.00 |\n| 10 Mar 75 | 10.25 |\n| 17 Feb 75 | 10.50 |\n| 10 Feb 75 | 10.75 |\n| 27 Jan 75 | 11.00 |\n| 20 Jan 75 | 11.25 |"
+   },
+   {
+    "url": "https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-report/2026/november/opening-remarks-november-2026.pdf",
+    "title": "Monetary Policy Report press conference: Opening remarks by Andrew Bailey",
+    "content": "data that higher energy prices are feeding into the prices of other goods and services. Moreover, ... pass on costs. My colleagues and I hear that first hand as we meet with companies around ... to limit the impact. Today we have raised Bank Rate by 25-"
+   },
+   {
+    "url": "https://apnews.com/article/britain-economy-interest-rates-dce506792fe3b452ec4c3982147286f3",
+    "title": "The Bank of England hikes interest rate to 4% with inflation fanned by war in Iran | AP News",
+    "content": "coming months.\n\nAfter raising its main interest rate for the first time in more than three years to 4% from 3.75%, the bank said the outlook for U.K. borrowing costs largely hinges on what happens with the Iran war.",
+    "published": "2026-11-05T05:08:17.000Z"
+   }
+  ]
+ }
+}

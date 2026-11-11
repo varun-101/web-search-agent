@@ -1,0 +1,38 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Bank of England Bank Rate 2 November 2026 rate before 5 November 2026",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://macronotebook.com/2026/11/bank-of-england-interest-rate-decision-95-bet-on-a-rise/",
+    "title": "Bank of England interest rate decision: 95% bet on a rise",
+    "content": "Bank of England Bank Rate, %. Source: Bank of England, Official Bank Rate (IUDBEDR). Each bar is the rate after a change; 3.75% is the rate on 2 November 2026.\n...\n4.00 |\n| Dec 2025 | 3.75 |\n| Nov 2026, now | 3.75 |",
+    "published": "2026-11-02T07:55:00.000Z"
+   },
+   {
+    "url": "https://forecasteconomy.com/united-kingdom/indicator/uk-policy-rate",
+    "title": "Official Bank Rate in United Kingdom: 4 % (9 November 2026)",
+    "content": "| Period | % |\n| --- | --- |\n| 9 November 2026 | 4 |\n| 6 November 2026 | 4 |\n| 5 November 2026 | 4 |\n| 4 November 2026 | 3.75 |\n| 3 November 2026 | 3.75 |\n| 2 November 2026 | 3.75 |\n| 30 October 2026 | 3.75 |\n| 29 October 2026 | 3.75 |\n| 28 October 2026 | 3.75 |\n| 27 October 2026 | 3.75 |\n| 26 October 2026 | 3.75 |\n| 23 October 2026 | 3.75 |\n| 22 October 2026 | 3.75 |\n| 21 October 2026 | 3.75 |\n| 20 October 2026 | 3.75 |\n| 19 October 2026 | 3.75 |\n| 16 October 2026 | 3.75 |\n| 15 October 2026 | 3.75 |\n| 14 October 2026 | 3.75 |\n| 13 October 2026 | 3.75 |\n| 12 October 2026 | 3.75 |\n| 9 October 2026 | 3.75 |\n| 8 October 2026 | 3.75 |\n| 7 October 2026 | 3.75 |"
+   },
+   {
+    "url": "https://macrodataapi.com/series/uk.boe.bankrate",
+    "title": "Bank of England Bank Rate (uk.boe.bankrate): Bank of England data API",
+    "content": "-11-11 |\n| 2026-11-09 | 4 | ... 10 |\n| 2026-11-06 | 4 | 2026-11- ... |\n| 2026-11-05 | 4 | 2026-11-05 |\n| 2026-11-04 | 3.75 | 2026-11-05 |\n| 2026-11-03 | 3.75 | 2026-11-04 |\n| ... -11-02 | 3.75 | 2026-11-\n...\n| 3.75 | 2026-"
+   },
+   {
+    "url": "https://www.bankofengland.co.uk/boeapps/database/bank-rate.asp",
+    "title": "Bank Rate history and data | Bank of England Database",
+    "content": "| Date Changed | Rate |\n\n...\n\n| 03 Aug 23 | 5.25 |\n\n...\n\n| 11\n\n...\n\n| 22 Sep 22 | 2.25 |\n| 04 Aug 22 | 1.75 |\n| 16 Jun 22 | 1.25 |\n\n...\n\n| 09 Nov 06 | 5.00 |\n| 03 Aug 06 | 4.75 |\n\n...\n\n| 08 Nov 01 | 4.00 |\n\n...\n\n| 10 Dec 98 | 6.25 |\n| 05 Nov 98 | 6.75 |\n| 08 Oct 98 | 7.25 |\n\n...\n\n| 06 Jun 97 | 6.50 |\n| 06 May 97 | 6.25 |\n| 30 Oct 96 | 5.94 |\n| 06 Jun 96 | 5.69 |\n\n...\n\n| 02 Feb 95 | 6.63 |\n| 07 Dec 94 | 6.13 |\n| 12 Sep 94 | 5.63 |\n\n...\n\n| 22 Sep 92 | 8.88 |\n\n...\n\n| 04 Sep 91 | 10.38 |\n| 12 Jul 91 | 10.88 |\n\n...\n\n| 22 Mar 91 | 12.38 |\n\n...\n\n| 06 Oct 89 | 14.88 |\n| 08 Sep 89 | 13.75 |\n| 04 Sep 89 | 13.88 |\n| 31 Aug 89 | 13.84 |\n| 25 May 89 | 13.75 |\n| 25 Nov 88 | 12.88 |\n| 25 Aug 88 | 11.88 |\n| 08 Aug 88 | 10.88 |\n| 21 Jul 88 | 10.38 |\n| 07 Jul 88 | 9.88 |\n\n...\n\n| 06 Aug 87 | 9.88 |\n| 08 May 87 | 8.88 |\n\n...\n\n| 23 May 86 | 9.88 |\n| 18 Apr 86 | 10.38 |\n\n...\n\n| 19 Mar 86 | 11.38 |\n| 15 Jan 86 | 12.38 |\n| 26 Jul 85 | 11.38 |\n| 11 Jul 85 | 11.88 |\n\n...\n\n| 20 Mar 85 | 13.38 |\n\n...\n\n| 23 Nov 84 | 9.50 |\n\n...\n\n| 17 Aug 84 | 10.50 |\n| 16 Aug 84 | 10.75 |\n\n...\n\n| 08 Aug 84 | 11.50 |\n| 11 Jul 84 | 12.00 |\n| 06 Jul 84 | 10.00 |\n| 29 Jun 84 | 8.88 |\n| 10 May 84 | 9.06 |\n| 14 Mar 84 | 8.56 |\n| 07 Mar 84 | 8.81 |\n| 03 Oct 83 | 9.06 |\n| 10 Aug 83 | 9.56 |\n| 09 Aug 83 | 9.44 |\n| 14 Jun 83 | 9.56 |\n| 13 Jun 83 | 9.81 |\n| 14 Apr 83 | 10.06 |\n| 13 Apr 83 | 10.31 |\n| 15 Mar 83 | 10.56 |\n| 12 Jan 83 | 11.00 |\n| 26 Nov 82 | 10.00 |\n| 02 Nov 82 | 9.13 |\n| 01 Nov 82 | 9.38 |\n| 12 Oct 82 | 9.63 |\n| 30 Sep 82 | 10.13 |\n| 29 Sep 82 | 10.25 |\n| 28 Sep 82 | 10.38 |\n| 27 Sep 82 | 10.50 |\n| 27 Aug 82 | 10.63 |\n| 26 Aug 82 | 10.88 |\n| 25 Aug 82 | 11.00 |\n| 24 Aug 82 | 11.13 |\n| 17 Aug 82 | 11.25 |\n| 16 Aug 82 | 11.38 |\n| 04 Aug 82 | 11.50 |\n| 02 Aug 82 | 11.56 |\n| 30 Jul 82 | 11.63 |\n| 29 Jul 82 | 11.75 |\n| 28 Jul 82 | 11.81 |\n| 26 Jul 82 | 11.94 |\n| 21 Jul 82 | 12.06 |\n| 13 Jul 82 | 12.13 |\n| 12 Jul 82 | 12.25 |\n| 09 Jul 82 | 12.50 |\n| 08 Jun 82 | 12.63 |\n| 20 Apr 82 | 13.13 |\n| 19 Apr 82 | 13.00 |\n| 16 Apr 82 | 13.13 |\n| 10 Mar 82 | 13.25 |\n| 25 Feb 82 | 13.63 |\n| 22 Feb 82 | 13.81 |\n| 22 Jan 82 | 13.88 |\n| 21 Jan 82 | 14.00 |\n| 20 Jan 82 | 14.13 |\n| 19 Jan 82 | 14.25 |\n| 18 Jan 82 | 14.31 |\n| 04 Dec 81 | 14.38 |\n| 25 Nov 81 | 14.56 |\n| 09 Nov 81 | 14.63 |\n| 06 Nov 81 | 15.06 |\n| 28 Oct 81 | 15.13 |\n| 12 Oct 81 | 15.00 |\n| 15 Sep 81 | 14.00 |\n| 25 Aug 81 | 12.69 |\n| 11 Mar 81 | 12.00 |\n| 25 Nov 80 | 14.00 |\n| 03 Jul 80 | 16.00 |\n| 15 Nov 79 | 17.00 |\n| 13 Jun 79 | 14.00 |\n| 05 Apr 79 | 12.00 |\n| 01 Mar 79 | 13.00 |\n| 08 Feb 79 | 14.00 |\n| 09 Nov 78 | 12.50 |\n| 08 Jun 78 | 10.00 |\n| 15 May 78 | 9.00 |\n| 08 May 78 | 8.75 |\n| 12 Apr 78 | 7.50 |\n| 09 Jan 78 | 6.50 |\n| 28 Nov 77 | 7.00 |\n| 17 Oct 77 | 5.00 |\n| 10 Oct 77 | 5.50 |\n| 19 Sep 77 | 6.00 |\n| 12 Sep 77 | 6.50 |\n| 15 Aug 77 | 7.00 |\n| 08 Aug 77 | 7.50 |\n| 16 May 77 | 8.00 |\n| 02 May 77 | 8.25 |\n| 25 Apr 77 | 8.75 |\n| 18 Apr 77 | 9.00 |\n| 12 Apr 77 | 9.25 |\n| 31 Mar 77 | 9.50 |\n| 21 Mar 77 | 10.50 |\n| 10 Mar 77 | 11.00 |\n| 03 Feb 77 | 12.00 |\n| 31 Jan 77 | 12.25 |\n| 24 Jan 77 | 13.25 |\n| 10 Jan 77 | 14.00 |\n| 29 Dec 76 | 14.25 |\n| 20 Dec 76 | 14.50 |\n| 22 Nov 76 | 14.75 |\n| 07 Oct 76 | 15.00 |\n| 13 Sep 76 | 13.00 |\n| 24 May 76 | 11.50 |\n| 26 Apr 76 | 10.50 |\n| 08 Mar 76 | 9.00 |\n| 01 Mar 76 | 9.25 |\n| 09 Feb 76 | 9.50 |\n| 02 Feb 76 | 10.00 |\n| 26 Jan 76 | 10.50 |\n| 19 Jan 76 | 10.75 |\n| 05 Jan 76 | 11.00 |\n| 29 Dec 75 | 11.25 |\n| 01 Dec 75 | 11.50 |\n| 17 Nov 75 | 11.75 |\n| 06 Oct 75 | 12.00 |\n| 28 Jul 75 | 11.00 |\n| 05 May 75 | 10.00 |\n| 21 Apr 75 | 9.75 |\n| 24 Mar 75 | 10.00 |\n| 10 Mar 75 | 10.25 |\n| 17 Feb 75 | 10.50 |\n| 10 Feb 75 | 10.75 |\n| 27 Jan 75 | 11.00 |\n| 20 Jan 75 | 11.25 |"
+   },
+   {
+    "url": "https://www.financialgazette.co.uk/public/data/bank-rate.csv",
+    "title": "",
+    "content": ".25\n2008-10-08, ... .5,5\n2008-11-06,3,4.5\n...\n2023-05-11,4.5,4.\n...\n2023-06-22,5,4.\n...\n,5.25,5\n2024-08-01,5,5.25\n2024-11-07,4.75,5\n2025-02-06,4.5,4.75\n...\n-05-08,4.25,4.5\n2025-08-07,4,4.25\n2025-12-18,3.75,4\n2026-11-05,4,3.75"
+   }
+  ]
+ }
+}

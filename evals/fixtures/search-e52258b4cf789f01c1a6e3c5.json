@@ -1,0 +1,40 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "site.aws.amazon.com/s3/pricing/ \"S3 Standard\" \"$0.023\" \"50\"",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://aws.amazon.com/s3/pricing/",
+    "title": "S3 Pricing",
+    "content": "—S3 Standard, S3 Intelligent-Tiering, S3 Standard-Infrequent Access, S3 One Zone-Infrequent Access, S3 Express One ... S3 Intelligent-Tiering there are no retrieval charges, and no additional tiering charges apply"
+   },
+   {
+    "url": "https://dev.to/buildopsy/aws-s3-pricing-and-billing-storage-request-fees-and-egress-costs-explained-39d1",
+    "title": "AWS S3 Pricing and Billing: Storage, Request Fees and Egress Costs Explained - DEV Community",
+    "content": "|Storage class|Storage per GB-month|Retrieval per GB|Object-size rule|Minimum duration|\n|**S3 Standard**|$0.023 first 50 TB; $0.022 next 450 TB; $0.021 above 500 TB|None|None|None|\n|**S3 Intelligent-Tiering**|$0.023 / $0.022 / $0.021 Frequent Access; $0.0125 Infrequent Access; $0.004 Archive Instant Access; $0.0036 Archive Access; $0.00099 Deep Archive Access|None for standard and bulk; expedited from Archive Access bills at the expedited rate|None; objects under 128 KiB stay in Frequent Access and are not monitored|None|\n|**S3 Standard-IA**|$0.0125|$0.01|128 KiB minimum billable|30 days|\n|**S3 One Zone-IA**|$0.01|$0.01|128 KiB minimum billable|30 days|\n|**S3 Glacier Instant Retrieval**|$0.004|$0.03|128 KiB minimum billable|90 days|\n|**S3 Glacier Flexible Retrieval**|$0.0036|$0.01 standard; $0.03 expedited; bulk free|40 KiB overhead per object|90 days|\n|**S3 Glacier Deep Archive**|$0.00099|$0.02 standard; $0.0025 bulk|40 KiB overhead per object|180 days|\n|**S3 Express One Zone**|$0.11|$0.0006|None|None|\nIntelligent-Tiering bills a separate monitoring and automation charge of $0.0025 per 1,000 objects per month. Among the classes in this table, Express One Zone is the only one priced above Standard per stored GB, at 4.8 times the first-tier rate ($0.11 ÷ $0.023). Three per-GB meters sit outside the table. Reduced Redundancy is still listed in the same price list at $0.024 for the first TB and above Standard at every tier, and AWS's storage-class documentation marks it not recommended, so it is excluded here rather than ranked. S3 Vectors and S3 Files appear on the same pricing page as separate products with their own meters, not as storage classes.\n### Requests: the price moves with the class\n\n...\n\n|Storage class|PUT, COPY, POST per 1,000|GET and all other requests per 1,000|\n|**S3 Standard**|$0.005|$0.0004|\n|**S3 Intelligent-Tiering**|$0.005|$0.0004|\n|**S3 Standard-IA**|$0.01|$0.001|\n|**S3 One Zone-IA**|$0.01|$0.001|\n|**S3 Glacier Instant Retrieval**|$0.02|$0.01|\n|**S3 Glacier Flexible Retrieval**|$0.03|$0.0004|\n|**S3 Glacier Deep Archive**|$0.05, the same rate\n\n...\n\nLIST requests are the exception: AWS charges them at the S3 Standard PUT rate on every class, so a LIST costs $0.005 per 1,000 even where a PUT costs $0.02 or $0.03. On the write meters the spread is wide enough to change a design. A PUT costs 4 times more in Glacier Instant Retrieval than in Standard ($0.02 ÷ $0.005) and a GET costs 25 times more ($0.01 ÷ $0.0004). Express One Zone inverts it: its requests are cheaper than Standard's by 4.4 times for writes and 13.3 times for reads, which is why the $0.11 storage rate is not the whole comparison. Multipart upload parts to Glacier Flexible Retrieval bill at $0.005 per 1,000, separate from the $0.03 per 1,000 object-level writes, and Deep Archive parts bill at $0.005 per 1,000 against its $0.05 object-level write.\n### How the rate moves across four Regions\nAll four Regions below are published under the same price list version, so this is a like-for-like comparison rather than a snapshot mismatch.\n|Region|Standard first 50 TB|Standard 50–500 TB|Standard above 500 TB|Standard-IA|Glacier Instant Retrieval|\n|**US East (N. Virginia)**, `us-east-1`|$0.023|$0.022|$0.021|$0.0125|$0.004|\n|**US West (Oregon)**, `us-west-2`|$0.023|$0.022|$0.021|$0.0125|$0.004|\n|**Europe (Ireland)**, `eu-west-1`|$0.023|$0.022|$0.021|$0.0125|$0.004|\n|**Asia Pacific (Mumbai)**, `ap-south-1`|$0.025|$0.024|$0.023|$0.0138|$0.005|\nMoving the same bucket from US East to Mumbai raises the first-tier Standard rate by 8.7% ($0.025 ÷ $0.023 = 1.087), Standard-IA by 10.4% ($0.0138 ÷ $0.0125 = 1.104) and Glacier Instant Retrieval by 25% ($0.005 ÷ $0.004 = 1.25). Request prices for these three classes are identical in all four Regions: $0.005 and $0.0004 per 1,000 for Standard, $0.01 and $0.001 for Standard-IA, $0.02 and $0.01 for Glacier Instant Retrieval.",
+    "published": "2026-11-07T22:27:48.000Z"
+   },
+   {
+    "url": "https://slashcloudbill.com/s3-pricing-calculator/",
+    "title": "Amazon S3 pricing calculator",
+    "content": "US East (N. Virginia) prices from aws.amazon.com/s3/pricing, checked 2026-10-11. Standard storage is $0.023 per GB for the first 50 TB; the first 100 GB out each month are free, then $0.09 per GB up to 10 TB. Colder classes add retrieval fees and minimum storage durations, so they suit data you rarely read."
+   },
+   {
+    "url": "https://www.cloudzero.com/blog/s3-pricing/",
+    "title": "Amazon S3 pricing: the complete 2026 guide",
+    "content": "S3 Standard: right for active data, expensive for everything else\n\nS3 Standard is $0.023 per GB per month for the first 50 TB, $0.022/GB for the next 450 TB, and $0.021/GB above 500 TB. Volume discounts are real but only kick in at scale most teams don’t",
+    "published": "2026-07-17T12:00:05.000Z"
+   },
+   {
+    "url": "https://upstash.com/blog/aws-s3-pricing-explained-2026",
+    "title": "AWS S3 Pricing Explained (2026): Storage, Requests and Data Transfer Costs | Upstash Blog",
+    "content": "S3 Standard costs $0.023/GB/month stored, $0.005/1,000 writes, $0.0004/1,000 reads, and $0.09/GB for data transfer out to the internet (after the first 100 GB/month) in the US East (N. Virginia) region. There's no minimum cost, so you don't pay anything for an empty S3 bucket. All the details are in Amazon's S3 pricing page.",
+    "published": "2026-10-09T00:00:00.000Z"
+   }
+  ]
+ }
+}

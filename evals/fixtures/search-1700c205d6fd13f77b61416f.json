@@ -1,0 +1,38 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Read current Pro price annual monthly per Doc Maker and editors free.",
+  "site": "superhuman.com"
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://superhuman.com/plans/docs",
+    "title": "Superhuman Docs | Pricing & Plans",
+    "content": "## Free\n\n$0 USD\n\nFree includes:\n\n- Collaborative docs\n- Try Docs AI - an AI assistant that helps you write confidently, build docs, and automate tasks\n- Try MCP\n\nMore information\n- Connected tables, views, and forms\n- Formulas and automations\n\nGrammarly (trial)\n\nGo (trial)\n\nIntegrate with:\n\n+36 more\n\n## Pro\n\n$12 USD / month\n\n- Unlimited doc size\n- Write, edit, and ask with AI Beta\n- Build AI trackers, pages, and views Beta\n- Create with Claude and more via MCP\n- 30-day version history\n- Hide specific pages\n- Custom icons, branding, domains\n\nIntegrate with:\n\n+46 more\n\nBest value\n\n...\n\nDoc Makers have the power to create new docs and templates, create and manage folders to organize the workspace. Within docs, Doc Makers can administer tasks such as adding pages, changing doc and page titles and icons, adjusting the timezone, configuring doc and page locking, etc.\n\n...\n\n### Who do I pay for and why?+\n\nWhen upgrading a free workspace to a paid plan, you get access to role-based permissions: each member can be either a Doc Maker (Admin), a Doc Maker, or an Editor. As you grow into Superhuman Docs, you can invite additional members to become Editors or Doc Makers in your workspace. Editors and Viewers are always free.\n\nAt the end of each billing cycle, you will be billed for the workspace based on the number of Doc Makers in it. Any changes to the number of Doc Makers in the workspace mid-cycle are automatically prorated."
+   },
+   {
+    "url": "https://help.superhuman.com/hc/en-us/articles/46210078082701-Roles-in-Superhuman-Docs-Doc-Makers-Admins-and-Editors",
+    "title": "Roles in Superhuman Docs: Doc Makers, Admins, and Editors – Superhuman Help Center",
+    "content": "A workspace can have an unlimited number of members in any role but both Doc Maker (Workspace admin) and Doc Maker are paid licenses, while editors are free. Below you will find a detailed breakdown of what each type of member is able to do.\n\n...\n\nPricing for a workspace is based on the number of Doc Makers. There is no limit to how many Doc Makers you can have in your workspace.\n\n...\n\nEditors are free in Docs, and you are able to have an unlimited number of editors in your workspace and docs.\n\nThere is no separate role for viewers, and no need for one since editors are free! But you can give view only\n\n...\n\nDo all members cost the same?\n\nSuperhuman Docs uses a unique \"maker billing\" model. Often there’ll be one person who creates a doc, others who edit, and some who simply observe from afar, yet most pricing models charge for all those different types of users equally.\n\nWe only charge for each Doc Maker in a workspace - editors and viewers in docs are free. For more information, see our billing & pricing basics article."
+   },
+   {
+    "url": "https://help.superhuman.com/hc/en-us/articles/46242099320845-Introducing-the-Superhuman-suite",
+    "title": "Introducing the Superhuman suite – Superhuman Help Center",
+    "content": "### Available plans\n\n| Free | $0 USD | Free includes: ✓ Chat with AI that works in every application and tab ✓ Write without mistakes in 6 languages ✓ Create collaborative docs with tables, charts, Kanban boards, and forms |\n| --- | --- | --- |\n| Pro | $12 USD per member / month, billed annually $15 USD when billed monthly | Everything included in Free, plus these and other features: ✓ Spot AI-generated text and fix accidental plagiarism ✓ Ensure your writing is always on brand Annual plan includes Grammarly Pro access. With the monthly plan, Grammarly Pro is available as an optional add‑on for an additional $15 USD / month. Grammarly Pro includes: ✓ Advanced rewrites, tone adjustments, plagiarism checker, and AI detector ✓ Team and brand controls: style guides, brand tones, snippets, and analytics |\n| Business | $33 USD per member / month, billed annually $40 USD when billed monthly | Everything included in Pro, plus these and other features: ✓ Fly through your inbox and save 4 hours every single week ✓ Organize your inbox with AI and respond faster to what matters most ✓ Sync data from Jira, GitHub, Figma, and more into your docs |\n| Enterprise | Custom | Everything included in Business, plus more features, such as: ✓ Advanced security and admin controls ✓ SAML single sign-on ✓ Data loss prevention |"
+   },
+   {
+    "url": "https://help.superhuman.com/hc/en-us/articles/46210176885901-Upgrade-your-Superhuman-Docs-workspace",
+    "title": "Upgrade your Superhuman Docs workspace",
+    "content": "# Subscription renewal\n\nYour subscription will be renewed on a monthly or annual basis - depending on the selection you made - with the same payment method you used when first upgrading. For information on managing your subscription - including changing your payment method for future billing, and changing your billing frequency - check out this article.\n\n...\n\nWith Superhuman Docs, you only pay for Doc Makers. So when a Doc Maker is added or removed from your workspace (or downgraded to an editor), your bill is affected. Workspace admins can control how Doc Makers are added via their workspace settings. Check out this article to learn more.\n\n...\n\nHow does Superhuman Docs' billing model work?\n\nSuperhuman Docs' Maker billing model is designed to be flexible and cost-effective, and to encourage collaboration. Therefore you only pay for Doc Makers - editors and viewers are free. You can read all about our Maker billing model here."
+   },
+   {
+    "url": "https://connect.superhuman.com/t/superhuman-free-vs-pro-which-plan-should-i-buy/60152",
+    "title": "Superhuman Free vs. Pro: Which Plan Should I Buy? - Superhuman Community",
+    "content": "? I assume if I buy Coda, I don’t get the Grammarly and Go parts, but if I get Superhuman, what features of Coda might be limited compared to Coda Pro?\n...\n, the Superhuman Free account will remain permanently and also allow editors to contribute for free.",
+    "published": "2026-03-13T22:11:53.000Z"
+   }
+  ]
+ }
+}

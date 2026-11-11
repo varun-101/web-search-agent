@@ -1,0 +1,11 @@
+{
+ "kind": "read",
+ "request": {
+  "url": "https://travel-europe.europa.eu/etias/ltr/about-etias"
+ },
+ "response": {
+  "finalUrl": "https://travel-europe.europa.eu/etias/ltr/about-etias",
+  "title": "European Union - EES / ETIAS",
+  "markdown": "European Union - EES / ETIAS"
+ }
+}

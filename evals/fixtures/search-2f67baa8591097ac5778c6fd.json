@@ -1,0 +1,37 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Read current VanMoof S5 price availability and whether in stock",
+  "site": "vanmoof-b2c.myshopify.com"
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://vanmoof-b2c.myshopify.com/products/vanmoof-s5-gray",
+    "title": "VanMoof S5",
+    "content": "# VanMoof S5\nSold by: vanmoof-b2c.myshopify.com\n\n## Specifications\nColor: Dark Gray, Gray\n\n## Pricing & Reviews\nPrice: 2798 EUR.\n\n## Description\nRule the road with the newly-refined VanMoof S5. Perfect for rides both long and short, it’s the only way to move. Buy now, ride in 7 days.\n\nThis store supports UCP (Universal Commerce Protocol): https://vanmoof-b2c.myshopify.com/.well-known/ucp lists the capabilities you can use."
+   },
+   {
+    "url": "https://vanmoof-b2c.myshopify.com/products/vanmoof-s5-uk",
+    "title": "VanMoof S5 (UK)",
+    "content": "# VanMoof S5 (UK)\nSold by: vanmoof-b2c.myshopify.com\n\n## Specifications\nColor: Gray, Dark Gray\n\n## Pricing & Reviews\nPrice: 3298 EUR.\n\n## Description\nRule the road with the newly-refined VanMoof S5. Perfect for rides both long and short, it’s the only way to move. Buy now, ride in 7 days.\n\nThis store supports UCP (Universal Commerce Protocol): https://vanmoof-b2c.myshopify.com/.well-known/ucp lists the capabilities you can use."
+   },
+   {
+    "url": "https://vanmoof-b2c.myshopify.com/products/vanmoof-s5-outlet-1-year",
+    "title": "VanMoof S5 - Outlet - 1 Year Warranty",
+    "content": "# VanMoof S5 - Outlet - 1 Year Warranty\nSold by: vanmoof-b2c.myshopify.com\n\n## Specifications\nColor: Gray, Dark Gray\n\n## Pricing & Reviews\nPrice: 2298 EUR.\n\n## Description\nRule the road with the newly-refined VanMoof S5. Perfect for rides both long and short, it’s the only way to move. Buy now, ride in 7 days.\n\nThis store supports UCP (Universal Commerce Protocol): https://vanmoof-b2c.myshopify.com/.well-known/ucp lists the capabilities you can use."
+   },
+   {
+    "url": "https://vanmoof-b2c.myshopify.com/products/s5-rear-rack",
+    "title": "S5 & S6 Rear Rack",
+    "content": "# S5 & S6 Rear Rack\nSold by: vanmoof-b2c.myshopify.com\n\n## Pricing & Reviews\nPrice: 78 EUR.\n\n## Description\nDesigned to carry up to 15 kg Weight: 0.6 kg Dimensions: 430 x 340 x 205 mm Compatible with the VanMoof S5 and S6Disclaimer: The S5 & S6 Rear Rack can be used in combination with our VanMoof small and large pannier bags.\n\nThis store supports UCP (Universal Commerce Protocol): https://vanmoof-b2c.myshopify.com/.well-known/ucp lists the capabilities you can use."
+   },
+   {
+    "url": "https://vanmoof-b2c.myshopify.com/products/s5-heavy-duty-rear-rack",
+    "title": "S5 Heavy Duty Rear Rack",
+    "content": "# S5 Heavy Duty Rear Rack\nSold by: vanmoof-b2c.myshopify.com\n\n## Pricing & Reviews\nPrice: 169 EUR.\n\n## Description\nThis product is only available at partner stores. Click above and find your nearest partner to purchase it. Designed to carry up to 27kg Weight: 1.2kg Dimensions: 435 x 367 x 205 mm Width Rack: 135mm Diameter tube: 15mm With integrated rear light for extra visibility Can be used in combination with VanMoof Small and Large Pannier Bags Compatible with the VanMoof S5.\n\nThis store supports UCP (Universal Commerce Protocol): https://vanmoof-b2c.myshopify.com/.well-known/ucp lists the capabilities you can use."
+   }
+  ]
+ }
+}

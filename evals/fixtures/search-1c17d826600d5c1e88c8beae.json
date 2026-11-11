@@ -1,0 +1,37 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "site.travel-europe.europa.eu Irish citizens exempt EES ETIAS EU nationals",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://travel-europe.europa.eu/etias/about-etias/who-should-apply",
+    "title": "Who should apply - ETIAS - Travel to Europe - European Union",
+    "content": "You will not need an ETIAS travel authorisation if you are:\n\n- a national of a European country requiring ETIAS or of Ireland If you have multiple nationalities and one of them is from a European country requiring ETIAS or Ireland, you must use your travel document issued by that European country during your trip to any of the 30 European countries requiring ETIAS.\n\n- a dual national of a European country requiring ETIAS or Ireland and of a visa-exempt country If you are a citizen of any of the European countries requiring ETIAS or Ireland, you are exempt from ETIAS regardless of any other nationality you may hold. In this case, you must travel with the passport issued by the European country requiring ETIAS or Ireland. If your passport has expired or cannot be used, you should contact the diplomatic or consular authorities of the country that issued it, who can advise you on how to obtain a new travel document. Otherwise, you will not be able to travel to the European countries requiring ETIAS.\n\n...\n\n- a holder of a residence card issued by any European country requiring ETIAS or by Ireland\n\nTravellers holding a residence card issued pursuant to Directive 2004/38/EC by any European country requiring ETIAS, or by Ireland, do not need an ETIAS travel authorisation."
+   },
+   {
+    "url": "https://travel-europe.europa.eu/etias/faq",
+    "title": "Frequently asked questions - ETIAS",
+    "content": "Who should apply for an ETIAS travel authorisation?\n\nAs a general rule, you will need an ETIAS travel authorisation if you meet all the following criteria:\n\n- you are not an EU national\n- you are a citizen of a country whose nationals are not required to have a visa for short-term stay in the European countries requiring ETIAS, and\n- you do not hold: - a residence card issued pursuant to Directive 2004/38/EC by any European country requiring ETIAS or by Ireland, nor - a residence permit issued pursuant to Council Regulation (EC) No 1030/2002, including a residence document issued under the EU-UK Withdrawal Agreement, by any European country requiring ETIAS with the exception of Cyprus. Read more about ETIAS and residence cards and residence permits.\n\nSome travellers may be exempted from the requirement to have an ETIAS travel authorisation, so please check the sections on who should apply and exemptions before filling out the application."
+   },
+   {
+    "url": "https://travel-europe.europa.eu/en/etias/about-etias/news-corner/Key-differences-ETIAS-and-EES",
+    "title": "Key differences ETIAS and the EES - ETIAS",
+    "content": "ETIAS is a new entry requirement for travellers who do not need a visa to enter 30 European countries for a short stay. These include the 29 countries belonging to the Schengen Area as well as Cyprus. With ETIAS, visa-free travellers will need to apply for a travel authorisation before starting their trip. ETIAS is not a visa, and its introduction does not modify the visa-free status of travellers."
+   },
+   {
+    "url": "https://travel-europe.europa.eu/etias/ltr/about-etias/news-corner/Dual-citizenship-and-ETIAS.html",
+    "title": "Dual citizenship and ETIAS - ETIAS",
+    "content": "## Dual nationals of a European country requiring ETIAS or Ireland and of a visa-exempt country \n\nIf you are a citizen of any of the European countries requiring ETIAS or Ireland, you are exempt from ETIAS regardless of any other nationality you may hold. In this case, you must travel with the passport issued by the European country requiring ETIAS or Ireland. If your passport has expired or cannot be used, you should contact the authorities of the country that issued it, as otherwise you will not be able to travel to the European countries requiring ETIAS."
+   },
+   {
+    "url": "https://travel-europe.europa.eu/dam/jcr:578477d1-2e2d-4546-80c5-040570ae2bbc/EES_leaflet_A5_EN_digital.pdf",
+    "title": "Travel to Europe",
+    "content": "Which European countries use the EES? \nAustria, Belgium, Bulgaria, Croatia, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, \nHungary,\n\n...\n\nNorway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, and Switzerland. \nIn Cyprus and Ireland, passports will continue to be stamped manually. \nWho is registered in the EES? \nNon-EU nationals travelling to the European countries using the EES for a short \nstay (up to 90 days within a 180-day period), regardless of whether they need a \nshort-stay visa or they are visa-free travellers. Certain travellers are exempt from \nregistration (see ‘Exemptions’). \nThe EES does not introduce any new requirements for people able to freely move \nthroughout Europe (see ‘Exemptions’).\n\n...\n\n#### Exemptions\n\nThe EES does not apply to *:\n\n• Nationals of European countries using the EES, as well as Cyprus and Ireland \n• Non-EU nationals who hold a residence card and are immediately related to an EU national \n• Non-EU nationals who hold a residence card or a residence permit and are immediately related to a non-EU national who can travel throughout Europe like an EU citizen \n• Non-EU nationals travelling to Europe as part of an intra-corporate transfer or for the purposes of research, studies, train ing, voluntary service, pupil exchange schemes or educational projects and au-pairing \n• Holders of residence permits and long-stay visas \n• Nationals of Andorra, Monaco, San Marino, and holders of a passport issued by the Vatican City State or the Holy See \n• People exempt from border checks or who have been granted certain privileges with respect to border checks \n• Those holding a valid local border traffic permit \n• Crew members of passenger and goods trains on international connecting journeys \n\n*The list is not exhaustive."
+   }
+  ]
+ }
+}

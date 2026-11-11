@@ -1,0 +1,38 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "AWS S3 Microsoft Azure Blob Google Cloud Storage official standard storage pricing per GB month",
+  "site": null
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://aws.amazon.com/s3/pricing/",
+    "title": "S3 Pricing",
+    "content": "You pay for storing objects in your S3 buckets. The rate you’re charged depends on your objects' size, how long you stored the objects during the month, and the storage class—S3 Standard, S3 Intelligent-Tiering, S3 Standard-Infrequent Access, S3 One Zone-Infrequent Access, S3 Express One Zone, S3 Glacier Instant Retrieval, S3 Glacier Flexible Retrieval (Formerly S3 Glacier), and S3 Glacier Deep Archive. You pay a monthly monitoring and automation charge per object stored in the S3 Intelligent-Tiering storage class to monitor access patterns and move objects between access tiers. In S3 Intelligent-Tiering there are no retrieval charges, and no additional tiering charges apply when objects are moved between access tiers."
+   },
+   {
+    "url": "https://cloud.google.com/storage/pricing",
+    "title": "Storage pricing | Google Cloud",
+    "content": "Region\n\n| Standard storage | Nearline storage | Coldline storage | Archive storage | Rapid Cache storage |\n| --- | --- | --- | --- | --- |\n| $0.000027397 / 1 gibibyte hour, per 1 month / account | $0.000013699 / 1 gibibyte hour | $0.000005479 / 1 gibibyte hour | $0.000001644 / 1 gibibyte hour | $0.0001233 / 1 gibibyte hour |"
+   },
+   {
+    "url": "https://azure.microsoft.com/en-us/pricing/details/storage/blobs/",
+    "title": "Azure Blob Storage pricing | Microsoft Azure",
+    "content": "Prices are estimates only and are not intended as actual price quotes. Actual pricing may vary depending on the type of agreement entered with Microsoft, date of purchase, and the currency exchange rate. Prices are calculated based on US dollars and converted using London closing spot rates that are captured in the two business days prior to the last business day of the previous month end. If the two business days prior to the end of the month fall on a bank holiday in major markets, the rate setting day is generally the day immediately preceding the two business days. This rate applies to all transactions during the upcoming month. Sign in to the Azure pricing calculator to see pricing based on your current program/offer with Microsoft. Contact an Azure sales specialist for more information on pricing or to request a price quote."
+   },
+   {
+    "url": "https://cloud.google.com/storage",
+    "title": "Cloud Storage | Google Cloud",
+    "content": "| How Cloud Storage pricing works | Pricing is largely based on data storage, data processing, network usage and optional caching. | |\n| --- | --- | --- |\n| Pricing components | Description | Price (USD) |\n| Free tier | Data storage 5 GiB of standard storage. | Free |\n| | Data processing 5,000 Class A operations. 50,000 Class B operations. Unlimited free operations. No retrieval fee for standard storage. | Free |\n| | Network usage 100 GiB of Data transfer from North America to each Google Cloud Data transfer destination (Australia and China excluded). Unlimited inbound data transfer. Unlimited data transfer within the same location. | Free |\n| Data storage The amount of data stored in your buckets. | Standard storage Best for frequently accessed (\"hot\" data), including websites, streaming videos, and mobile apps. | Starting at $0.02 per GiB per month |\n| | Nearline storage Best for data that can be stored for 30 days. | Starting at $0.01 per GiB per month |\n| | Coldline storage Best for data that can be stored for 90 days. | Starting at $0.004 per GiB per month |\n| | Archive storage Best for data that can be stored for 365 days | Starting at $0.0012 per GiB per month |\n| Data processing The processing done by Cloud Storage. | Operation charges For all requests made to Cloud Storage. | Starting at $0.0004 per 1,000 operations |\n| | Retrieval fees For reading data stored in Nearline, Coldline and Archive storage classes. | Starting at $0.01 per GiB |\n| | Inter-region replication charges For data written to dual-regions and multi-regions. | Starting at $0.02 per GiB |\n| | Autoclass management charges For buckets with Autoclass enabled. | $0.0025 per 1000 objects per 30 days |\n| | Storage Intelligence charges For buckets with Storage Intelligence configured. | See pricing details. |\n| Network usage The amount of data read from or moved between your buckets. | Data transfer within Google Cloud When data transfer is to other Cloud Storage buckets or to Google Cloud services. | Starting at $0.02 per GiB |\n| | Specialty network services When data transfer uses certain Google Cloud network products. | Check your network product for pricing information. |\n| | General data transfer When data transfer is out of Google Cloud or between continents. | Starting at $0.08 per GiB |\n| Rapid Cache An optional feature to accelerate read performance for your buckets. | Cache storage The amount of data stored in cache. | Starting at $0.0001233 per GiB per hour |\n| | Cache ingest The amount of data written into the cache.\n\n...\n\n| |"
+   },
+   {
+    "url": "https://storagecalculators.com/guides/s3-vs-azure-blob-vs-google-cloud-storage/",
+    "title": "S3 vs Azure Blob vs Google Cloud Storage: A Like-for-Like Price Comparison | Storage Calculators",
+    "content": "## Storage price per GB-month\n\n| Tier | AWS | Azure (LRS) | GCS |\n| --- | --- | --- | --- |\n| Frequent | $0.023 | $0.0184 | $0.020 |\n| Monthly | $0.0125 | $0.010 | $0.010 |\n| Quarterly | $0.004 | $0.0036 | $0.004 |\n| Yearly (online/flex) | $0.0036 | — | — |\n| Offline/archive | $0.00099 | $0.00099 | $0.0012 |\n\nAzure is cheapest at the hot end by about 20%, mainly because its default LRS keeps three copies in one datacenter rather than across zones. Its zone-redundant option (ZRS) is $0.023, the same as S3. Google’s Standard is 13% under S3.",
+    "published": "2026-09-13T00:00:00.000Z"
+   }
+  ]
+ }
+}

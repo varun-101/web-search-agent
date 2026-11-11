@@ -1,0 +1,38 @@
+{
+ "kind": "search",
+ "request": {
+  "query": "Read Pro price annual monthly billing $12 $15 Doc Makers",
+  "site": "superhuman.com"
+ },
+ "response": {
+  "provider": "exa",
+  "results": [
+   {
+    "url": "https://superhuman.com/plans/docs",
+    "title": "Superhuman Docs | Pricing & Plans",
+    "content": "## Pro\n\n$12 USD / month\n\n- Unlimited doc size\n- Write, edit, and ask with AI Beta\n- Build AI trackers, pages, and views Beta\n- Create with Claude and more via MCP\n- 30-day version history\n- Hide specific pages\n- Custom icons, branding, domains\n\nIntegrate with:\n\n+46 more\n\nBest value\n\n...\n\n### Across the suite\n\n| Included Products | | |\n| --- | --- | --- |\n| Go More information | Limited trial | |\n| Grammarly More information | Limited trial | Included on annual. $15/mo per Maker on monthly |\n| Mail More information | | |\n\n...\n\n### What is a 'Doc Maker'?+\n\nDoc Makers have the power to create new docs and templates, create and manage folders to organize the workspace. Within docs, Doc Makers can administer tasks such as adding pages, changing doc and page titles and icons, adjusting the timezone, configuring doc and page locking, etc.\n\n...\n\nAs you grow into Superhuman Docs, you can invite additional members to become Editors or Doc Makers in your workspace.\n\n...\n\nAt the end of each billing cycle, you will be billed for the workspace based on the number of Doc Makers in it. Any changes to the number of Doc Makers in the workspace mid-cycle are automatically prorated.\n\n...\n\nWhen you sign up for a new plan, as well as when it renews, you will be billed up front for all the users in your workspace.\n\nWhenever you add a new paid user to your workspace (or upgrade an existing one), we'll prorate them for the remainder of your billing cycle. On the annual plan, you will be charged monthly for these additional membership changes, with prorations applied for the remainder of the billing year. Additionally, you will be charged whenever your bill exceeds $1,000 from adding new members."
+   },
+   {
+    "url": "https://help.superhuman.com/hc/en-us/articles/46242099320845-Introducing-the-Superhuman-suite",
+    "title": "Introducing the Superhuman suite – Superhuman Help Center",
+    "content": "### Available plans\n\n| Free | $0 USD | Free includes: ✓ Chat with AI that works in every application and tab ✓ Write without mistakes in 6 languages ✓ Create collaborative docs with tables, charts, Kanban boards, and forms |\n| --- | --- | --- |\n| Pro | $12 USD per member / month, billed annually $15 USD when billed monthly | Everything included in Free, plus these and other features: ✓ Spot AI-generated text and fix accidental plagiarism ✓ Ensure your writing is always on brand Annual plan includes Grammarly Pro access. With the monthly plan, Grammarly Pro is available as an optional add‑on for an additional $15 USD / month. Grammarly Pro includes: ✓ Advanced rewrites, tone adjustments, plagiarism checker, and AI detector ✓ Team and brand controls: style guides, brand tones, snippets, and analytics |\n| Business | $33 USD per member / month, billed annually $40 USD when billed monthly | Everything included in Pro, plus these and other features: ✓ Fly through your inbox and save 4 hours every single week ✓ Organize your inbox with AI and respond faster to what matters most ✓ Sync data from Jira, GitHub, Figma, and more into your docs |\n| Enterprise | Custom | Everything included in Business, plus more features, such as: ✓ Advanced security and admin controls ✓ SAML single sign-on ✓ Data loss prevention |"
+   },
+   {
+    "url": "https://help.superhuman.com/hc/en-us/articles/50085949104909-Superhuman-Docs-billing-and-pricing-basics",
+    "title": "Superhuman Docs billing and pricing basics – Superhuman Help Center",
+    "content": "With Docs' unique Maker billing model, we only charge for Doc Makers in paid workspaces. Editors and viewers are entirely free!\n\nℹ️ A quick note on role definitions:\n\n- Doc Makers are workspace members who have the ability to create docs, create pages, and use Docs AI\n- Editors have the ability to update existing pages, but can't create new docs or pages.\n\nTo learn more about the different roles and their abilities, check out this comprehensive article.\n\nWhen you upgrade to a paid plan, you have the choice of paying annually or monthly. You can use your self-service billing account to change payment methods, update billing details, and change pricing plans. For more info on managing your billing account, check out this article.\n\n...\n\nHow much does each pricing plan cost?\n\nWith our Maker billing model, you only pay for Doc Makers in your workspace. Each pricing plan (Free, Pro, Business, and Enterprise) has a different cost per Doc Maker. To see the cost per Doc Maker, head to our pricing page.\n\n...\n\nAny changes to the number of Doc Makers that exceed your\n\n...\n\nFor our Pro and Business tiers: When you sign up for a new plan, you will be billed upfront for all the Doc Makers in your workspace. If you add a new paid user to your workspace (or upgrade an existing one), we'll prorate them for the remainder of your billing cycle."
+   },
+   {
+    "url": "https://help.superhuman.com/hc/en-us/articles/46210187758477-Discounts-for-students-teachers-nonprofits-and-startups-on-Superhuman-Docs",
+    "title": "Discounts for students, teachers, nonprofits, and startups on Superhuman Docs – Superhuman Help Center",
+    "content": "While we don’t currently offer a student plan, students can purchase Superhuman Pro for just $12/month (billed annually, $144/year) for full access to the Pro tier of Docs, Grammarly, and Go. Visit superhuman.com/docs/pricing for more details."
+   },
+   {
+    "url": "https://superhuman.com/plans/go",
+    "title": "Superhuman Go | Pricing & Plans",
+    "content": "## Pro\n\n### $12\n\nper member / month, billed annually\n\n$15 when billed monthly\n\n- Customize inline suggestions from Grammarly and other agents\n- Chat and prompt from your cursor\n- Let Email Assistant draft replies, clear inbox clutter, and follow up for you\n- Connect apps like Superhuman Mail, Gmail, Calendar, Outlook, Slack, and more\n- Start building your own custom agents\n\nDocs",
+    "published": "2026-07-17T16:17:24.000Z"
+   }
+  ]
+ }
+}
